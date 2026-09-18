@@ -28,8 +28,43 @@ Starting scope is New Jersey: every outlet, every county, every municipality.
 - `scripts/outreach.py <fscskey>-<seq> <todo|contacted|posted|partner> "<note>"` — records outreach
   progress on one outlet.
 
-## Page
+## Apps
 
-`src/index.html` reads `data/nj-libraries.json` directly: progress tiles, county / status /
-legal-help filters, search. Open it from a local static server (`python3 -m http.server` from the repo
-root, then `/src/`), since `fetch` of the JSON needs http, not file://.
+### Web
+
+`src/index.html` is a static ES-module app:
+
+- **Find nearby** — ZIP/town or device geolocation, haversine distance, county and outlet-type filters (issue #1).
+- **Directory** — outreach progress tiles, county / status / legal-help filters, search.
+
+Serve from the repo root (JSON fetch needs http, not `file://`):
+
+```bash
+python3 -m http.server 8080
+# http://127.0.0.1:8080/src/
+```
+
+### Android & iOS (Capacitor)
+
+Shared UI is copied into `www/` and wrapped with Capacitor 7.
+
+```bash
+npm install
+npm run build:www
+npx cap sync
+# Android (requires SDK + JDK)
+npm run android:assemble
+# iOS (requires macOS + Xcode)
+npm run ios:pod
+npx cap open ios
+```
+
+Location permissions are declared in `android/app/src/main/AndroidManifest.xml` and `ios/App/App/Info.plist`.
+
+## Tests (adversarial)
+
+```bash
+npm test          # fuzzed inputs, XSS payloads, mobile project checks
+npm run test:e2e  # Playwright: ZIP finder, geolocation denied, XSS in search
+npm run test:all
+```
