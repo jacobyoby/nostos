@@ -9,6 +9,7 @@ import {
   haversineMiles,
   nearestLibraries,
   resolveLocationQuery,
+  safeHttpUrl,
 } from "../../src/lib/nostos.js";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "../..");
@@ -30,7 +31,11 @@ const MALICIOUS_STRINGS = [
 test("haversine rejects non-finite coordinates", () => {
   assert.equal(haversineMiles(NaN, 0, 0, 0), Number.POSITIVE_INFINITY);
   assert.equal(haversineMiles(0, Infinity, 0, 0), Number.POSITIVE_INFINITY);
-  assert.equal(haversineMiles(90, 0, -90, 180), haversineMiles(90, 0, -90, 180));
+});
+
+test("haversine Newark to Hoboken is about 5 miles", () => {
+  const d = haversineMiles(40.7357, -74.1724, 40.7433, -74.0324);
+  assert.ok(d > 4 && d < 8, d);
 });
 
 test("nearestLibraries never throws on adversarial filters", () => {
@@ -41,10 +46,7 @@ test("nearestLibraries never throws on adversarial filters", () => {
       limit: 5,
     });
     assert.ok(Array.isArray(hits));
-    for (const h of hits) {
-      assert.ok(Number.isFinite(h.distanceMi));
-      assert.ok(h.distanceMi >= 0);
-    }
+    assert.equal(hits.length, 0);
   }
 });
 
@@ -52,8 +54,14 @@ test("filterDirectory survives malicious search terms", () => {
   for (const s of MALICIOUS_STRINGS) {
     const list = filterDirectory(libraries, { term: s });
     assert.ok(Array.isArray(list));
-    assert.ok(list.length <= libraries.length);
+    assert.equal(list.length, 0);
   }
+});
+
+test("filterDirectory legal=no returns confirmed-negative programs", () => {
+  const list = filterDirectory(libraries, { legal: "no" });
+  assert.ok(list.length >= 100);
+  assert.ok(list.every((r) => r.has_legal_help_program === false));
 });
 
 test("escapeHtml neutralizes HTML injection payloads", () => {
@@ -64,20 +72,59 @@ test("escapeHtml neutralizes HTML injection payloads", () => {
   }
 });
 
-test("resolveLocationQuery handles ZIP and garbage", () => {
+test("safeHttpUrl allows only http(s) without whitespace", () => {
+  assert.equal(safeHttpUrl("javascript:alert(1)"), null);
+  assert.equal(safeHttpUrl("data:text/html,<script>alert(1)</script>"), null);
+  assert.equal(safeHttpUrl("file:///etc/passwd"), null);
+  assert.equal(
+    safeHttpUrl("http://acfpl.libguides.com/legal (legal forms/self-representation research guide)"),
+    null,
+  );
+  assert.equal(safeHttpUrl("checked but source unreachable (fetch error)"), null);
+  assert.equal(safeHttpUrl("https://example.com/path"), "https://example.com/path");
+  assert.ok(safeHttpUrl("http://acfpl.org/")?.startsWith("http://acfpl.org/"));
+});
+
+test("resolveLocationQuery ZIP is exact 5-digit, not mashed ZIP+4", () => {
   const zip = resolveLocationQuery("08401", libraries);
   assert.ok(zip);
-  assert.ok(Number.isFinite(zip.lat));
-
+  assert.match(zip.label, /^ZIP 08401/);
   assert.equal(resolveLocationQuery("", libraries), null);
   assert.equal(resolveLocationQuery("99999", libraries), null);
+  const mashed = [
+    { zip: "084011234", lat: 39.36, lon: -74.42, city: "FAKE" },
+    ...libraries,
+  ];
+  assert.equal(resolveLocationQuery("08401", mashed.filter((r) => r.zip === "084011234")), null);
+});
 
+test("resolveLocationQuery town matching is exact city, not substring", () => {
+  const milford = resolveLocationQuery("Milford", libraries);
+  assert.ok(milford);
+  assert.match(milford.label, /^Milford/);
+  assert.ok(!/New Milford/i.test(milford.label));
+  assert.ok(milford.lat < 40.7, milford);
+
+  const franklin = resolveLocationQuery("Franklin", libraries);
+  assert.ok(franklin);
+  assert.match(franklin.label, /^Franklin/);
+  assert.ok(!/Franklin Lakes/i.test(franklin.label));
+  assert.ok(!/Franklinville/i.test(franklin.label));
+
+  const franklinLakes = resolveLocationQuery("Franklin Lakes", libraries);
+  assert.ok(franklinLakes);
+  assert.match(franklinLakes.label, /Franklin Lakes/i);
+
+  assert.equal(resolveLocationQuery("New", libraries), null);
+  assert.equal(resolveLocationQuery("1", libraries), null);
+  assert.equal(resolveLocationQuery("a", libraries), null);
+  assert.equal(resolveLocationQuery("Main", libraries), null);
+});
+
+test("resolveLocationQuery garbage does not throw", () => {
   for (const s of MALICIOUS_STRINGS) {
     const r = resolveLocationQuery(s, libraries);
-    if (r) {
-      assert.ok(Number.isFinite(r.lat));
-      assert.ok(Number.isFinite(r.lon));
-    }
+    assert.equal(r, null);
   }
 });
 

@@ -60,11 +60,15 @@ npx cap open ios
 ```
 
 Location permissions are declared in `android/app/src/main/AndroidManifest.xml` and `ios/App/App/Info.plist`.
+Native apps call `@capacitor/geolocation` via the Capacitor bridge; the browser uses `navigator.geolocation`.
 
 ## Tests (adversarial)
 
+`npm test` builds `www/` first (gitignored) so a clean clone can run checks without a pre-built APK.
+
 ```bash
-npm test          # fuzzed inputs, XSS payloads, mobile project checks
-npm run test:e2e  # Playwright: ZIP finder, geolocation denied, XSS in search
+npm test          # town/ZIP matching, http(s)-only hrefs, legal=no, mobile project checks
+npm run test:e2e  # Playwright: ZIP finder, geolocation denied, poisoned javascript: href, filters
 npm run test:all
+npm run android:assemble   # optional: produce app-debug.apk (requires Android SDK)
 ```

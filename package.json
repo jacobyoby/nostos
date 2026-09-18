@@ -6,7 +6,9 @@
   "description": "Nostos — NJ public library finder (web, Android, iOS)",
   "scripts": {
     "build:www": "node scripts/build-www.mjs",
+    "pretest": "node scripts/build-www.mjs",
     "test": "node --test tests/adversarial/*.test.js",
+    "pretest:e2e": "node scripts/build-www.mjs",
     "test:e2e": "playwright test",
     "test:all": "npm run test && npm run test:e2e",
     "serve": "python3 -m http.server 8080",

@@ -24,4 +24,5 @@ test("www bundle includes data and shared library", () => {
   assert.ok(existsSync(join(root, "www/index.html")));
   assert.ok(existsSync(join(root, "www/data/nj-libraries.json")));
   assert.ok(existsSync(join(root, "www/lib/nostos.js")));
+  assert.ok(existsSync(join(root, "www/lib/geolocation.js")));
 });
