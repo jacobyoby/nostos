@@ -74,6 +74,7 @@
   if (!res.ok) throw new Error("nj-libraries.json fetch failed: " + res.status);
   const all = await res.json();
 
+  const title = s => (s || "").toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\bOf\b/g, "of");
   const counties = [...new Set(all.map(r => r.county).filter(Boolean))].sort();
   const countySel = document.getElementById("county");
   for (const c of counties) { const o = document.createElement("option"); o.value = c; o.textContent = title(c); countySel.appendChild(o); }
@@ -81,7 +82,6 @@
   const q = document.getElementById("q"), statusSel = document.getElementById("status"), legalSel = document.getElementById("legal");
   const rows = document.getElementById("rows"), empty = document.getElementById("empty");
 
-  const title = s => (s || "").toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\bOf\b/g, "of");
   function statusOf(r) { return (r.outreach && r.outreach.status) || "todo"; }
   function legalOf(r) { return r.has_legal_help_program === true ? "yes" : r.has_legal_help_program === false ? "no" : "unknown"; }
 
