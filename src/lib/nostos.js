@@ -257,3 +257,231 @@ export function progressStats(all) {
     donePct: all.length ? (100 * done) / all.length : 0,
   };
 }
+
+/**
+ * @param {LibraryRecord} r
+ */
+export function outletKey(r) {
+  return `${r.fscskey}-${r.fscs_seq}`;
+}
+
+/**
+ * @param {LibraryRecord[]} all
+ * @param {string} key
+ */
+export function findOutlet(all, key) {
+  return all.find((r) => outletKey(r) === key) || null;
+}
+
+export const SERVICE_NAMES = Object.freeze([
+  "legal-help desk",
+  "lawyer-in-the-library",
+  "notary",
+  "passport",
+  "printing/scanning",
+  "meeting rooms",
+  "tax prep",
+  "language help",
+  "computer access",
+  "other",
+]);
+
+export const PROPOSAL_KINDS = Object.freeze(["service", "hours", "resource"]);
+
+/**
+ * @param {unknown} raw
+ * @returns {{ name: string; evidence_url: string | null; verified_on: string | null } | null}
+ */
+export function normalizeService(raw) {
+  if (!raw || typeof raw !== "object") return null;
+  const name = typeof raw.name === "string" ? raw.name.trim() : "";
+  if (!name) return null;
+  const allowed = SERVICE_NAMES.includes(name) || name.startsWith("other:");
+  if (!allowed) return null;
+  return {
+    name,
+    evidence_url: safeHttpUrl(raw.evidence_url),
+    verified_on: typeof raw.verified_on === "string" ? raw.verified_on : null,
+  };
+}
+
+/**
+ * @param {LibraryRecord} r
+ */
+export function servicesOf(r) {
+  if (!Array.isArray(r.services)) return [];
+  return r.services.map(normalizeService).filter(Boolean);
+}
+
+/**
+ * @param {unknown} field
+ * @returns {{ value: string; verified_on: string | null } | null}
+ */
+export function contactField(field) {
+  if (field == null) return null;
+  if (typeof field === "string") {
+    const value = field.trim();
+    return value ? { value, verified_on: null } : null;
+  }
+  if (typeof field === "object" && typeof field.value === "string" && field.value.trim()) {
+    return {
+      value: field.value.trim(),
+      verified_on: typeof field.verified_on === "string" ? field.verified_on : null,
+    };
+  }
+  return null;
+}
+
+const DAY_INDEX = {
+  sunday: 0,
+  monday: 1,
+  tuesday: 2,
+  wednesday: 3,
+  thursday: 4,
+  friday: 5,
+  saturday: 6,
+};
+
+/**
+ * @param {string} hhmm
+ * @returns {number | null} minutes from midnight
+ */
+function parseHhmm(hhmm) {
+  const m = String(hhmm || "").match(/^(\d{1,2}):(\d{2})$/);
+  if (!m) return null;
+  const h = Number(m[1]);
+  const min = Number(m[2]);
+  if (h > 23 || min > 59) return null;
+  return h * 60 + min;
+}
+
+/**
+ * Open-now / opens-at using America/New_York, else weekly hours.
+ * @param {LibraryRecord} r
+ * @param {Date} [now]
+ */
+export function hoursStatus(r, now = new Date()) {
+  const slots = Array.isArray(r.hours) ? r.hours : r.hours && Array.isArray(r.hours.days) ? r.hours.days : null;
+  if (slots && slots.length > 0) {
+    const fmt = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/New_York",
+      weekday: "long",
+      hour: "2-digit",
+      minute: "2-digit",
+      hourCycle: "h23",
+    });
+    const parts = Object.fromEntries(fmt.formatToParts(now).map((p) => [p.type, p.value]));
+    const dayName = String(parts.weekday || "").toLowerCase();
+    const nowMin = parseHhmm(`${parts.hour}:${parts.minute}`);
+    const today = slots.filter((s) => String(s.day || "").toLowerCase() === dayName);
+    for (const s of today) {
+      const open = parseHhmm(s.open);
+      const close = parseHhmm(s.close);
+      if (open == null || close == null || nowMin == null) continue;
+      if (nowMin >= open && nowMin < close) {
+        return { kind: "open", label: `Open now · closes ${s.close}` };
+      }
+    }
+    const upcoming = slots
+      .map((s) => ({ s, idx: DAY_INDEX[String(s.day || "").toLowerCase()] }))
+      .filter((x) => x.idx != null)
+      .sort((a, b) => a.idx - b.idx);
+    const todayIdx = DAY_INDEX[dayName];
+    if (todayIdx != null) {
+      const laterToday = today
+        .map((s) => ({ s, open: parseHhmm(s.open) }))
+        .filter((x) => x.open != null && nowMin != null && x.open > nowMin)
+        .sort((a, b) => a.open - b.open)[0];
+      if (laterToday) {
+        return { kind: "opens", label: `Opens at ${laterToday.s.open}` };
+      }
+      const next = upcoming.find((x) => x.idx > todayIdx) || upcoming[0];
+      if (next) {
+        return { kind: "opens", label: `Opens ${title(next.s.day)} at ${next.s.open}` };
+      }
+    }
+  }
+  const w = r.hours_open_weekly;
+  if (w != null && Number.isFinite(w)) return { kind: "weekly", label: `${w} h/wk` };
+  return { kind: "unknown", label: "Hours unknown" };
+}
+
+/**
+ * @param {object} input
+ * @returns {{ ok: true; proposal: object } | { ok: false; error: string }}
+ */
+export function makeProposal(input) {
+  const kind = input && input.kind;
+  if (!PROPOSAL_KINDS.includes(kind)) {
+    return { ok: false, error: "Kind must be service, hours, or resource." };
+  }
+  const outlet_key = typeof input.outlet_key === "string" ? input.outlet_key.trim() : "";
+  if (!/^[A-Z]{2}\d{4}-\d{3}$/.test(outlet_key)) {
+    return { ok: false, error: "Outlet key is required." };
+  }
+  const value = typeof input.value === "string" ? input.value.trim() : "";
+  if (!value || value.length > 200) {
+    return { ok: false, error: "Value is required (max 200 characters)." };
+  }
+  if (/[★☆⭐]|\b(stars?|rating|review)\b/i.test(value)) {
+    return { ok: false, error: "Ratings and reviews are not accepted." };
+  }
+  if (kind === "service") {
+    const okName = SERVICE_NAMES.includes(value) || value.startsWith("other:");
+    if (!okName) return { ok: false, error: "Service must be a known name or other:…" };
+  }
+  const evidence_url = input.evidence_url ? safeHttpUrl(input.evidence_url) : null;
+  if (input.evidence_url && !evidence_url) {
+    return { ok: false, error: "Evidence must be an http(s) URL." };
+  }
+  const submitter = typeof input.submitter_contact === "string" ? input.submitter_contact.trim() : "";
+  return {
+    ok: true,
+    proposal: {
+      outlet_key,
+      kind,
+      value,
+      evidence_url,
+      submitter_contact: submitter || null,
+    },
+  };
+}
+
+/**
+ * Apply an accepted proposal onto a copy of the outlet record.
+ * @param {LibraryRecord} record
+ * @param {object} proposal
+ */
+export function applyAcceptedProposal(record, proposal) {
+  const next = { ...record, services: Array.isArray(record.services) ? [...record.services] : [] };
+  if (proposal.kind === "service") {
+    const svc = normalizeService({
+      name: proposal.value,
+      evidence_url: proposal.evidence_url,
+      verified_on: proposal.verified_on || null,
+    });
+    if (svc && !next.services.some((s) => s && s.name === svc.name)) next.services.push(svc);
+  } else if (proposal.kind === "hours") {
+    next.proposed_hours_note = proposal.value;
+  } else if (proposal.kind === "resource") {
+    next.resources = Array.isArray(next.resources) ? [...next.resources] : [];
+    next.resources.push({ name: proposal.value, evidence_url: proposal.evidence_url || null });
+  }
+  return next;
+}
+
+/**
+ * @param {object} proposal
+ * @param {string} [repo]
+ */
+export function proposalIssueUrl(proposal, repo = "jacobyoby/nostos") {
+  const title = `Proposal: ${proposal.kind} at ${proposal.outlet_key}`;
+  const body = [
+    "```json",
+    JSON.stringify(proposal, null, 2),
+    "```",
+    "",
+    "Maintainer: move this object into data/proposals/accepted.json or rejected.json.",
+  ].join("\n");
+  return `https://github.com/${repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+}

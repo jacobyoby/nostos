@@ -1,4 +1,18 @@
 /**
+ * @typedef {object} ContactField
+ * @property {string} value
+ * @property {string | null} [verified_on]
+ *
+ * @typedef {object} Service
+ * @property {string} name
+ * @property {string | null} [evidence_url]
+ * @property {string | null} [verified_on]
+ *
+ * @typedef {object} HoursSlot
+ * @property {string} day
+ * @property {string} open
+ * @property {string} close
+ *
  * @typedef {object} LibraryRecord
  * @property {string} fscskey
  * @property {string} fscs_seq
@@ -13,9 +27,16 @@
  * @property {number} [lat]
  * @property {number} [lon]
  * @property {number} [hours_open_weekly]
+ * @property {HoursSlot[] | { days?: HoursSlot[] } | null} [hours]
  * @property {string} [website]
  * @property {boolean | null} [has_legal_help_program]
  * @property {string | null} [legal_help_evidence]
+ * @property {Service[] | null} [services]
+ * @property {ContactField | string | null} [admin_phone]
+ * @property {ContactField | string | null} [admin_email]
+ * @property {ContactField | string | null} [contact_form_url]
+ * @property {ContactField | string | null} [director]
+ * @property {ContactField | string | null} [board_url]
  * @property {{ status?: string; notes?: string | null }} [outreach]
  */
 

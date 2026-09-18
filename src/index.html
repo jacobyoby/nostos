@@ -40,7 +40,18 @@
   .legal { color:var(--ok); font-weight:600; }
   .empty { color:var(--muted); padding:32px 0; text-align:center; }
   .finder-status { color:var(--muted); font-size:.9rem; margin:0 0 10px; min-height:1.4em; }
-  @media (max-width:640px) { th:nth-child(4), td:nth-child(4) { display:none; } .finder-table th:nth-child(5), .finder-table td:nth-child(5) { display:none; } }
+  a { color:var(--accent); }
+  .outlet-contact { border:1px solid var(--line); border-radius:12px; padding:16px; margin:0 0 20px; }
+  .outlet-contact h2 { margin:0 0 8px; font-size:1.1rem; }
+  .outlet-contact dl { display:grid; grid-template-columns:140px 1fr; gap:6px 12px; margin:0; }
+  .outlet-contact dt { color:var(--muted); font-size:.85rem; }
+  .outlet-contact dd { margin:0; }
+  .chip { display:inline-block; margin:0 8px 8px 0; padding:4px 10px; border:1px solid var(--line); border-radius:999px; font-size:.85rem; }
+  .proposal { border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .proposal label { display:block; font-size:.85rem; color:var(--muted); margin:8px 0 4px; }
+  .proposal textarea, .proposal input, .proposal select { width:100%; min-width:0; }
+  .back { font:inherit; border:0; background:none; color:var(--accent); cursor:pointer; padding:0; margin:0 0 12px; }
+  @media (max-width:640px) { th:nth-child(4), td:nth-child(4) { display:none; } .finder-table th:nth-child(5), .finder-table td:nth-child(5) { display:none; } .outlet-contact dl { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
@@ -94,6 +105,11 @@
       <tbody id="rows"></tbody>
     </table>
     <p class="empty" id="empty" hidden>No libraries match.</p>
+  </section>
+
+  <section data-panel="outlet" data-testid="panel-outlet" hidden>
+    <button type="button" class="back" data-testid="outlet-back">← Back</button>
+    <div id="outlet" data-testid="outlet"></div>
   </section>
 </main>
 <script type="module" src="app.js"></script>
