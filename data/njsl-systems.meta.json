@@ -1,0 +1,8 @@
+{
+  "directory_urls_used": [
+    "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  ],
+  "fetch_date": "2026-09-18",
+  "count": 277,
+  "notes": "Source is the NJ State Library's per-library directory arranged by county (no separate downloadable spreadsheet was found linked on the page as of fetch date). Entries sharing the same website domain within a county (indicating branches of one administrative system, e.g. Burlington County Library, Gloucester County Library System, Monmouth County Library, Somerset County Library) were consolidated into a single system record. All other municipal libraries are independently governed and each counted as its own system, consistent with typical IMLS outlet/administrative-entity treatment for NJ, even where they share a shared catalog consortium (e.g. BCCLS, MAIN, LMxAC) that is not an administrative merger. All 21 NJ counties are represented. Legal-help program presence (has_legal_help_program) was checked only for the ~40 largest systems (14 county-wide library systems plus ~26 of the largest municipal libraries by city population); the remaining systems are left null and were not checked due to time constraints. Of the 40 checked, 2 fetch attempts failed outright (Cape May County Library - HTTP 526; Jersey City Free Public Library - HTTP 403) and 1 failed TLS validation (Vineland Public Library) - all three left null with a note in legal_help_evidence rather than guessed."
+}

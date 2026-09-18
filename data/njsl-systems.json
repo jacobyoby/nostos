@@ -1,0 +1,2772 @@
+[
+  {
+    "system_name": "Atlantic City Free Public Library",
+    "county": "Atlantic County",
+    "website": "http://acfpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": "http://acfpl.libguides.com/legal (legal forms/self-representation research guide, not a staffed clinic/LSNJ/lawyer program)",
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Atlantic County Library System",
+    "county": "Atlantic County",
+    "website": "https://atlanticlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Linwood Public Library",
+    "county": "Atlantic County",
+    "website": "https://linwoodlibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Margate City Public Library",
+    "county": "Atlantic County",
+    "website": "http://www.margatelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Otto Bruyns Public Library",
+    "county": "Atlantic County",
+    "website": "https://www.nflibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bergenfield Public Library",
+    "county": "Bergen County",
+    "website": "https://www.bergenfieldlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bogota Public Library",
+    "county": "Bergen County",
+    "website": "https://bogotapubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Cliffside Park Free Public Library",
+    "county": "Bergen County",
+    "website": "https://cliffsideparklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Closter Public Library",
+    "county": "Bergen County",
+    "website": "https://www.closterpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Demarest Public Library Association",
+    "county": "Bergen County",
+    "website": "http://demarestlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Dixon Homestead Library",
+    "county": "Bergen County",
+    "website": "https://www.dumontlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "East Rutherford Memorial Library",
+    "county": "Bergen County",
+    "website": "http://eastrutherford.bccls.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Edgewater Free Public Library",
+    "county": "Bergen County",
+    "website": "https://edgewaterlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Elmwood Park Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.elmwoodparknj.us/about-elmwood-park/elmwood-park-public-library",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Emerson Public Library",
+    "county": "Bergen County",
+    "website": "https://www.emersonlibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Englewood Free Public Library",
+    "county": "Bergen County",
+    "website": "http://englewoodlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Fairview Free Public Library",
+    "county": "Bergen County",
+    "website": "https://fairviewlibrarynj.org/en/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Fort Lee Free Public Library",
+    "county": "Bergen County",
+    "website": "https://fortleelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Franklin Lakes Free Public Library",
+    "county": "Bergen County",
+    "website": "http://www.franklinlakeslibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Garfield Free Public Library",
+    "county": "Bergen County",
+    "website": "https://garfieldnjbccls.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Glen Rock Public Library",
+    "county": "Bergen County",
+    "website": "https://www.glenrocklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Harrington Park Public Library",
+    "county": "Bergen County",
+    "website": "http://catalog.bccls.org/polaris/library/hours.aspx?ctx=51",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Hasbrouck Heights Free Public Library",
+    "county": "Bergen County",
+    "website": "https://hasbrouckheightslibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Haworth Municipal Library",
+    "county": "Bergen County",
+    "website": "https://www.haworthlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Hillsdale Free Public Library",
+    "county": "Bergen County",
+    "website": "https://hfpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Johnson Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.johnsonlib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Lee Memorial Library",
+    "county": "Bergen County",
+    "website": "http://leememoriallibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Leonia Public Library",
+    "county": "Bergen County",
+    "website": "https://leonialibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Little Ferry Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.littleferrynj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Lodi Memorial Library",
+    "county": "Bergen County",
+    "website": "https://www.lodilibrarynj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Lyndhurst Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.facebook.com/p/Lyndhurst-Public-Library-100077938340794/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mahwah Free Public Library",
+    "county": "Bergen County",
+    "website": "http://www.mahwahlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Maurice M. Pine Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.fairlawnlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Maywood Public Library",
+    "county": "Bergen County",
+    "website": "https://www.maywoodpubliclibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Midland Park Memorial Library",
+    "county": "Bergen County",
+    "website": "https://www.midlandparklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Montvale Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.montvalelibrarynj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "New Milford Public Library",
+    "county": "Bergen County",
+    "website": "https://newmilfordlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "North Arlington Public Library",
+    "county": "Bergen County",
+    "website": "https://northarlingtonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Northvale Public Library",
+    "county": "Bergen County",
+    "website": "http://www.northvalelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Norwood Public Library",
+    "county": "Bergen County",
+    "website": "http://www.nplnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Oakland Public Library",
+    "county": "Bergen County",
+    "website": "http://www.oaklandnjlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Old Tappan Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.oldtappanlibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Oradell Public Library",
+    "county": "Bergen County",
+    "website": "https://oradellpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Palisades Park Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.palparklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Paramus Public Library",
+    "county": "Bergen County",
+    "website": "http://www.paramuslibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Park Ridge Free Public Library",
+    "county": "Bergen County",
+    "website": "https://parkridgelibrarynj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Ramsey Free Public Library",
+    "county": "Bergen County",
+    "website": "http://www.ramseylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Ridgefield Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.ridgefieldpubliclibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Ridgefield Park Public Library",
+    "county": "Bergen County",
+    "website": "http://www.ridgefieldpark.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Ridgewood Public Library",
+    "county": "Bergen County",
+    "website": "http://www.ridgewoodlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "River Edge Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.riveredgepubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "River Vale Public Library",
+    "county": "Bergen County",
+    "website": "https://www.rivervalelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Rochelle Park Public Library",
+    "county": "Bergen County",
+    "website": "https://www.rplibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Rutherford Free Public Library",
+    "county": "Bergen County",
+    "website": "http://www.rutherfordlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Saddle Brook Free Public Library",
+    "county": "Bergen County",
+    "website": "https://saddlebrooklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Teaneck Public Library",
+    "county": "Bergen County",
+    "website": "https://teanecklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Tenafly Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.tenaflylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Upper Saddle River Public Library",
+    "county": "Bergen County",
+    "website": "https://uppersaddleriverlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Waldwick Public Library",
+    "county": "Bergen County",
+    "website": "https://www.waldwicklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Wallington \u2013 J. F. Kennedy Memorial Library",
+    "county": "Bergen County",
+    "website": "https://www.wallingtonpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Washington Township Public Library-Bergen",
+    "county": "Bergen County",
+    "website": "https://www.twpofwashingtonpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Westwood Free Public Library",
+    "county": "Bergen County",
+    "website": "https://www.westwoodpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "William E. Dermody Free Public Library",
+    "county": "Bergen County",
+    "website": "https://carlstadtlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Wood-Ridge Memorial Library",
+    "county": "Bergen County",
+    "website": "https://woodridgememoriallibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Ho-Ho-Kus Worth Pinkham Memorial Library",
+    "county": "Bergen County",
+    "website": "https://www.hohokuslibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Wyckoff Free Public Library",
+    "county": "Bergen County",
+    "website": "https://wyckofflibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Burlington County Library",
+    "county": "Burlington County",
+    "website": "http://www.bcls.lib.nj.us/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": true,
+    "legal_help_evidence": "https://bcls.lib.nj.us/legal-self-help/",
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Burlington, Library Company of",
+    "county": "Burlington County",
+    "website": "http://www.librarycompanyofburlington.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Delanco Public Library",
+    "county": "Burlington County",
+    "website": "http://delancolibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Moorestown Library",
+    "county": "Burlington County",
+    "website": "https://moorestownlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mount Laurel Library",
+    "county": "Burlington County",
+    "website": "http://www.mtlaurel.lib.nj.us/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mount Holly Library and Lyceum",
+    "county": "Burlington County",
+    "website": "https://twp.mountholly.nj.us/libraries/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Willingboro Public Library",
+    "county": "Burlington County",
+    "website": "https://www.willingboro.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Audubon Free Public Library",
+    "county": "Camden County",
+    "website": "http://www.audubonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Berlin \u2013 Marie Fleche Memorial Library",
+    "county": "Camden County",
+    "website": "https://berlinborolibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Camden County Library",
+    "county": "Camden County",
+    "website": "http://www.camdencountylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Cherry Hill Free Public Library",
+    "county": "Camden County",
+    "website": "http://www.chplnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Collingswood Free Public Library",
+    "county": "Camden County",
+    "website": "http://www.collingswoodlib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Gloucester City Library",
+    "county": "Camden County",
+    "website": "https://gloucestercitylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Haddon Heights Public Library",
+    "county": "Camden County",
+    "website": "http://www.haddonheightslibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Haddonfield Public Library",
+    "county": "Camden County",
+    "website": "https://www.haddonfieldlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Pennsauken Free Public Library",
+    "county": "Camden County",
+    "website": "http://www.pennsaukenlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Runnemede Public Library",
+    "county": "Camden County",
+    "website": "https://runnemedepubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Stratford Public Library",
+    "county": "Camden County",
+    "website": "https://www.stratfordlibrarynj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Waterford Township Public Library",
+    "county": "Camden County",
+    "website": "http://www.waterford.njlibraries.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Avalon Free Public Library",
+    "county": "Cape May County",
+    "website": "http://www.avalonfreelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Cape May County Library",
+    "county": "Cape May County",
+    "website": "https://cmclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": "checked but source unreachable (fetch error)",
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Ocean City Free Public Library",
+    "county": "Cape May County",
+    "website": "http://www.oceancitylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bridgeton Free Public Library",
+    "county": "Cumberland County",
+    "website": "https://bridgetonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Cumberland County Library",
+    "county": "Cumberland County",
+    "website": "https://cclnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Millville Public Library",
+    "county": "Cumberland County",
+    "website": "http://www.millvillepubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Vineland Public Library",
+    "county": "Cumberland County",
+    "website": "https://www.vinelandlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": "checked but source unreachable (fetch error)",
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Belleville Public Library",
+    "county": "Essex County",
+    "website": "http://www.bellepl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bloomfield Public Library",
+    "county": "Essex County",
+    "website": "https://www.bplnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Caldwell Free Public Library",
+    "county": "Essex County",
+    "website": "http://www.caldwellpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Cedar Grove Free Public Library",
+    "county": "Essex County",
+    "website": "http://www.cedargrovelibrary.net/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "East Orange Public Library",
+    "county": "Essex County",
+    "website": "http://www.eopl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Fairfield Free Public Library \u2013 Anthony Pio Costa Memorial Library",
+    "county": "Essex County",
+    "website": "http://www.ffpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Glen Ridge Free Public Library",
+    "county": "Essex County",
+    "website": "http://www.glenridgelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Irvington Public Library",
+    "county": "Essex County",
+    "website": "http://www.irvingtonpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Livingston Library \u2013 Ruth L. Rockwood Memorial Library",
+    "county": "Essex County",
+    "website": "https://livingstonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Maplewood Memorial Library",
+    "county": "Essex County",
+    "website": "http://www.maplewoodlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Millburn Free Public Library",
+    "county": "Essex County",
+    "website": "https://millburnlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Montclair Public Library",
+    "county": "Essex County",
+    "website": "http://www.montclairlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Newark Public Library",
+    "county": "Essex County",
+    "website": "http://www.npl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": true,
+    "legal_help_evidence": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Nutley Free Public Library",
+    "county": "Essex County",
+    "website": "https://nutleypubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Orange Public Library",
+    "county": "Essex County",
+    "website": "http://www.orangepl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Roseland Free Public Library",
+    "county": "Essex County",
+    "website": "https://roselandpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "South Orange Public Library",
+    "county": "Essex County",
+    "website": "http://www.sopl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Verona Free Public Library",
+    "county": "Essex County",
+    "website": "http://www.veronalibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "West Caldwell Public Library",
+    "county": "Essex County",
+    "website": "https://wcplnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "West Orange Free Public Library",
+    "county": "Essex County",
+    "website": "http://www.wopl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Deptford James H. Johnson Memorial Library",
+    "county": "Gloucester County",
+    "website": "https://www.deptfordpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Franklin Twp Public Library \u2013 Gloucester",
+    "county": "Gloucester County",
+    "website": "http://www.ftlnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Gloucester County Library System",
+    "county": "Gloucester County",
+    "website": "http://www.gcls.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Monroe Township Free Public Library-Gloucester",
+    "county": "Gloucester County",
+    "website": "http://www.monroetpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Pitman \u2013 McCowan Memorial Library",
+    "county": "Gloucester County",
+    "website": "https://www.mccowan-pitman.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Washington Township \u2013 Margaret E. Heggan Free Public Library",
+    "county": "Gloucester County",
+    "website": "http://www.hegganlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Wenonah Free Public Library",
+    "county": "Gloucester County",
+    "website": "http://www.wenonahlibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "West Deptford Free Public Library",
+    "county": "Gloucester County",
+    "website": "http://www.westdeptford.lib.nj.us/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Westville Public Library",
+    "county": "Gloucester County",
+    "website": "http://www.westvillelibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Woodbury Public Library",
+    "county": "Gloucester County",
+    "website": "https://www.woodburylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bayonne Free Public Library",
+    "county": "Hudson County",
+    "website": "http://www.bayonnelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Harrison Public Library",
+    "county": "Hudson County",
+    "website": "https://townofharrison.com/331/Harrison-Public-Library",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Hoboken Public Library",
+    "county": "Hudson County",
+    "website": "https://hobokenlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Jersey City Free Public Library",
+    "county": "Hudson County",
+    "website": "https://jclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": "checked but source unreachable (fetch error)",
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Kearny Public Library",
+    "county": "Hudson County",
+    "website": "http://www.kearnylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "North Bergen Free Public Library",
+    "county": "Hudson County",
+    "website": "http://www.nbpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Secaucus Free Public Library",
+    "county": "Hudson County",
+    "website": "https://secaucuslibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Union City Public Library",
+    "county": "Hudson County",
+    "website": "http://www.uclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Weehawken Free Public Library",
+    "county": "Hudson County",
+    "website": "http://www.weehawken-nj.us/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "West New York Free Public Library",
+    "county": "Hudson County",
+    "website": "http://www.wnypl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Flemington Free Public Library",
+    "county": "Hunterdon County",
+    "website": "https://flemingtonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Frenchtown Public Library",
+    "county": "Hunterdon County",
+    "website": "https://frenchtownboro.com/library/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Holland Alexandria Free Public Library",
+    "county": "Hunterdon County",
+    "website": "http://www.hollandlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Hunterdon County Library",
+    "county": "Hunterdon County",
+    "website": "http://www.hclibrary.us/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Lambertville Free Public Library",
+    "county": "Hunterdon County",
+    "website": "http://www.lambertvillelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Milford Public Library",
+    "county": "Hunterdon County",
+    "website": "http://www.milfordnjlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Tewksbury Township Public Library",
+    "county": "Hunterdon County",
+    "website": "http://www.tewksburylibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Hamilton Township Free Public Library",
+    "county": "Mercer County",
+    "website": "http://www.hamiltonnjpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Hopewell Public Library",
+    "county": "Mercer County",
+    "website": "http://www.redlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mercer County Library System",
+    "county": "Mercer County",
+    "website": "http://www.mcl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Pennington Free Public Library",
+    "county": "Mercer County",
+    "website": "https://www.penningtonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Princeton Public Library",
+    "county": "Mercer County",
+    "website": "http://www.princetonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Trenton Public Library",
+    "county": "Mercer County",
+    "website": "http://www.trentonlib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Carteret Free Public Library",
+    "county": "Middlesex County",
+    "website": "https://www.carteretlibrary.net/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Cranbury Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.cranburypubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Dunellen Free Public Library",
+    "county": "Middlesex County",
+    "website": "https://www.dunellen-nj.gov/departments/public_library/index.php",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "East Brunswick Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.ebpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Edison Township Free Public Library",
+    "county": "Middlesex County",
+    "website": "https://edisonpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Highland Park Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.hpplnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Jamesburg Public Library",
+    "county": "Middlesex County",
+    "website": "https://www.jamesburglibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Metuchen Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.metuchenlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Middlesex Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.middlesexlibrarynj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Milltown Public Library",
+    "county": "Middlesex County",
+    "website": "https://www.milltownlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Monroe Township Public Library-Middlesex",
+    "county": "Middlesex County",
+    "website": "https://www.monroetwplibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "New Brunswick Free Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.nbfpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "North Brunswick Free Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.northbrunswicklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Old Bridge Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.oldbridgelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Perth Amboy Free Public Library",
+    "county": "Middlesex County",
+    "website": "https://pafpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Piscataway Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.piscatawaylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Plainsboro Public Library",
+    "county": "Middlesex County",
+    "website": "https://plainsborolibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Sadie Pope Dowdell Library of South Amboy",
+    "county": "Middlesex County",
+    "website": "http://www.dowdell.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Sayreville Free Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.sayrevillelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "South Brunswick Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.sbpl.info/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "South Plainfield Free Public Library",
+    "county": "Middlesex County",
+    "website": "https://southplainfield.lib.nj.us/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "South River Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.southriverlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Spotswood Public Library",
+    "county": "Middlesex County",
+    "website": "https://spotslibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Woodbridge Public Library",
+    "county": "Middlesex County",
+    "website": "http://www.woodbridgelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Asbury Park Free Public Library",
+    "county": "Monmouth County",
+    "website": "https://asbury.ent.sirsi.net/client/en_US/default",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Avon Free Public Library",
+    "county": "Monmouth County",
+    "website": "https://www.avonbytheseanj.com/community/library/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Belmar Public Library",
+    "county": "Monmouth County",
+    "website": "http://www.belmarlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bradley Beach Public Library",
+    "county": "Monmouth County",
+    "website": "https://bradleybeachlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Brielle Public Library",
+    "county": "Monmouth County",
+    "website": "https://www.briellelibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Eatontown Public Library",
+    "county": "Monmouth County",
+    "website": "https://www.eatontownnj.com/164/Eatontown-Library",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Fair Haven Public Library",
+    "county": "Monmouth County",
+    "website": "http://www.fairhavenlib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Freehold Public Library",
+    "county": "Monmouth County",
+    "website": "http://www.freeholdpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Little Silver Public Library",
+    "county": "Monmouth County",
+    "website": "https://www.littlesilverlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Long Branch Free Public Library",
+    "county": "Monmouth County",
+    "website": "http://www.longbranchlib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Monmouth County Library",
+    "county": "Monmouth County",
+    "website": "http://www.monmouthcountylib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Matawan-Aberdeen Public Library",
+    "county": "Monmouth County",
+    "website": "https://mapl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Middletown Township Public Library",
+    "county": "Monmouth County",
+    "website": "http://www.mtpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Monmouth Beach Public Library",
+    "county": "Monmouth County",
+    "website": "https://monmouthbeachlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Neptune City Library",
+    "county": "Monmouth County",
+    "website": "https://www.neptunecitynj.com/neptune-city-library",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Neptune Township Public Library",
+    "county": "Monmouth County",
+    "website": "http://www.neptunepubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Oceanic Free Library",
+    "county": "Monmouth County",
+    "website": "http://www.oceaniclib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Red Bank Public Library",
+    "county": "Monmouth County",
+    "website": "https://www.redbanklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Sea Girt Library",
+    "county": "Monmouth County",
+    "website": "https://www.seagirtlibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Tinton Falls Public Library",
+    "county": "Monmouth County",
+    "website": "https://www.tintonfallslibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Boonton Holmes Public Library",
+    "county": "Morris County",
+    "website": "http://boontonlibrary.org",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Butler Public Library",
+    "county": "Morris County",
+    "website": "http://www.butlerlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Chathams Joint Free Public Library",
+    "county": "Morris County",
+    "website": "http://www.chatham-library.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Chester Library",
+    "county": "Morris County",
+    "website": "https://chesterlib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Denville Free Public Library",
+    "county": "Morris County",
+    "website": "http://www.denvillelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Dover Free Public Library",
+    "county": "Morris County",
+    "website": "http://www.dfpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "East Hanover Township Free Public Library",
+    "county": "Morris County",
+    "website": "http://www.easthanoverlibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Florham Park Free Public Library",
+    "county": "Morris County",
+    "website": "http://florhamparklib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Kemmerer Library Harding Township Library",
+    "county": "Morris County",
+    "website": "http://www.hardinglibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Kinnelon Public Library",
+    "county": "Morris County",
+    "website": "http://www.kinnelonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Jefferson Township Public Library",
+    "county": "Morris County",
+    "website": "https://www.jeffersonlibrary.net/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Lincoln Park Public Library",
+    "county": "Morris County",
+    "website": "http://www.lincolnparklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Long Hill Township Free Public Library",
+    "county": "Morris County",
+    "website": "http://www.longhilllibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Madison Public Library",
+    "county": "Morris County",
+    "website": "http://www.rosenet.org/329/Madison-Free-Public-Library",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mendham Boro Free Public Library",
+    "county": "Morris County",
+    "website": "http://mendhamboroughlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mendham Township Library",
+    "county": "Morris County",
+    "website": "http://mendhamtownshiplibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Montville Township Public Library",
+    "county": "Morris County",
+    "website": "https://www.montvillelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Morris County Library",
+    "county": "Morris County",
+    "website": "http://www.mclib.info/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Morris Plains Library",
+    "county": "Morris County",
+    "website": "http://www.morrisplainsboro.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Morristown-Morris Township Joint Public Library",
+    "county": "Morris County",
+    "website": "https://mmtlibrary.org",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mount Arlington Public Library",
+    "county": "Morris County",
+    "website": "https://www.mainlib.org/libraries/mount-arlington-public-library/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mount Olive Public Library",
+    "county": "Morris County",
+    "website": "http://www.mopl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mountain Lakes Free Public Library",
+    "county": "Morris County",
+    "website": "http://www.mtnlakes.org/library",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Parsippany-Troy Hills Public Library",
+    "county": "Morris County",
+    "website": "https://www.parsippanylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Pequannock Township Public Library",
+    "county": "Morris County",
+    "website": "http://www.pequannocklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Randolph Township Free Public Library",
+    "county": "Morris County",
+    "website": "http://www.randolphnj.org/library",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Riverdale Public Library",
+    "county": "Morris County",
+    "website": "https://riverdalelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Rockaway Borough Free Public Library",
+    "county": "Morris County",
+    "website": "http://rblibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Rockaway Township Free Public Library",
+    "county": "Morris County",
+    "website": "http://www.rtlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Roxbury Township Public Library",
+    "county": "Morris County",
+    "website": "http://www.roxburylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Washington Township Public Library-Morris",
+    "county": "Morris County",
+    "website": "http://www.wtpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Wharton Public Library",
+    "county": "Morris County",
+    "website": "http://www.whartonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Whippanong Library-Hanover Township",
+    "county": "Morris County",
+    "website": "http://www.whippanong.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Beach Haven Free Public Library",
+    "county": "Ocean County",
+    "website": "http://beachhavenlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Ocean County Library",
+    "county": "Ocean County",
+    "website": "https://theoceancountylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Alfred H. Baumann Library",
+    "county": "Passaic County",
+    "website": "https://www.abwplibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bloomingdale Free Public Library",
+    "county": "Passaic County",
+    "website": "http://www.bloomingdalelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Clifton Public Library",
+    "county": "Passaic County",
+    "website": "http://www.cliftonpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Dwight D. Eisenhower Library \u2013 Totowa",
+    "county": "Passaic County",
+    "website": "http://www.totowapl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Haledon Free Public Library",
+    "county": "Passaic County",
+    "website": "http://www.haledonlib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Little Falls Public Library",
+    "county": "Passaic County",
+    "website": "http://www.littlefallslibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Louis Bay 2nd Library \u2013 Hawthorne",
+    "county": "Passaic County",
+    "website": "https://louisbay2ndlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "North Haledon Free Public Library",
+    "county": "Passaic County",
+    "website": "http://www.northhaledonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Passaic Public Library",
+    "county": "Passaic County",
+    "website": "http://www.passaicpubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Paterson Free Public Library",
+    "county": "Passaic County",
+    "website": "http://www.patersonpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Pompton Lakes Library",
+    "county": "Passaic County",
+    "website": "http://www.pomptonlakeslibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Ringwood Public Library",
+    "county": "Passaic County",
+    "website": "http://www.ringwoodlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Wanaque Borough Free Public Library",
+    "county": "Passaic County",
+    "website": "http://www.wanaquelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Wayne Public Library",
+    "county": "Passaic County",
+    "website": "http://www.waynepubliclibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "West Milford Township Library",
+    "county": "Passaic County",
+    "website": "https://www.wmtl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Elmer Public Library",
+    "county": "Salem County",
+    "website": "http://elmerlibrarynj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Pennsville Public Library",
+    "county": "Salem County",
+    "website": "https://www.pennsvillelibrary.org",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Salem Free Public Library",
+    "county": "Salem County",
+    "website": "http://www.mysalemlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Woodstown-Pilesgrove Library",
+    "county": "Salem County",
+    "website": "https://www.woodstownlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bedminster-Far Hills/ Clarence Dillon Public Library",
+    "county": "Somerset County",
+    "website": "https://www.dillonlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bernards Township Library",
+    "county": "Somerset County",
+    "website": "http://www.bernardslibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Bernardsville Public Library",
+    "county": "Somerset County",
+    "website": "http://www.bernardsvillelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Franklin Township Public Library-Somerset",
+    "county": "Somerset County",
+    "website": "http://www.franklintwp.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Manville Public Library",
+    "county": "Somerset County",
+    "website": "https://www.manvillenj.org/544/Manville-Public-Library",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Raritan Public Library",
+    "county": "Somerset County",
+    "website": "http://raritanlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Somerset County Library",
+    "county": "Somerset County",
+    "website": "https://sclsnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Sparta Public Library",
+    "county": "Sussex County",
+    "website": "http://spartalibrary.com/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Sussex County Library",
+    "county": "Sussex County",
+    "website": "http://www.sussexcountylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Berkeley Heights Free Public Library",
+    "county": "Union County",
+    "website": "http://library.bhplnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Clark Public Library",
+    "county": "Union County",
+    "website": "http://www.clarklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Cranford Public Library",
+    "county": "Union County",
+    "website": "http://www.cranfordlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Elizabeth Free Public Library",
+    "county": "Union County",
+    "website": "http://www.elizpl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Fanwood Memorial Library",
+    "county": "Union County",
+    "website": "http://www.fanwoodlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Garwood Free Public Library",
+    "county": "Union County",
+    "website": "http://www.youseemore.com/garwood",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Hillside Free Public Library",
+    "county": "Union County",
+    "website": "http://www.hillsidepl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Kenilworth Public Library",
+    "county": "Union County",
+    "website": "http://www.kenilworthlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Linden Free Public Library",
+    "county": "Union County",
+    "website": "https://lindenlibrary-nj.gov/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Mountainside Free Public Library",
+    "county": "Union County",
+    "website": "http://www.mountainsidelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "New Providence Memorial Library",
+    "county": "Union County",
+    "website": "https://newprovlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Plainfield Free Public Library",
+    "county": "Union County",
+    "website": "http://www.plfdpl.info/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Rahway Public Library",
+    "county": "Union County",
+    "website": "https://www.rahwaylibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Roselle Memorial Library",
+    "county": "Union County",
+    "website": "https://rosellelibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Roselle Park Veterans Memorial Library",
+    "county": "Union County",
+    "website": "https://roselleparklibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Scotch Plains Public Library",
+    "county": "Union County",
+    "website": "http://www.scotlib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Springfield Free Public Library",
+    "county": "Union County",
+    "website": "http://www.sfplnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Summit Free Public Library",
+    "county": "Union County",
+    "website": "http://summitlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Union Free Public Library",
+    "county": "Union County",
+    "website": "https://uplnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Westfield Memorial Library",
+    "county": "Union County",
+    "website": "http://www.wmlnj.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Hackettstown Free Public Library",
+    "county": "Warren County",
+    "website": "http://www.hackettstownlibrary.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Oxford Public Library",
+    "county": "Warren County",
+    "website": "https://oxford.njlibraries.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Phillipsburg Free Public Library",
+    "county": "Warren County",
+    "website": "http://www.pburglib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Warren County Library",
+    "county": "Warren County",
+    "website": "http://warrenlib.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": false,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  },
+  {
+    "system_name": "Washington Public Library",
+    "county": "Warren County",
+    "website": "https://washboropl.org/",
+    "catalog_url": null,
+    "library_card_signup_url": null,
+    "has_legal_help_program": null,
+    "legal_help_evidence": null,
+    "source_url": "https://www.njstatelib.org/services_for_libraries/library-development/new-jersey-public-libraries-directory/"
+  }
+]
