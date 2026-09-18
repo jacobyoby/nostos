@@ -1,14 +1,21 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { dirname, join } from "node:path";
 import { test } from "node:test";
+import { fileURLToPath } from "node:url";
 import {
   applyAcceptedProposal,
   formatPhone,
   hoursStatus,
+  hoursSlots,
   makeProposal,
   outletKey,
   servicesOf,
   telHref,
 } from "../../src/lib/nostos.js";
+
+const root = join(dirname(fileURLToPath(import.meta.url)), "../..");
+const libraries = JSON.parse(readFileSync(join(root, "data/nj-libraries.json"), "utf8"));
 
 test("makeProposal rejects reviews and ratings", () => {
   const base = { outlet_key: "NJ0003-002", kind: "resource", value: "ISBN 123" };
@@ -38,19 +45,23 @@ test("hoursStatus reports open now from structured hours", () => {
   };
   const status = hoursStatus(r, mondayMorning);
   assert.equal(status.kind, "open");
-  assert.match(status.label, /Open now/);
+  assert.match(status.label, /Open now · closes 5:00 PM/);
 });
 
-test("hoursStatus falls back to weekly hours", () => {
+test("hoursStatus does not treat IMLS weekly totals as a schedule", () => {
   const status = hoursStatus({ hours_open_weekly: 48 }, new Date());
-  assert.equal(status.kind, "weekly");
-  assert.equal(status.label, "48 h/wk");
+  assert.equal(status.kind, "unpublished");
+  assert.equal(status.label, "Hours not published");
 });
 
-test("hoursStatus rounds fractional IMLS weekly hours", () => {
-  const status = hoursStatus({ hours_open_weekly: 42.69230769230769 }, new Date());
-  assert.equal(status.kind, "weekly");
-  assert.equal(status.label, "42.7 h/wk");
+test("no published hours label uses weekly IMLS totals", () => {
+  for (const r of libraries) {
+    const status = hoursStatus(r);
+    assert.doesNotMatch(status.label, /h\/wk|hours per week|hours_open_weekly/i);
+    if (r.hours && r.hours.days) {
+      assert.ok(r.hours.days.every((d) => d.day && d.open && d.close));
+    }
+  }
 });
 
 test("formatPhone and telHref for NANP numbers", () => {
@@ -68,6 +79,19 @@ test("applyAcceptedProposal adds a service without reviews", () => {
   );
   assert.equal(servicesOf(next).length, 1);
   assert.equal(servicesOf(next)[0].name, "notary");
+});
+
+test("website seed recorded evidenced services and weekday hours", () => {
+  const extraSystems = new Set();
+  let hours = 0;
+  for (const r of libraries) {
+    if (hoursSlots(r).length) hours += 1;
+    for (const s of r.services || []) {
+      if (s.name !== "legal-help desk") extraSystems.add(r.system_name);
+    }
+  }
+  assert.ok(hours >= 90, `expected >=90 outlets with weekday hours, got ${hours}`);
+  assert.ok(extraSystems.size >= 15, `expected >=15 systems with website services, got ${extraSystems.size}`);
 });
 
 test("outletKey matches FSCS format", () => {

@@ -60,11 +60,38 @@ SYSTEM_ALIASES = {
     "MONROE TWP PUBLIC LIBRARY/MIDDLESEX": "Monroe Township Public Library-Middlesex",
     "MORRISTOWN-MORRIS TWP JOINT PUBLIC LIBRARY": "Morristown-Morris Township Joint Public Library",
     "POMPTON LAKES BOROUGH FREE PUBLIC LIBRARY": "Pompton Lakes Library",
+    "ROSELLE PARK VETERAN`S MEMORIAL LIBRARY": "Roselle Park Veterans Memorial Library",
     "ROXBURY PUBLIC LIBRARY": "Roxbury Township Public Library",
     "RUTH L. ROCKWOOD MEMORIAL LIBRARY": "Livingston Library – Ruth L. Rockwood Memorial Library",
     "WASHINGTON TWP PUBLIC LIBRARY/BERGEN": "Washington Township Public Library-Bergen",
     "WASHINGTON TWP PUBLIC LIBRARY/MORRIS": "Washington Township Public Library-Morris",
     "WORTH PINKHAM MEMORIAL LIBRARY": "Ho-Ho-Kus Worth Pinkham Memorial Library",
+}
+
+# IMLS administrative entities that are not in the NJSL public-libraries directory
+# (checked 2026-09-18 against data/njsl-systems.json). They stay in the IMLS
+# universe with null website/legal-help rather than a guessed alias.
+UNLISTED_SYSTEMS = {
+    "BASS RIVER COMMUNITY LIBRARY",
+    "BEVERLY FREE LIBRARY",
+    "CLEMENTON MEMORIAL LIBRARY",
+    "CRESSKILL PUBLIC LIBRARY",
+    "CROSSWICKS LIBRARY COMPANY",
+    "FLORENCE TOWNSHIP LIBRARY",
+    "GIBBSBORO PUBLIC LIBRARY",
+    "GILL MEMORIAL LIBRARY",
+    "HIGH BRIDGE PUBLIC LIBRARY",
+    "KEYPORT FREE PUBLIC LIBRARY",
+    "LONGPORT PUBLIC LIBRARY",
+    "MANASQUAN PUBLIC LIBRARY",
+    "NEWFIELD PUBLIC LIBRARY",
+    "OAKLYN MEMORIAL LIBRARY",
+    "RIVERSIDE PUBLIC LIBRARY",
+    "SALLY STRETCH KEEN MEMORIAL LIBRARY",
+    "SEA BRIGHT LIBRARY",
+    "SPRING LAKE PUBLIC LIBRARY",
+    "UNION BEACH MEMORIAL LIBRARY",
+    "W.H. WALTERS FREE PUBLIC LIBRARY",
 }
 PRESERVE_KEYS = (
     "services",
@@ -76,6 +103,7 @@ PRESERVE_KEYS = (
     "contact_form_url",
     "director",
     "board_url",
+    "municipality_code",
 )
 SERVICE_NAMES = {
     "legal-help desk",
@@ -161,7 +189,7 @@ def merge(
             raise ValueError(f"outlet missing system_name: {outlet}")
         lookup = SYSTEM_ALIASES.get(system_name, system_name)
         info = systems.get(normalize_name(lookup))
-        if info is None:
+        if info is None and system_name not in UNLISTED_SYSTEMS:
             unmatched.append(system_name)
         key = f"{outlet.get('fscskey')}-{outlet.get('fscs_seq')}"
         prior = outreach.get(key, Outreach())
@@ -183,6 +211,7 @@ def merge(
             "contact_form_url": prior_fields.get("contact_form_url"),
             "director": prior_fields.get("director"),
             "board_url": prior_fields.get("board_url"),
+            "municipality_code": prior_fields.get("municipality_code") or outlet.get("municipality_code"),
         }
         merged.append(row)
     merged.sort(key=lambda r: (str(r.get("county") or ""), str(r.get("system_name") or ""), str(r.get("outlet_name") or "")))

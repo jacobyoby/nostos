@@ -36,15 +36,15 @@ python3 -m http.server 8080
 
 | You type | You get |
 | --- | --- |
-| ZIP `07030` or town `Hoboken` | Nearest outlets, miles, phone, hours |
+| ZIP `07030` or town `Hoboken` | Nearest outlets, miles, phone, **today’s hours** (open now / opens at) |
 | Device location (or deny it) | Same list, or ZIP/town fallback |
-| A library name | Outlet page: **contact the administration** first, then services, then a proposal form |
+| A library name | Outlet page: **contact the administration** first, then a weekday schedule, then services |
 
 ## Product rules
 
 - **Publicly funded only.** The universe is the [IMLS Public Libraries Survey](https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey) outlet file. Anything not in IMLS needs a citation before it goes in.
 - **Contact is first-class.** Phone, email, contact form, director, and board belong above the fold. Unpublished fields say “Not published” — never guessed.
-- **Null beats guessed.** Services stay empty until there is evidence.
+- **Null beats guessed.** Services stay empty until there is evidence. Daily hours come from the library’s own site (schema.org or a single unambiguous week); IMLS “hours per week” is not shown as a schedule.
 - **No comment threads.**
 
 ## Data (NJ, FY2023)
@@ -56,6 +56,8 @@ python3 -m http.server 8080
 | [`data/proposals/`](data/proposals/) | Community queue. Accepted proposals are applied on merge; rejected ones keep a reason |
 
 Each service is `{name, evidence_url, verified_on}`. Names: legal-help desk, lawyer-in-the-library, notary, passport, printing/scanning, meeting rooms, tax prep, language help, computer access, other.
+
+Hours, when published, are `{days: [{day, open, close}], source_url, verified_on}` in America/New_York. IMLS `hours_open_weekly` is a yearly total, not a schedule, and is never shown. Refresh hours from library sites with `npm run seed:hours`. Seed services, admin contact, and extra hours from websites with `npm run seed:sites` (top ~40 systems for services; all unique sites for contact; remaining centrals for hours). Every outlet has a 4-digit DCA `municipality_code` from NJOGIS municipal boundaries.
 
 ## Develop
 
@@ -75,8 +77,8 @@ npm run android:assemble   # SDK + JDK
 npm run ios:pod            # macOS + Xcode
 ```
 
-CI runs on every push and PR. Intended production host is loam (with the other jacobrakai static sites). Until that path is wired, serve `src/` + `data/`, or `www/` after `npm run build:www`. See [CHANGELOG](CHANGELOG.md) for the v0.1.0 cut.
+CI runs on every push and PR. GitHub Pages deploys `www/` from `main`. Intended long-term host is loam (with the other jacobrakai static sites). Locally, serve `src/` + `data/`, or `www/` after `npm run build:www`. See [CHANGELOG](CHANGELOG.md).
 
 ## Status
 
-Open work lives in [issues](https://github.com/jacobyoby/nostos/issues): per-day hours, municipal boundaries, remaining NJSL name matches, production hosting.
+Open work lives in [issues](https://github.com/jacobyoby/nostos/issues). GitHub Pages deploys `www/` from `main`; intended long-term host is loam.

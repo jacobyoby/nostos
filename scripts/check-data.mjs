@@ -28,12 +28,21 @@ function requireArray(rel) {
 
 const libraries = requireArray("data/nj-libraries.json");
 if (libraries.length !== 449) errors.push(`nj-libraries.json: expected 449 outlets, got ${libraries.length}`);
+if (libraries.some((r) => !/^\d{4}$/.test(String(r.municipality_code || "")))) {
+  errors.push("nj-libraries.json: every outlet needs a 4-digit municipality_code");
+}
 
 for (const [i, r] of libraries.entries()) {
   const loc = `outlet[${i}] ${r.fscskey}-${r.fscs_seq}`;
   if (!r.fscskey || !r.fscs_seq) errors.push(`${loc}: missing FSCS key`);
   if (!Number.isFinite(r.lat) || !Number.isFinite(r.lon)) errors.push(`${loc}: missing coordinates`);
   if (r.website != null && !safeHttpUrl(r.website)) errors.push(`${loc}: website is not http(s): ${r.website}`);
+  if (r.admin_email) {
+    const email = typeof r.admin_email === "object" ? r.admin_email.value : r.admin_email;
+    if (email != null && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email))) {
+      errors.push(`${loc}: admin_email is not an email address`);
+    }
+  }
   if (r.services != null) {
     if (!Array.isArray(r.services)) errors.push(`${loc}: services must be array or null`);
     else {
@@ -47,6 +56,25 @@ for (const [i, r] of libraries.entries()) {
         }
       }
     }
+  }
+  if (r.hours != null) {
+    const days = Array.isArray(r.hours) ? r.hours : r.hours.days;
+    if (!Array.isArray(days)) errors.push(`${loc}: hours must be an array or {days, source_url, verified_on}`);
+    else {
+      for (const slot of days) {
+        if (!slot || typeof slot.day !== "string" || typeof slot.open !== "string" || typeof slot.close !== "string") {
+          errors.push(`${loc}: hours slot needs day, open, close`);
+        }
+      }
+      if (!Array.isArray(r.hours) && r.hours.source_url != null && !safeHttpUrl(r.hours.source_url)) {
+        errors.push(`${loc}: hours source_url is not http(s)`);
+      }
+    }
+  }
+  for (const key of ["contact_form_url", "board_url"]) {
+    const field = r[key];
+    const value = field && typeof field === "object" ? field.value : field;
+    if (value != null && !safeHttpUrl(value)) errors.push(`${loc}: ${key} is not http(s)`);
   }
 }
 
