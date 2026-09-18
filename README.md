@@ -1,55 +1,82 @@
 # Nostos
 
-Find the public library near you and what it offers. **v0.1.0** covers every IMLS public library outlet in New Jersey.
+[![CI](https://github.com/jacobyoby/nostos/actions/workflows/ci.yml/badge.svg)](https://github.com/jacobyoby/nostos/actions/workflows/ci.yml)
+[![v0.1.0](https://img.shields.io/badge/version-0.1.0-1f5c8b)](CHANGELOG.md)
+[![IMLS PLS FY2023](https://img.shields.io/badge/data-IMLS%20PLS%20FY2023-1f5c8b)](https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey)
 
-## Product (v0.1.0)
+Find the public library near you and what it offers.
 
-- **Finder.** Nearest publicly funded libraries by ZIP, town, or device location: miles, address, phone, hours.
-- **Outlet page.** Contact the administration above the fold (phone, email, contact form, director, board). Unpublished fields are shown as “Not published”, never guessed.
-- **Services.** Documented list per outlet (`{name, evidence_url, verified_on}`). Legal-help desks are seeded from the NJSL flags; other services stay empty until evidenced.
-- **Community input, no reviews.** Propose a service, hours/closure, or that a book/resource is here. Proposals go to a moderation queue (`data/proposals/`), never onto the page. No ratings, stars, or free-text reviews.
-- **Publicly funded only.** Universe is the IMLS Public Libraries Survey outlet file.
+A library is not a restaurant. **Nostos has no ratings, no stars, and no reviews.** People can name a service, note hours or a closure, or say a book is at a location. Those proposals go to a moderation queue, never onto the page.
 
-## Data
+**v0.1.0** covers every active IMLS public library outlet in **New Jersey** — 449 locations, 21 counties. Web, Android, and iOS share the same static UI.
 
-- `data/imls-nj-outlets.json` — every active NJ outlet from IMLS PLS FY2023 (449 rows), produced by `scripts/ingest_imls_nj.py`.
-- `data/nj-libraries.json` — merged outlets + NJSL website/legal-help + services + admin contact + outreach. Produced by `scripts/merge.py`.
-- `data/proposals/accepted.json` / `rejected.json` / `inbox/` — community queue. `merge.py` applies accepted proposals.
-- Service names: legal-help desk, lawyer-in-the-library, notary, passport, printing/scanning, meeting rooms, tax prep, language help, computer access, other.
-- Each service: `{name, evidence_url, verified_on}`.
-- Admin fields: `admin_phone`, `admin_email`, `contact_form_url`, `director`, `board_url` as `{value, verified_on}` or null.
-- Hours: `hours` as `[{day, open, close}]` plus weekly `hours_open_weekly`. Finder shows open-now when structured hours exist.
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/finder.png" alt="Finder: libraries near Hoboken, sorted by miles" width="900">
+      <br>
+      <sub>ZIP, town, or device location → nearest outlets</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/outlet.png" alt="Outlet page: contact the library above the fold" width="900">
+      <br>
+      <sub>Contact first. Unpublished fields stay unpublished.</sub>
+    </td>
+  </tr>
+</table>
 
-## Apps
+## Try it
 
-Web: static ES modules in `src/`. Hash routes `#/`, `#/directory`, `#/outlet/NJ0003-002`.
+Static HTML + JSON. From the repo root:
 
 ```bash
 python3 -m http.server 8080
-# http://127.0.0.1:8080/src/
+# open http://127.0.0.1:8080/src/
 ```
 
-Android & iOS: Capacitor 7 (`com.jacobyoby.nostos`, version 0.1.0).
+| You type | You get |
+| --- | --- |
+| ZIP `07030` or town `Hoboken` | Nearest outlets, miles, phone, hours |
+| Device location (or deny it) | Same list, or ZIP/town fallback |
+| A library name | Outlet page: **contact the administration** first, then services, then a proposal form |
+
+## Product rules
+
+- **Publicly funded only.** The universe is the [IMLS Public Libraries Survey](https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey) outlet file. Anything not in IMLS needs a citation before it goes in.
+- **Contact is first-class.** Phone, email, contact form, director, and board belong above the fold. Unpublished fields say “Not published” — never guessed.
+- **Null beats guessed.** Services stay empty until there is evidence.
+- **No comment threads.**
+
+## Data (NJ, FY2023)
+
+| File | What |
+| --- | --- |
+| [`data/imls-nj-outlets.json`](data/imls-nj-outlets.json) | 449 active outlets from IMLS PLS FY2023 (`scripts/ingest_imls_nj.py`) |
+| [`data/nj-libraries.json`](data/nj-libraries.json) | Merged list: website, legal-help flag, services, admin contact, outreach (`scripts/merge.py`) |
+| [`data/proposals/`](data/proposals/) | Community queue. Accepted proposals are applied on merge; rejected ones keep a reason |
+
+Each service is `{name, evidence_url, verified_on}`. Names: legal-help desk, lawyer-in-the-library, notary, passport, printing/scanning, meeting rooms, tax prep, language help, computer access, other.
+
+## Develop
 
 ```bash
 npm install
-npm run build:www
-npx cap sync
+npm test              # builds www/, unit + mobile project checks
+npm run check:data    # JSON parse + http(s) URL schema
+npm run test:e2e      # Playwright
+npm run test:all
+```
+
+Android / iOS (Capacitor 7, `com.jacobyoby.nostos`):
+
+```bash
+npm run build:www && npx cap sync
 npm run android:assemble   # SDK + JDK
 npm run ios:pod            # macOS + Xcode
 ```
 
-## Hosting and CI
+CI runs on every push and PR. Intended production host is loam (with the other jacobrakai static sites). Until that path is wired, serve `src/` + `data/`, or `www/` after `npm run build:www`. See [CHANGELOG](CHANGELOG.md) for the v0.1.0 cut.
 
-CI on every push/PR: `npm test`, `node scripts/check-data.mjs` (JSON parse + http(s) website/service URLs), Playwright e2e.
+## Status
 
-Intended production host is **loam**, alongside other jacobrakai static sites. Until that deploy path is wired, serve `src/` + `data/` (or `www/` after `npm run build:www`) as a static site. GitHub Pages can publish `www/`.
-
-## Tests
-
-```bash
-npm test          # builds www/, unit + mobile project checks
-npm run check:data
-npm run test:e2e
-npm run test:all
-```
+Open work lives in [issues](https://github.com/jacobyoby/nostos/issues): per-day hours, municipal boundaries, remaining NJSL name matches, production hosting.

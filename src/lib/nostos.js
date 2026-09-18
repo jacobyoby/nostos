@@ -27,6 +27,30 @@ export function escapeHtml(s) {
 }
 
 /**
+ * Display a 10-digit US number as (201) 420-2346. Returns the original string
+ * when it is not a 10- or 11-digit NANP value.
+ * @param {unknown} s
+ * @returns {string}
+ */
+export function formatPhone(s) {
+  const raw = String(s ?? "").trim();
+  const digits = raw.replace(/\D/g, "");
+  const nanp = digits.length === 11 && digits.startsWith("1") ? digits.slice(1) : digits;
+  if (nanp.length !== 10) return raw;
+  return `(${nanp.slice(0, 3)}) ${nanp.slice(3, 6)}-${nanp.slice(6)}`;
+}
+
+/**
+ * Digits-only tel: target, or null when there are no digits.
+ * @param {unknown} s
+ * @returns {string | null}
+ */
+export function telHref(s) {
+  const digits = String(s ?? "").replace(/\D/g, "");
+  return digits.length ? digits : null;
+}
+
+/**
  * Accept only http(s) URLs with no whitespace (rejects javascript:, data:,
  * parenthetical evidence notes, and non-URLs).
  * @param {unknown} s
@@ -402,7 +426,11 @@ export function hoursStatus(r, now = new Date()) {
     }
   }
   const w = r.hours_open_weekly;
-  if (w != null && Number.isFinite(w)) return { kind: "weekly", label: `${w} h/wk` };
+  if (w != null && Number.isFinite(w)) {
+    const rounded = Math.round(w * 10) / 10;
+    const n = Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
+    return { kind: "weekly", label: `${n} h/wk` };
+  }
   return { kind: "unknown", label: "Hours unknown" };
 }
 

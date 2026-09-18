@@ -2,10 +2,12 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
   applyAcceptedProposal,
+  formatPhone,
   hoursStatus,
   makeProposal,
   outletKey,
   servicesOf,
+  telHref,
 } from "../../src/lib/nostos.js";
 
 test("makeProposal rejects reviews and ratings", () => {
@@ -43,6 +45,20 @@ test("hoursStatus falls back to weekly hours", () => {
   const status = hoursStatus({ hours_open_weekly: 48 }, new Date());
   assert.equal(status.kind, "weekly");
   assert.equal(status.label, "48 h/wk");
+});
+
+test("hoursStatus rounds fractional IMLS weekly hours", () => {
+  const status = hoursStatus({ hours_open_weekly: 42.69230769230769 }, new Date());
+  assert.equal(status.kind, "weekly");
+  assert.equal(status.label, "42.7 h/wk");
+});
+
+test("formatPhone and telHref for NANP numbers", () => {
+  assert.equal(formatPhone("2014202346"), "(201) 420-2346");
+  assert.equal(formatPhone("1 (201) 420-2346"), "(201) 420-2346");
+  assert.equal(formatPhone("ext. 12"), "ext. 12");
+  assert.equal(telHref("2014202346"), "2014202346");
+  assert.equal(telHref("not a phone"), null);
 });
 
 test("applyAcceptedProposal adds a service without reviews", () => {
