@@ -1,0 +1,30 @@
+{
+  "name": "nostos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Nostos — NJ public library finder (web, Android, iOS)",
+  "scripts": {
+    "build:www": "node scripts/build-www.mjs",
+    "test": "node --test tests/adversarial/*.test.js",
+    "test:e2e": "playwright test",
+    "test:all": "npm run test && npm run test:e2e",
+    "serve": "python3 -m http.server 8080",
+    "cap:sync": "npm run build:www && npx cap sync",
+    "android:assemble": "cd android && ./gradlew assembleDebug",
+    "ios:pod": "cd ios/App && pod install"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/cli": "^7.2.0",
+    "@capacitor/core": "^7.2.0",
+    "@capacitor/geolocation": "^7.1.2",
+    "@capacitor/ios": "^7.2.0",
+    "@playwright/test": "^1.52.0"
+  },
+  "capacitor": {
+    "appId": "com.jacobyoby.nostos",
+    "appName": "Nostos",
+    "webDir": "www"
+  }
+}
