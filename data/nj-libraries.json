@@ -22,7 +22,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093452269",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0003",
@@ -47,7 +59,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093471902",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -72,7 +96,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096468699",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -97,7 +133,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092660110",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -122,7 +170,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096972400",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -147,7 +207,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098041063",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -172,7 +244,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099278664",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -197,7 +281,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096522352",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -222,7 +318,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6095612264",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -247,7 +355,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096411778",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -272,7 +392,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099277113",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0001",
@@ -297,7 +429,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098234614",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0004",
@@ -322,7 +466,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099276756",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ9015",
@@ -347,7 +503,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094877403",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0005",
@@ -372,7 +540,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098224700",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0006",
@@ -397,7 +577,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096464476",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0009",
@@ -422,7 +614,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013874040",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0010",
@@ -447,7 +651,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014887185",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0012",
@@ -472,7 +688,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019452867",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0013",
@@ -497,7 +725,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017684197",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0014",
@@ -522,7 +762,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015673521",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0015",
@@ -547,7 +799,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017688714",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0016",
@@ -572,7 +836,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013842030",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0017",
@@ -597,7 +873,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019393930",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0018",
@@ -622,7 +910,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012246144",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0019",
@@ -647,7 +947,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017968888",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0020",
@@ -672,7 +984,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012615604",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0021",
@@ -697,7 +1021,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015682215",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0023",
@@ -722,7 +1058,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019436244",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0024",
@@ -747,7 +1095,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015923614",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0025",
@@ -772,7 +1132,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018912224",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0026",
@@ -797,7 +1169,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014783800",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0027",
@@ -822,7 +1206,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016703970",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0029",
@@ -847,7 +1243,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017685675",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0030",
@@ -872,7 +1280,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012880488",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0031",
@@ -897,7 +1317,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013841020",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0032",
@@ -922,7 +1354,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013585072",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0065",
@@ -939,7 +1383,7 @@
   "lon": -74.1133312,
   "hours_open_weekly": 44.01923076923077,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://www.wallingtonpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -947,7 +1391,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014711692",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0028",
@@ -972,7 +1428,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013434169",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0008",
@@ -997,7 +1465,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013274338",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0034",
@@ -1022,7 +1502,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015925770",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0035",
@@ -1047,7 +1539,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016413721",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0036",
@@ -1072,7 +1576,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013654044",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0037",
@@ -1097,7 +1613,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019396548",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0038",
@@ -1122,7 +1650,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015292183",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0022",
@@ -1147,7 +1687,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017963400",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0039",
@@ -1172,7 +1724,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018457755",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0040",
@@ -1197,7 +1761,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014442390",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0041",
@@ -1222,7 +1798,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013915090",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0042",
@@ -1247,7 +1835,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012621221",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0043",
@@ -1272,7 +1872,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019555640",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0044",
@@ -1297,7 +1909,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017684784",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0045",
@@ -1322,7 +1946,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017689555",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0046",
@@ -1347,7 +1983,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013373742",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0047",
@@ -1372,7 +2020,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016643499",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0048",
@@ -1397,7 +2057,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012622613",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0049",
@@ -1422,7 +2094,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015854150",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0050",
@@ -1447,7 +2131,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014444911",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0050",
@@ -1472,7 +2168,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015991302",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0051",
@@ -1497,7 +2205,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013915151",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0052",
@@ -1522,7 +2242,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013271445",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0053",
@@ -1547,7 +2279,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019410192",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0054",
@@ -1572,7 +2316,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016410689",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0055",
@@ -1597,7 +2353,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016705600",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0056",
@@ -1622,7 +2390,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012611663",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0057",
@@ -1647,7 +2427,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013912323",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0058",
@@ -1672,7 +2464,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015877735",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0059",
@@ -1697,7 +2501,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019398600",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0060",
@@ -1722,7 +2538,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018433287",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0061",
@@ -1747,7 +2575,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018374171",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0062",
@@ -1772,7 +2612,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015688680",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0063",
@@ -1797,7 +2649,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013272583",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0064",
@@ -1822,7 +2686,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016525104",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0066",
@@ -1839,7 +2715,7 @@
   "lon": -74.0617118,
   "hours_open_weekly": 59.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://www.twpofwashingtonpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -1847,7 +2723,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016644586",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0067",
@@ -1872,7 +2760,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016640583",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0011",
@@ -1897,7 +2797,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014388866",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0068",
@@ -1922,7 +2834,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014382455",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0033",
@@ -1939,7 +2863,7 @@
   "lon": -74.1119534,
   "hours_open_weekly": 44.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://www.hohokuslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -1947,7 +2871,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014458078",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0069",
@@ -1972,7 +2908,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018914866",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ9009",
@@ -1997,7 +2945,16 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": null,
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0074",
@@ -2022,7 +2979,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093871259",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0070",
@@ -2047,7 +3016,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092980622",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0070",
@@ -2072,7 +3059,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092679660",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0070",
@@ -2097,7 +3102,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092679660",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0070",
@@ -2122,7 +3145,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098299340",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0070",
@@ -2147,7 +3188,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099831444",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0070",
@@ -2172,7 +3231,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8567799767",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0070",
@@ -2197,7 +3274,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098942516",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0070",
@@ -2222,7 +3317,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096546113",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0070",
@@ -2247,7 +3360,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8568292476",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0072",
@@ -2272,7 +3403,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094532210",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0073",
@@ -2297,7 +3440,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094616850",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0075",
@@ -2322,7 +3477,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094990143",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0071",
@@ -2339,7 +3506,7 @@
   "lon": -74.8603266,
   "hours_open_weekly": 43.26923076923077,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.librarycompanyofburlington.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -2347,7 +3514,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093861273",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0076",
@@ -2372,7 +3551,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092340333",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0077",
@@ -2397,7 +3588,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092677111",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0078",
@@ -2422,7 +3625,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092347319",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0079",
@@ -2447,7 +3662,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094616922",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0081",
@@ -2472,7 +3699,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098593598",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0082",
@@ -2497,7 +3736,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098776668",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0084",
@@ -2522,7 +3773,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6095478686",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0083",
@@ -2547,7 +3810,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099311400",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0083",
@@ -2572,7 +3847,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8563429789",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0083",
@@ -2597,7 +3884,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092280022",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0083",
@@ -2622,7 +3921,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8568542752",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0083",
@@ -2647,7 +3958,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097721636",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0083",
@@ -2672,7 +3995,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8566653128",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0083",
@@ -2697,7 +4032,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8562256807",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0083",
@@ -2722,7 +4069,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8565679770",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0087",
@@ -2747,7 +4106,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096670300",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0088",
@@ -2772,7 +4143,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097833233",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0089",
@@ -2797,7 +4180,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098580649",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0090",
@@ -2822,7 +4217,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094353656",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0091",
@@ -2847,7 +4254,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094564181",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0093",
@@ -2872,7 +4291,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6095477132",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0092",
@@ -2897,7 +4328,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094291304",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0085",
@@ -2914,7 +4357,7 @@
   "lon": -74.932185,
   "hours_open_weekly": 47.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://berlinborolibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -2922,7 +4365,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097672448",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0094",
@@ -2947,7 +4402,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098588226",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0095",
@@ -2972,7 +4439,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096655959",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0096",
@@ -2997,7 +4476,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099394688",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0098",
@@ -3022,7 +4513,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097830602",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0099",
@@ -3047,7 +4550,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097677727",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0315",
@@ -3072,7 +4587,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099674010",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0315",
@@ -3097,7 +4624,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099670090",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0100",
@@ -3122,7 +4661,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094651040",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0100",
@@ -3147,7 +4698,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094651040",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0100",
@@ -3172,7 +4735,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094651040",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0100",
@@ -3197,7 +4772,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098868999",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0100",
@@ -3222,7 +4809,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092638485",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0100",
@@ -3247,7 +4846,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093685102",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0100",
@@ -3272,7 +4883,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096282607",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0100",
@@ -3297,7 +4920,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6095220564",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0100",
@@ -3322,7 +4957,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098612501",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0102",
@@ -3347,7 +4994,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093992434",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0102",
@@ -3372,7 +5031,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093992434",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0105",
@@ -3397,7 +5068,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094512620",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0104",
@@ -3422,7 +5105,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094550080",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0108",
@@ -3447,7 +5142,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098257087",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0109",
@@ -3472,7 +5179,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097944244",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0115",
@@ -3489,7 +5208,7 @@
   "lon": -74.3000549,
   "hours_open_weekly": 57.5,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.ffpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -3497,7 +5216,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012273575",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0110",
@@ -3522,7 +5253,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014503434",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0111",
@@ -3547,7 +5290,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014299292",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0112",
@@ -3572,7 +5327,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012262837",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0113",
@@ -3597,7 +5364,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012391447",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0114",
@@ -3622,7 +5401,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012665610",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0114",
@@ -3647,7 +5438,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012665600",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0114",
@@ -3672,7 +5475,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012665620",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0114",
@@ -3697,7 +5512,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012665630",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0116",
@@ -3722,7 +5549,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017485482",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0117",
@@ -3747,7 +5586,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013726400",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0119",
@@ -3772,7 +5623,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017621688",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0119",
@@ -3797,7 +5660,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017621622",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0120",
@@ -3822,7 +5697,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013761006",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0121",
@@ -3847,7 +5734,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017442468",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0121",
@@ -3872,7 +5771,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017440500",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0121",
@@ -3897,7 +5808,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9737440500",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0122",
@@ -3922,7 +5845,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017337800",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0122",
@@ -3947,7 +5888,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017337800",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0122",
@@ -3972,7 +5931,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017337800",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0122",
@@ -3997,7 +5974,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017337800",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0122",
@@ -4022,7 +6017,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017337800",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0122",
@@ -4047,7 +6060,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017337800",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0122",
@@ -4072,7 +6103,25 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": [
+   {
+    "name": "legal-help desk",
+    "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
+    "verified_on": null
+   }
+  ],
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017337800",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0123",
@@ -4097,7 +6146,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016670405",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0125",
@@ -4122,7 +6183,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012268636",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0118",
@@ -4139,7 +6212,7 @@
   "lon": -74.3194865,
   "hours_open_weekly": 59.80769230769231,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://livingstonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -4147,7 +6220,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019924600",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0126",
@@ -4172,7 +6257,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017620230",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0124",
@@ -4197,7 +6294,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016730153",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0127",
@@ -4222,7 +6331,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018574848",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0128",
@@ -4247,7 +6368,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012265441",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0129",
@@ -4272,7 +6405,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017360198",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0133",
@@ -4297,7 +6442,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096942833",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0138",
@@ -4322,7 +6479,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094235155",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0130",
@@ -4347,7 +6516,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8564230684",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0130",
@@ -4372,7 +6553,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098810001",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0130",
@@ -4397,7 +6590,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092236000",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0130",
@@ -4422,7 +6627,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094670595",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0130",
@@ -4447,7 +6664,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8564670111",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0131",
@@ -4464,7 +6693,7 @@
   "lon": -75.1393872,
   "hours_open_weekly": 53.63461538461539,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://www.deptfordpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -4472,7 +6701,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098489149",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0141",
@@ -4489,7 +6730,7 @@
   "lon": -75.1133053,
   "hours_open_weekly": 62.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.hegganlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -4497,7 +6738,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6095893334",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0139",
@@ -4514,7 +6767,7 @@
   "lon": -75.1294659,
   "hours_open_weekly": 53.46153846153846,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://www.mccowan-pitman.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -4522,7 +6775,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6095891656",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0136",
@@ -4539,7 +6804,7 @@
   "lon": -75.0013829,
   "hours_open_weekly": 50.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.monroetpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -4547,7 +6812,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096291212",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0137",
@@ -4572,7 +6849,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096970415",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0142",
@@ -4597,7 +6886,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094686323",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0143",
@@ -4622,7 +6923,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098455593",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0144",
@@ -4647,7 +6960,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094560357",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0145",
@@ -4672,7 +6997,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098452611",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0146",
@@ -4697,7 +7034,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018586970",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0147",
@@ -4722,7 +7071,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014832366",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0148",
@@ -4747,7 +7108,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2044202346",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0148",
@@ -4772,7 +7145,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014202346",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -4797,7 +7182,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474543",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -4822,7 +7219,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474555",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -4847,7 +7256,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474553",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -4872,7 +7293,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474556",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -4897,7 +7330,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474500",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -4922,7 +7367,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474500",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -4947,7 +7404,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015475017",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -4972,7 +7441,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474552",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -4997,7 +7478,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474551",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -5022,7 +7515,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474540",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0149",
@@ -5047,7 +7552,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015474554",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0150",
@@ -5072,7 +7589,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019912116",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0150",
@@ -5097,7 +7626,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019982666",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0151",
@@ -5122,7 +7663,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018694715",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0151",
@@ -5147,7 +7700,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018694715",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0151",
@@ -5172,7 +7737,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018694715",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0152",
@@ -5197,7 +7774,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013302083",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0152",
@@ -5222,7 +7811,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013302083",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0153",
@@ -5247,7 +7848,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018667503",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0153",
@@ -5272,7 +7885,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018667500",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0154",
@@ -5297,7 +7922,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018637823",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0155",
@@ -5322,7 +7959,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018541028",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0158",
@@ -5347,7 +7996,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017825733",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0159",
@@ -5372,7 +8033,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019964788",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0160",
@@ -5397,7 +8070,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016388231",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0161",
@@ -5414,7 +8099,7 @@
   "lon": -75.1049595,
   "hours_open_weekly": null,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.hollandlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -5422,7 +8107,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019954767",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0156",
@@ -5447,7 +8144,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017881444",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0156",
@@ -5472,7 +8181,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9087881444",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0156",
@@ -5497,7 +8218,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9087306262",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0156",
@@ -5522,7 +8255,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9087823564",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0162",
@@ -5547,7 +8292,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093970275",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0163",
@@ -5572,7 +8329,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019954072",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0164",
@@ -5597,7 +8366,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014393761",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0166",
@@ -5622,7 +8403,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6095814060",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0167",
@@ -5647,7 +8440,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094661625",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0165",
@@ -5672,7 +8477,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098823130",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0165",
@@ -5697,7 +8514,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094481330",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0165",
@@ -5722,7 +8551,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094481474",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0165",
@@ -5747,7 +8588,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098835914",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0165",
@@ -5772,7 +8625,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097372610",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0165",
@@ -5797,7 +8662,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099896916",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0165",
@@ -5822,7 +8699,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094431800",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0165",
@@ -5847,7 +8736,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092592150",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0165",
@@ -5872,7 +8773,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097990462",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0168",
@@ -5897,7 +8810,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097370404",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0169",
@@ -5922,7 +8847,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099249529",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0170",
@@ -5947,7 +8884,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093927188",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0171",
@@ -5972,7 +8921,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015415737",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0172",
@@ -5997,7 +8958,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096550555",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0189",
@@ -6014,7 +8987,7 @@
   "lon": -74.2744111,
   "hours_open_weekly": 42.92307692307692,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.dowdell.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -6022,7 +8995,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017216060",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0173",
@@ -6047,7 +9032,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019684585",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0174",
@@ -6072,7 +9069,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013906950",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0175",
@@ -6097,7 +9106,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017380096",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0175",
@@ -6122,7 +9143,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012872298",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0175",
@@ -6147,7 +9180,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015483045",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0176",
@@ -6172,7 +9217,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015722750",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0177",
@@ -6197,7 +9254,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015210440",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0178",
@@ -6222,7 +9291,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016328526",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0179",
@@ -6247,7 +9328,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013566602",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0180",
@@ -6272,7 +9365,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012472270",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0181",
@@ -6289,7 +9394,7 @@
   "lon": -74.4430648,
   "hours_open_weekly": null,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://www.monroetwplibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -6297,7 +9402,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "7325215000",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0181",
@@ -6314,7 +9431,7 @@
   "lon": -74.4430648,
   "hours_open_weekly": 63.55769230769231,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://www.monroetwplibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -6322,7 +9439,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015215000",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0182",
@@ -6347,7 +9476,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017455108",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0183",
@@ -6372,7 +9513,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012463545",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0184",
@@ -6397,7 +9550,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016795622",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0185",
@@ -6422,7 +9587,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018262600",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0186",
@@ -6447,7 +9624,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014631633",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0186",
@@ -6472,7 +9661,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017521166",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0187",
@@ -6497,7 +9698,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092752897",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0188",
@@ -6522,7 +9735,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017270212",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0190",
@@ -6547,7 +9772,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018218224",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0190",
@@ -6572,7 +9809,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018218224",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0191",
@@ -6597,7 +9846,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017547885",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0192",
@@ -6622,7 +9883,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012542488",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0193",
@@ -6647,7 +9920,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012511515",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0194",
@@ -6672,7 +9957,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017380250",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0194",
@@ -6697,7 +9994,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012831200",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0194",
@@ -6722,7 +10031,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016344450",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0197",
@@ -6747,7 +10068,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017744221",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0199",
@@ -6772,7 +10105,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017756998",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0200",
@@ -6797,7 +10142,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016810775",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0201",
@@ -6822,7 +10179,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017762995",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0202",
@@ -6847,7 +10216,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015289381",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0203",
@@ -6872,7 +10253,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013892665",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0204",
@@ -6897,7 +10290,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017475031",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0205",
@@ -6922,7 +10327,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014625135",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0207",
@@ -6947,7 +10364,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012640543",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0208",
@@ -6972,7 +10401,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017479649",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0209",
@@ -6997,7 +10438,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9088701776",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0209",
@@ -7022,7 +10475,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012223900",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0210",
@@ -7047,7 +10512,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012231503",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0196",
@@ -7072,7 +10549,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015839100",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0211",
@@ -7097,7 +10586,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016713700",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0212",
@@ -7122,7 +10623,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012291187",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7147,7 +10660,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092597565",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7172,7 +10697,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012911956",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7197,7 +10734,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014315656",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7222,7 +10771,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018425995",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7247,7 +10808,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012647164",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7272,7 +10845,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "7329464118",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7297,7 +10882,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019382300",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7322,7 +10919,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015369406",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7347,7 +10956,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014317220",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7372,7 +10993,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015315092",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7397,7 +11030,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012292626",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7422,7 +11067,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014498877",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0195",
@@ -7447,7 +11104,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012225993",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0213",
@@ -7472,7 +11141,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017758241",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0216",
@@ -7497,7 +11178,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018422692",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0215",
@@ -7522,7 +11215,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018420690",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ9010",
@@ -7547,7 +11252,16 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": null,
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0314",
@@ -7572,7 +11286,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "7324499433",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0217",
@@ -7597,7 +11323,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014496654",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0218",
@@ -7622,7 +11360,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015423110",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0219",
@@ -7647,7 +11397,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012643792",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0222",
@@ -7672,7 +11434,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013342980",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0223",
@@ -7697,7 +11471,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018383262",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0224",
@@ -7722,7 +11508,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016350603",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0225",
@@ -7747,7 +11545,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018797612",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0226",
@@ -7772,7 +11582,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016276555",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0227",
@@ -7797,7 +11619,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013660172",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0228",
@@ -7822,7 +11656,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018876215",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0229",
@@ -7847,7 +11693,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013772694",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ9011",
@@ -7864,7 +11722,7 @@
   "lon": -74.4967385,
   "hours_open_weekly": 38.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.hardinglibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -7872,7 +11730,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9732678000",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0231",
@@ -7897,7 +11767,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016976363",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0232",
@@ -7922,7 +11804,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018381321",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0233",
@@ -7947,7 +11841,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016948283",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0244",
@@ -7972,7 +11878,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016472088",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0234",
@@ -7997,7 +11915,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013770722",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0235",
@@ -8014,7 +11944,7 @@
   "lon": -74.6001966,
   "hours_open_weekly": 51.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://mendhamboroughlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -8022,7 +11952,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015434152",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0236",
@@ -8047,7 +11989,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015434018",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0237",
@@ -8072,7 +12026,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013342333",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0221",
@@ -8097,7 +12063,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012856930",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0239",
@@ -8122,7 +12100,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015382599",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0238",
@@ -8139,7 +12129,7 @@
   "lon": -74.4780668,
   "hours_open_weekly": null,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://mmtlibrary.org",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -8147,7 +12137,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015386161",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0238",
@@ -8164,7 +12166,7 @@
   "lon": -74.4780668,
   "hours_open_weekly": 65.57692307692308,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://mmtlibrary.org",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -8172,7 +12174,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015386161",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0241",
@@ -8197,7 +12211,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013981516",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0242",
@@ -8222,7 +12248,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016918686",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0240",
@@ -8247,7 +12285,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013345095",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0243",
@@ -8272,7 +12322,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013350952",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0243",
@@ -8297,7 +12359,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016279508",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0243",
@@ -8322,7 +12396,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018878907",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0245",
@@ -8347,7 +12433,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018357460",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0246",
@@ -8372,7 +12470,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018953556",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ9006",
@@ -8397,7 +12507,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9738355044",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0247",
@@ -8422,7 +12544,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016275709",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0248",
@@ -8447,7 +12581,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016276872",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0248",
@@ -8472,7 +12618,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016272344",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0249",
@@ -8489,7 +12647,7 @@
   "lon": -74.6389014,
   "hours_open_weekly": 57.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.roxburylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -8497,7 +12655,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015842400",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0250",
@@ -8514,7 +12684,7 @@
   "lon": -74.7914448,
   "hours_open_weekly": 47.40384615384615,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.wtpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -8522,7 +12692,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018763596",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0251",
@@ -8547,7 +12729,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013611333",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0230",
@@ -8572,7 +12766,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014282460",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0253",
@@ -8597,7 +12803,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094927081",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8622,7 +12840,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096983331",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8647,7 +12877,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9088920662",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8672,7 +12914,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012444573",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8697,7 +12951,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012692144",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8722,7 +12988,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014774513",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8747,7 +13025,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012706266",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8772,7 +13062,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019284400",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8797,7 +13099,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096938566",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8822,7 +13136,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "7323631435",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8847,7 +13173,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092941197",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8872,7 +13210,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6094942480",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8897,7 +13247,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9086577600",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8922,7 +13284,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013496200",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8947,7 +13321,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097587888",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8972,7 +13358,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018924575",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -8997,7 +13395,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9082951555",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -9022,7 +13432,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6095973381",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -9047,7 +13469,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6092961470",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -9072,7 +13506,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9087933996",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -9097,7 +13543,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096935133",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0252",
@@ -9122,7 +13580,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "7328490391",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0269",
@@ -9139,7 +13609,7 @@
   "lon": -74.1996628,
   "hours_open_weekly": 52.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://www.abwplibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -9147,7 +13617,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013458120",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0255",
@@ -9172,7 +13654,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018380077",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0256",
@@ -9197,7 +13691,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014710555",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0256",
@@ -9222,7 +13728,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017725500",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0265",
@@ -9239,7 +13757,7 @@
   "lon": -74.2180031,
   "hours_open_weekly": 46.38461538461539,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.totowapl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -9247,7 +13765,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017903265",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0257",
@@ -9272,7 +13802,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017903808",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0259",
@@ -9297,7 +13839,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012562784",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0258",
@@ -9314,7 +13868,7 @@
   "lon": -74.1552664,
   "hours_open_weekly": 61.13461538461539,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://louisbay2ndlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -9322,7 +13876,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014275745",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0260",
@@ -9347,7 +13913,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014276213",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0261",
@@ -9372,7 +13950,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017790474",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0261",
@@ -9397,7 +13987,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9737790474",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0261",
@@ -9422,7 +14024,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017776044",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0262",
@@ -9447,7 +14061,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9733211309",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0262",
@@ -9472,7 +14098,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018817038",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0262",
@@ -9497,7 +14135,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012796577",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0262",
@@ -9522,7 +14172,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017900950",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0263",
@@ -9539,7 +14201,7 @@
   "lon": -74.2906184,
   "hours_open_weekly": 52.46153846153846,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.pomptonlakeslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -9547,7 +14209,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018350482",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0264",
@@ -9572,7 +14246,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019626256",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0266",
@@ -9597,7 +14283,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018394434",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0267",
@@ -9622,7 +14320,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016944272",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0268",
@@ -9647,7 +14357,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017282820",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0270",
@@ -9672,7 +14394,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6093582014",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0272",
@@ -9697,7 +14431,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6096785473",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0273",
@@ -9722,7 +14468,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099350526",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0274",
@@ -9747,7 +14505,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6097690098",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0276",
@@ -9764,7 +14534,7 @@
   "lon": -74.6510195,
   "hours_open_weekly": 57.26923076923077,
   "source_year": "FY2023",
-  "website": null,
+  "website": "https://www.dillonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -9772,7 +14542,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012342325",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0277",
@@ -9797,7 +14579,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012043031",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0278",
@@ -9822,7 +14616,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017660118",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0280",
@@ -9839,7 +14645,7 @@
   "lon": -74.5625383,
   "hours_open_weekly": 43.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.franklintwp.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -9847,7 +14653,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "7328738700",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0280",
@@ -9864,7 +14682,7 @@
   "lon": -74.5231274,
   "hours_open_weekly": 61.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.franklintwp.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -9872,7 +14690,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018738700",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0280",
@@ -9889,7 +14719,7 @@
   "lon": -74.47873682,
   "hours_open_weekly": 26.0,
   "source_year": "FY2023",
-  "website": null,
+  "website": "http://www.franklintwp.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -9897,7 +14727,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "8488381960",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0282",
@@ -9922,7 +14764,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017250413",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -9947,7 +14801,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "7323560043",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -9972,7 +14838,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015264016",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -9997,7 +14875,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013593921",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -10022,7 +14912,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9087229722",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -10047,7 +14949,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6099247073",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -10072,7 +14986,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9084588430",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -10097,7 +15023,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017557909",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -10122,7 +15060,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012340598",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -10147,7 +15097,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9087251336",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -10172,7 +15134,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017545554",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0275",
@@ -10197,7 +15171,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2015610117",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0285",
@@ -10222,7 +15208,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017293101",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0284",
@@ -10247,7 +15245,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9733834810",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0284",
@@ -10272,7 +15282,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9738278095",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0284",
@@ -10297,7 +15319,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9737701000",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0284",
@@ -10322,7 +15356,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9738276555",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0284",
@@ -10347,7 +15393,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9739483660",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0284",
@@ -10372,7 +15430,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9738753940",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0286",
@@ -10397,7 +15467,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014649333",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0287",
@@ -10422,7 +15504,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013885999",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0288",
@@ -10447,7 +15541,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017097272",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0289",
@@ -10472,7 +15578,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013546060",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0289",
@@ -10497,7 +15615,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9083546060",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0289",
@@ -10522,7 +15652,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013534820",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0289",
@@ -10547,7 +15689,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "6098200200",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0290",
@@ -10572,7 +15726,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013226400",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0291",
@@ -10597,7 +15763,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017891670",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0292",
@@ -10622,7 +15800,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2019234413",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0293",
@@ -10647,7 +15837,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012762451",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0294",
@@ -10672,7 +15874,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012983830",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0295",
@@ -10697,7 +15911,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012330115",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0296",
@@ -10722,7 +15948,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016650311",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0297",
@@ -10747,7 +15985,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017571111",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0298",
@@ -10772,7 +16022,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013880761",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0299",
@@ -10797,7 +16059,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012455809",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0300",
@@ -10822,7 +16096,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012452456",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0301",
@@ -10847,7 +16133,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013225007",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0302",
@@ -10872,7 +16170,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2013764930",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0303",
@@ -10897,7 +16207,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2012730350",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0304",
@@ -10922,7 +16244,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016860420",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0304",
@@ -10947,7 +16281,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016881078",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0305",
@@ -10972,7 +16318,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2017894090",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0310",
@@ -10997,7 +16355,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2018524936",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0311",
@@ -11022,7 +16392,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014532625",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0312",
@@ -11047,7 +16429,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014543712",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0307",
@@ -11072,7 +16466,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014541445",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0306",
@@ -11097,7 +16503,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9083628535",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0306",
@@ -11122,7 +16540,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9086898265",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0306",
@@ -11147,7 +16577,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9088133858",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0306",
@@ -11172,7 +16614,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "9086897922",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0306",
@@ -11197,7 +16651,19 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2014756322",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  },
  {
   "fscskey": "NJ0313",
@@ -11222,6 +16688,18 @@
   "outreach": {
    "status": "todo",
    "notes": null
-  }
+  },
+  "services": null,
+  "hours": null,
+  "resources": null,
+  "proposed_hours_note": null,
+  "admin_phone": {
+   "value": "2016890201",
+   "verified_on": null
+  },
+  "admin_email": null,
+  "contact_form_url": null,
+  "director": null,
+  "board_url": null
  }
 ]
