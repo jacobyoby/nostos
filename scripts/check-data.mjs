@@ -65,6 +65,11 @@ for (const [i, r] of libraries.entries()) {
       }
     }
   }
+  for (const key of ["contact_form_url", "board_url"]) {
+    const field = r[key];
+    const value = field && typeof field === "object" ? field.value : field;
+    if (value != null && !safeHttpUrl(value)) errors.push(`${loc}: ${key} is not http(s)`);
+  }
 }
 
 requireArray("data/imls-nj-outlets.json");

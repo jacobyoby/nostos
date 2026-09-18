@@ -2,7 +2,8 @@
 
 ## Unreleased
 
-- Finder and outlet pages show a weekday open/close schedule from the library website (schema.org or a single unambiguous week). IMLS hours-per-week is not treated as a schedule.
+- Finder and outlet pages show a weekday open/close schedule from the library website (schema.org, microdata, or a single unambiguous week, including Monday–Thursday ranges). IMLS hours-per-week is not treated as a schedule.
+- Website seeder records evidenced services (top ~40 systems), admin email/form/board/director, and extra central hours. Null beats guessed.
 - Every outlet has a 4-digit DCA municipality code from NJOGIS boundaries.
 - GitHub Pages deploys `www/` from `main`.
 

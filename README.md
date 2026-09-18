@@ -57,7 +57,7 @@ python3 -m http.server 8080
 
 Each service is `{name, evidence_url, verified_on}`. Names: legal-help desk, lawyer-in-the-library, notary, passport, printing/scanning, meeting rooms, tax prep, language help, computer access, other.
 
-Hours, when published, are `{days: [{day, open, close}], source_url, verified_on}` in America/New_York. Refresh with `npm run seed:hours`. Every outlet has a 4-digit DCA `municipality_code` from NJOGIS municipal boundaries.
+Hours, when published, are `{days: [{day, open, close}], source_url, verified_on}` in America/New_York. IMLS `hours_open_weekly` is a yearly total, not a schedule, and is never shown. Refresh hours from library sites with `npm run seed:hours`. Seed services, admin contact, and extra hours from websites with `npm run seed:sites` (top ~40 systems for services; all unique sites for contact; remaining centrals for hours). Every outlet has a 4-digit DCA `municipality_code` from NJOGIS municipal boundaries.
 
 ## Develop
 
@@ -81,4 +81,4 @@ CI runs on every push and PR. GitHub Pages deploys `www/` from `main`. Intended 
 
 ## Status
 
-Open work lives in [issues](https://github.com/jacobyoby/nostos/issues): per-day hours, municipal boundaries, remaining NJSL name matches, production hosting.
+Open work lives in [issues](https://github.com/jacobyoby/nostos/issues). GitHub Pages deploys `www/` from `main`; intended long-term host is loam.

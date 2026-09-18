@@ -1,5 +1,8 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { dirname, join } from "node:path";
 import { test } from "node:test";
+import { fileURLToPath } from "node:url";
 import {
   applyAcceptedProposal,
   formatPhone,
@@ -9,6 +12,9 @@ import {
   servicesOf,
   telHref,
 } from "../../src/lib/nostos.js";
+
+const root = join(dirname(fileURLToPath(import.meta.url)), "../..");
+const libraries = JSON.parse(readFileSync(join(root, "data/nj-libraries.json"), "utf8"));
 
 test("makeProposal rejects reviews and ratings", () => {
   const base = { outlet_key: "NJ0003-002", kind: "resource", value: "ISBN 123" };
@@ -45,6 +51,16 @@ test("hoursStatus does not treat IMLS weekly totals as a schedule", () => {
   const status = hoursStatus({ hours_open_weekly: 48 }, new Date());
   assert.equal(status.kind, "unpublished");
   assert.equal(status.label, "Hours not published");
+});
+
+test("no published hours label uses weekly IMLS totals", () => {
+  for (const r of libraries) {
+    const status = hoursStatus(r);
+    assert.doesNotMatch(status.label, /h\/wk|hours per week|hours_open_weekly/i);
+    if (r.hours && r.hours.days) {
+      assert.ok(r.hours.days.every((d) => d.day && d.open && d.close));
+    }
+  }
 });
 
 test("formatPhone and telHref for NANP numbers", () => {

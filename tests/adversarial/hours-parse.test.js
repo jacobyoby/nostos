@@ -27,6 +27,33 @@ test("parseOpeningHoursString reads schema.org compact form", () => {
   assert.equal(isCompleteEnough(slots), true);
 });
 
+test("parseOpeningHoursString expands Mo-Th ranges", () => {
+  const slots = parseOpeningHoursString("Mo-Th 10:00-20:00, Fr 10:00-17:00, Sa 10:00-14:00");
+  assert.equal(slots.find((s) => s.day === "wednesday").close, "20:00");
+  assert.equal(slots.find((s) => s.day === "friday").close, "17:00");
+  assert.equal(isCompleteEnough(slots), true);
+});
+
+test("parseHoursFromPage reads itemprop openingHours", () => {
+  const html = `<time itemprop="openingHours" content="Mo-Fr 09:00-17:00"></time><time itemprop="openingHours" content="Sa 10:00-14:00"></time>`;
+  const slots = parseHoursFromPage(html);
+  assert.equal(slots.find((s) => s.day === "monday").open, "09:00");
+  assert.equal(slots.find((s) => s.day === "saturday").close, "14:00");
+});
+
+test("parseHoursFromPage expands Monday-Thursday visible ranges", () => {
+  const html = `<p>Monday – Thursday: 10:00 AM – 8:00 PM</p><p>Friday: 10:00 AM – 5:00 PM</p><p>Saturday: 10:00 AM – 5:00 PM</p><p>Sunday: Closed</p>`;
+  const slots = parseHoursFromPage(html);
+  assert.deepEqual(
+    slots.find((s) => s.day === "wednesday"),
+    { day: "wednesday", open: "10:00", close: "20:00" },
+  );
+  assert.deepEqual(
+    slots.find((s) => s.day === "friday"),
+    { day: "friday", open: "10:00", close: "17:00" },
+  );
+});
+
 test("parseHoursFromPage prefers JSON-LD LocalBusiness openingHours", () => {
   const html = `<script type="application/ld+json">{"@type":"LocalBusiness","openingHours":"Mo 10:00-21:00, Tu 10:00-21:00, We 10:00-21:00, Th 10:00-21:00, Fr 10:00-18:00, Sa 10:00-17:00, Su 13:00-17:00"}</script>`;
   const slots = parseHoursFromPage(html);
