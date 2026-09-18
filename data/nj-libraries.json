@@ -33,9 +33,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://acfpl.org/about-us-new/contact-acfpl.html",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://acfpl.org/about-us-new/board-of-trustees-menu/2023-09-19-17-59-20.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0003",
@@ -71,9 +77,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://acfpl.org/about-us-new/contact-acfpl.html",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://acfpl.org/about-us-new/board-of-trustees-menu/2023-09-19-17-59-20.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0001",
@@ -100,7 +112,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -138,7 +161,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -176,7 +210,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -214,7 +259,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -252,7 +308,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -290,7 +357,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -328,7 +406,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -366,7 +455,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -404,7 +504,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -442,7 +553,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://atlanticlibrary.org/meetingrooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://atlanticlibrary.org/mobileprint/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -513,7 +635,10 @@
    "value": "6099276756",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "linwoodlibrary@linwoodlibrary.com",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -627,7 +752,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.margatelibrary.org/about/library-board",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0006",
@@ -740,10 +868,19 @@
    "value": "2013874040",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "director@bergenfieldlibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.bergenfieldlibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.bergenfieldlibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0010",
@@ -808,10 +945,19 @@
    "value": "2014887185",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "bogtcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://bogotapubliclibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://bogotapubliclibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0012",
@@ -884,7 +1030,10 @@
    "value": "2017684197",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "circulation@closter.bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -998,7 +1147,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.demarestlibrary.org/about/board",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0016",
@@ -1068,10 +1220,16 @@
    "value": "2013842030",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@dumont.bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.dumontlibrary.org/dixon-homestead-library-board-members-staff-members-friends-of-the-library",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0017",
@@ -1109,7 +1267,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://eastrutherford.bccls.org/board-of-trustees.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0018",
@@ -1255,10 +1416,16 @@
    "value": "2012615604",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "emercirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.emersonlibrary.com/board-of-trustees-and-staff-at-emerson-public-library-nj",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0021",
@@ -1286,17 +1453,66 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "13:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://englewoodlibrary.org/about/hours-and-holidays/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2015682215",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "director@englewood.bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://englewoodlibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://englewoodlibrary.org/about/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0023",
@@ -1324,7 +1540,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://fairviewlibrarynj.org/english-conversationeslon-march-12-2026-at-504-pm/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1332,9 +1583,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://fairviewlibrarynj.org/about/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://fairviewlibrarynj.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0024",
@@ -1369,7 +1626,10 @@
    "value": "2015923614",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@fortlee.bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -1447,10 +1707,16 @@
    "value": "2018912224",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@franklinlakes.bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://franklinlakeslibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0026",
@@ -1563,10 +1829,16 @@
    "value": "2016703970",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "glrkcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.glenrocklibrary.org/board-members",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0029",
@@ -1677,8 +1949,14 @@
    "value": "2013841020",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "hawhcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.haworthlibrary.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -1788,10 +2066,19 @@
    "value": "2014711692",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "wallcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.wallingtonpubliclibrary.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.wallingtonpubliclibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0028",
@@ -1861,10 +2148,16 @@
    "value": "2013434169",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "help@johnsonlib.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.johnsonlib.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0008",
@@ -1932,7 +2225,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.leememoriallibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0034",
@@ -2002,10 +2298,16 @@
    "value": "2015925770",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "leoncirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.leonialibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0035",
@@ -2079,9 +2381,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.lodilibrarynj.org/contact-us.html",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.lodilibrarynj.org/board-of-trustees-meetings.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0037",
@@ -2154,10 +2462,19 @@
    "value": "2015292183",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "info@mahwahlibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.mahwahlibrary.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.mahwahlibrary.org/about-us/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0022",
@@ -2192,10 +2509,16 @@
    "value": "2017963400",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "faircirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.fairlawnlibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0039",
@@ -2230,10 +2553,19 @@
    "value": "2018457755",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "maywcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://maywoodpubliclibrary.com/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://maywoodpubliclibrary.com/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0040",
@@ -2303,10 +2635,19 @@
    "value": "2014442390",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "mipkcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.midlandparklibrary.org/contact-the-midland-park-memorial-library",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.midlandparklibrary.org/staff-members-and-board-members-for-the-midland-park-memorial-library",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0041",
@@ -2342,9 +2683,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.montvalelibrarynj.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.montvalelibrarynj.org/board",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0042",
@@ -2455,10 +2802,19 @@
    "value": "2017684784",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "novlcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.northvalelibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.northvalelibrary.org/library-board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0045",
@@ -2494,7 +2850,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.nplnj.org/contact-5",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -2569,8 +2928,14 @@
    "value": "2016643499",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "otpncirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.oldtappanlibrary.com/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -2607,7 +2972,10 @@
    "value": "2012622613",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "oradcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -2675,10 +3043,19 @@
    "value": "2015854150",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "reference@palisadespark.bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.palparklibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.palparklibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0050",
@@ -2867,10 +3244,16 @@
    "value": "2013271445",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "ramscirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.ramseylibrary.org/ramsey-free-public-library-board-members",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0053",
@@ -2898,7 +3281,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://www.ridgefieldpubliclibrary.com/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -2908,7 +3326,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.ridgefieldpubliclibrary.com/index.asp?SEC=9AF28306-D9EB-4B80-8FB8-E9314B7F7B09&DE=B7F6285A-1A8F-41F2-B192-582023FF4E07",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0054",
@@ -2944,9 +3365,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.ridgefieldpark.org/FormCenter/General-Forms-4/Contact-Us-46",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.ridgefieldpark.org/Calendar.aspx?EID=1291",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0055",
@@ -2974,15 +3401,56 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://ridgewoodlibrary.org/about/library-hours-and-holidays/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2016705600",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "ask@ridgewoodlibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://ridgewoodlibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -3020,9 +3488,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.riveredgepubliclibrary.org/contact-us.html",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.riveredgepubliclibrary.org/board-of-trustees.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0057",
@@ -3057,7 +3531,10 @@
    "value": "2013912323",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "director@rivervale.bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -3135,8 +3612,14 @@
    "value": "2015877735",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "ropkcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.rplibrary.org/rpl-contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -3390,10 +3873,19 @@
    "value": "2013272583",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "usdrcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://uppersaddleriverlibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://uppersaddleriverlibrary.org/legal-notices-and-public-announcements/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0064",
@@ -3428,10 +3920,16 @@
    "value": "2016525104",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "waldcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.waldwicklibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0066",
@@ -3504,10 +4002,16 @@
    "value": "2016640583",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "library@westwood.bccls.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.westwoodpubliclibrary.org/board-of-trustees-at-the-westwood-library-and-staff",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0011",
@@ -3542,10 +4046,19 @@
    "value": "2014388866",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "mellett@carlstadt.bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://carlstadtlibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://carlstadtlibrary.org/about-us/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0068",
@@ -3573,17 +4086,61 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://woodridgememoriallibrary.org/hours-holiday-closings/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2014382455",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "wrdgcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://woodridgememoriallibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://woodridgememoriallibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0033",
@@ -3654,9 +4211,18 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
-  "director": null,
-  "board_url": null
+  "contact_form_url": {
+   "value": "https://www.hohokuslibrary.org/contact-us.html",
+   "verified_on": "2026-09-18"
+  },
+  "director": {
+   "value": "Morgan Taylor",
+   "verified_on": "2026-09-18"
+  },
+  "board_url": {
+   "value": "https://www.hohokuslibrary.org/board-of-trustees.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0069",
@@ -3692,9 +4258,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://wyckofflibrary.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://wyckofflibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ9009",
@@ -3799,6 +4371,11 @@
     "name": "legal-help desk",
     "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
     "verified_on": null
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://bcls.lib.nj.us/meeting-and-study-rooms/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -3808,7 +4385,10 @@
    "value": "6092980622",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cardrenewals@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -3843,6 +4423,11 @@
     "name": "legal-help desk",
     "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
     "verified_on": null
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://bcls.lib.nj.us/meeting-and-study-rooms/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -3852,7 +4437,10 @@
    "value": "6092679660",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cardrenewals@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -3887,6 +4475,11 @@
     "name": "legal-help desk",
     "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
     "verified_on": null
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://bcls.lib.nj.us/meeting-and-study-rooms/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -3896,7 +4489,10 @@
    "value": "6092679660",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cardrenewals@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -3931,6 +4527,11 @@
     "name": "legal-help desk",
     "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
     "verified_on": null
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://bcls.lib.nj.us/meeting-and-study-rooms/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -3940,7 +4541,10 @@
    "value": "6098299340",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cardrenewals@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -3975,6 +4579,11 @@
     "name": "legal-help desk",
     "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
     "verified_on": null
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://bcls.lib.nj.us/meeting-and-study-rooms/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -3984,7 +4593,10 @@
    "value": "6099831444",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cardrenewals@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -4019,6 +4631,11 @@
     "name": "legal-help desk",
     "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
     "verified_on": null
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://bcls.lib.nj.us/meeting-and-study-rooms/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -4028,7 +4645,10 @@
    "value": "8567799767",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cardrenewals@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -4063,6 +4683,11 @@
     "name": "legal-help desk",
     "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
     "verified_on": null
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://bcls.lib.nj.us/meeting-and-study-rooms/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -4072,7 +4697,10 @@
    "value": "6098942516",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cardrenewals@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -4107,6 +4735,11 @@
     "name": "legal-help desk",
     "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
     "verified_on": null
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://bcls.lib.nj.us/meeting-and-study-rooms/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -4116,7 +4749,10 @@
    "value": "6096546113",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cardrenewals@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -4151,6 +4787,11 @@
     "name": "legal-help desk",
     "evidence_url": "https://bcls.lib.nj.us/legal-self-help/",
     "verified_on": null
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://bcls.lib.nj.us/meeting-and-study-rooms/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -4160,7 +4801,10 @@
    "value": "8568292476",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cardrenewals@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -4236,7 +4880,10 @@
    "value": "6094616850",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "mail@delancolibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -4312,8 +4959,14 @@
    "value": "6093861273",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "burlington@bcls.lib.nj.us",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://librarycompanyofburlington.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4350,10 +5003,16 @@
    "value": "6092340333",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "adult@moorestownlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://events.moorestownlibrary.org/event/15615755",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0077",
@@ -4381,15 +5040,46 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "17:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "15:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "15:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://twp.mountholly.nj.us/libraries/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "6092677111",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "info@twp.mountholly.nj.us",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://twp.mountholly.nj.us/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4578,10 +5268,19 @@
    "value": "6095478686",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "mlschuman@audubonlibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://audubonlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://audubonlibrary.org/library-board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0083",
@@ -4608,7 +5307,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://events.camdencountylibrary.org/reserve-room/by-room",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -4617,7 +5322,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.camdencountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4646,7 +5354,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://events.camdencountylibrary.org/reserve-room/by-room",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -4655,7 +5369,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.camdencountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4684,7 +5401,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://events.camdencountylibrary.org/reserve-room/by-room",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -4693,7 +5416,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.camdencountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4722,7 +5448,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://events.camdencountylibrary.org/reserve-room/by-room",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -4731,7 +5463,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.camdencountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4760,8 +5495,104 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
-  "hours": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://events.camdencountylibrary.org/reserve-room/by-room",
+    "verified_on": "2026-09-18"
+   }
+  ],
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "monday",
+     "open": "14:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "14:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "14:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "14:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:30",
+     "close": "16:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://events.camdencountylibrary.org/locations",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -4769,7 +5600,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.camdencountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4798,7 +5632,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://events.camdencountylibrary.org/reserve-room/by-room",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -4807,7 +5647,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.camdencountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4836,7 +5679,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://events.camdencountylibrary.org/reserve-room/by-room",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -4845,7 +5694,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.camdencountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4874,7 +5726,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://events.camdencountylibrary.org/reserve-room/by-room",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -4883,7 +5741,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.camdencountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -4996,10 +5857,19 @@
    "value": "6098580649",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "libraryadmin@collingswoodlib.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.collingswoodlib.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.collingswoodlib.org/about/board/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0090",
@@ -5108,7 +5978,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://newsite.gloucestercitylibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -5145,10 +6018,19 @@
    "value": "6095477132",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "chris@haddonheightslibrary.com",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.haddonheightslibrary.com/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.haddonheightslibrary.com/about/staff-and-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0092",
@@ -5290,7 +6172,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.pennsaukenlibrary.org/hours",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -5300,7 +6222,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.pennsaukenlibrary.org/boardoftrustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0096",
@@ -5515,7 +6440,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.avalonfreelibrary.org/connect/contact-library",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -5553,7 +6481,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.avalonfreelibrary.org/connect/contact-library",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -5924,7 +6855,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.oceancitylibrary.org/meeting-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -5932,8 +6869,14 @@
    "value": "6093992434",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "jhoward@oceancitylibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.oceancitylibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -5962,16 +6905,68 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
-  "hours": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.oceancitylibrary.org/meeting-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "11:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.oceancitylibrary.org/hours-and-holidays/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "6093992434",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "jhoward@oceancitylibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.oceancitylibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -6009,7 +7004,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://bridgetonlibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -6114,10 +7112,16 @@
    "value": "6098257087",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "contactus@millvillepubliclibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.millvillepubliclibrary.org/en/about/library-board-policies",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0109",
@@ -6190,7 +7194,10 @@
    "value": "2012273575",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "ffpl@ffpl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -6228,10 +7235,16 @@
    "value": "2014503434",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@bellepl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://bellepl.org/about-bpl/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0111",
@@ -6291,10 +7304,19 @@
    "value": "2014299292",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "reference@bloomfield.bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.bplnj.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.bplnj.org/board-of-trustees-policies",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0112",
@@ -6329,7 +7351,10 @@
    "value": "2012262837",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "librarian@caldwellpl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -6360,7 +7385,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "12:00"
+    }
+   ],
+   "source_url": "https://cedargrovelibrary.net/about/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -6370,7 +7430,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://cedargrovelibrary.net/about/board.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0114",
@@ -6397,7 +7460,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.eopl.org/study-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -6405,7 +7474,10 @@
    "value": "2012665610",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "jp@eopl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -6435,7 +7507,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.eopl.org/study-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -6443,7 +7521,10 @@
    "value": "2012665600",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "jp@eopl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -6473,7 +7554,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.eopl.org/study-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -6481,7 +7568,10 @@
    "value": "2012665620",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "jp@eopl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -6511,7 +7601,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.eopl.org/study-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -6519,7 +7615,10 @@
    "value": "2012665630",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "jp@eopl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -6558,9 +7657,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.glenridgelibrary.org/contact-us.html",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.glenridgelibrary.org/board-of-trustees.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0117",
@@ -6595,10 +7700,19 @@
    "value": "2013726400",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "irvingtonpubliclibrarynj@gmail.com",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "http://www.irvingtonpubliclibrary.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "http://www.irvingtonpubliclibrary.org/about-us/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0119",
@@ -6625,7 +7739,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "computer access",
+    "evidence_url": "https://www.maplewoodlibrary.org/services-public-computers",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.maplewoodlibrary.org/services-notary",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.maplewoodlibrary.org/services-esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -6633,10 +7763,16 @@
    "value": "2017621688",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "slester@maplewoodlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.maplewoodlibrary.org/library-news-blog/2026/8/21/special-meeting-notice-maplewood-library-board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0119",
@@ -6663,7 +7799,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "computer access",
+    "evidence_url": "https://www.maplewoodlibrary.org/services-public-computers",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.maplewoodlibrary.org/services-notary",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.maplewoodlibrary.org/services-esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -6671,10 +7823,16 @@
    "value": "2017621622",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "slester@maplewoodlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.maplewoodlibrary.org/library-news-blog/2026/8/21/special-meeting-notice-maplewood-library-board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0120",
@@ -6702,15 +7860,61 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:45"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "20:45"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "20:45"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "20:45"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:15"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "17:15"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "16:45"
+    }
+   ],
+   "source_url": "https://millburnlibrary.org/hours/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2013761006",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "millcirc@bccls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://millburnlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -6739,7 +7943,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://montclairlibrary.org/services/room-reservations/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "passport",
+    "evidence_url": "https://montclairlibrary.org/services/passports/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://montclairlibrary.org/services/notary-service/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -6747,10 +7967,16 @@
    "value": "2017442468",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@montclairlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://montclairlibrary.org/about/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0121",
@@ -6777,7 +8003,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://montclairlibrary.org/services/room-reservations/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "passport",
+    "evidence_url": "https://montclairlibrary.org/services/passports/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://montclairlibrary.org/services/notary-service/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -6785,10 +8027,16 @@
    "value": "2017440500",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@montclairlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://montclairlibrary.org/about/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0121",
@@ -6815,7 +8063,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://montclairlibrary.org/services/room-reservations/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "passport",
+    "evidence_url": "https://montclairlibrary.org/services/passports/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://montclairlibrary.org/services/notary-service/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -6823,10 +8087,16 @@
    "value": "9737440500",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@montclairlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://montclairlibrary.org/about/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0122",
@@ -6858,6 +8128,21 @@
     "name": "legal-help desk",
     "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
     "verified_on": null
+   },
+   {
+    "name": "computer access",
+    "evidence_url": "https://www.npl.org/public-access-computers/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.npl.org/esl/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.npl.org/notary-services-2/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -6867,10 +8152,16 @@
    "value": "2017337800",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@npl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.npl.org/%f0%9f%93%a3-newark-public-library-board-of-trustees-meeting-virtual/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0122",
@@ -6902,6 +8193,21 @@
     "name": "legal-help desk",
     "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
     "verified_on": null
+   },
+   {
+    "name": "computer access",
+    "evidence_url": "https://www.npl.org/public-access-computers/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.npl.org/esl/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.npl.org/notary-services-2/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": {
@@ -6946,10 +8252,16 @@
    "value": "2017337800",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@npl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.npl.org/%f0%9f%93%a3-newark-public-library-board-of-trustees-meeting-virtual/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0122",
@@ -6981,6 +8293,21 @@
     "name": "legal-help desk",
     "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
     "verified_on": null
+   },
+   {
+    "name": "computer access",
+    "evidence_url": "https://www.npl.org/public-access-computers/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.npl.org/esl/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.npl.org/notary-services-2/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -6990,10 +8317,16 @@
    "value": "2017337800",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@npl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.npl.org/%f0%9f%93%a3-newark-public-library-board-of-trustees-meeting-virtual/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0122",
@@ -7025,6 +8358,21 @@
     "name": "legal-help desk",
     "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
     "verified_on": null
+   },
+   {
+    "name": "computer access",
+    "evidence_url": "https://www.npl.org/public-access-computers/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.npl.org/esl/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.npl.org/notary-services-2/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -7034,10 +8382,16 @@
    "value": "2017337800",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@npl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.npl.org/%f0%9f%93%a3-newark-public-library-board-of-trustees-meeting-virtual/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0122",
@@ -7069,6 +8423,21 @@
     "name": "legal-help desk",
     "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
     "verified_on": null
+   },
+   {
+    "name": "computer access",
+    "evidence_url": "https://www.npl.org/public-access-computers/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.npl.org/esl/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.npl.org/notary-services-2/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -7078,10 +8447,16 @@
    "value": "2017337800",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@npl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.npl.org/%f0%9f%93%a3-newark-public-library-board-of-trustees-meeting-virtual/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0122",
@@ -7113,6 +8488,21 @@
     "name": "legal-help desk",
     "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
     "verified_on": null
+   },
+   {
+    "name": "computer access",
+    "evidence_url": "https://www.npl.org/public-access-computers/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.npl.org/esl/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.npl.org/notary-services-2/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -7122,10 +8512,16 @@
    "value": "2017337800",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@npl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.npl.org/%f0%9f%93%a3-newark-public-library-board-of-trustees-meeting-virtual/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0122",
@@ -7157,6 +8553,21 @@
     "name": "legal-help desk",
     "evidence_url": "https://www.npl.org/tenant-court-eviction-defense-workshop/",
     "verified_on": null
+   },
+   {
+    "name": "computer access",
+    "evidence_url": "https://www.npl.org/public-access-computers/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.npl.org/esl/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.npl.org/notary-services-2/",
+    "verified_on": "2026-09-18"
    }
   ],
   "hours": null,
@@ -7166,10 +8577,16 @@
    "value": "2017337800",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@npl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.npl.org/%f0%9f%93%a3-newark-public-library-board-of-trustees-meeting-virtual/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0123",
@@ -7343,10 +8760,19 @@
    "value": "2017620230",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "librarian@sopl.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.sopl.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.sopl.org/library-board/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0124",
@@ -7382,7 +8808,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.orangepl.org/contact.php",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -7422,7 +8851,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.veronalibrary.org/library-board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0128",
@@ -7641,7 +9073,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "tax prep",
+    "evidence_url": "https://www.gcls.org/aarp/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.gcls.org/notary-public-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.gcls.org/how-do-i/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -7649,8 +9097,14 @@
    "value": "8564230684",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "ada@gcls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.gcls.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -7679,7 +9133,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "tax prep",
+    "evidence_url": "https://www.gcls.org/aarp/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.gcls.org/notary-public-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.gcls.org/how-do-i/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -7687,8 +9157,14 @@
    "value": "6098810001",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "ada@gcls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.gcls.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -7717,7 +9193,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "tax prep",
+    "evidence_url": "https://www.gcls.org/aarp/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.gcls.org/notary-public-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.gcls.org/how-do-i/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -7725,8 +9217,14 @@
    "value": "6092236000",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "ada@gcls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.gcls.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -7755,7 +9253,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "tax prep",
+    "evidence_url": "https://www.gcls.org/aarp/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.gcls.org/notary-public-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.gcls.org/how-do-i/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -7763,8 +9277,14 @@
    "value": "6094670595",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "ada@gcls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.gcls.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -7793,7 +9313,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "tax prep",
+    "evidence_url": "https://www.gcls.org/aarp/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://www.gcls.org/notary-public-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.gcls.org/how-do-i/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -7801,8 +9337,14 @@
    "value": "8564670111",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "ada@gcls.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.gcls.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -7870,14 +9412,57 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://hegganlibrary.org/about/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "6095893334",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "info@hegganlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -7915,7 +9500,10 @@
    "value": "6095891656",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "library@mccowan-pitman.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -7946,14 +9534,52 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "15:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "http://monroetpl.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "6096291212",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "info@monroetpl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -8108,7 +9734,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.westvillelibrary.com/trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0145",
@@ -8144,7 +9773,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.woodburylibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -8249,7 +9881,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://hobokenlibrary.org/mobile-printing/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -8258,9 +9896,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://hobokenlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://hobokenlibrary.org/mission-governance-2/library-board-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0148",
@@ -8287,7 +9931,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://hobokenlibrary.org/mobile-printing/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": {
    "days": [
     {
@@ -8331,9 +9981,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://hobokenlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://hobokenlibrary.org/mission-governance-2/library-board-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0149",
@@ -8854,7 +10510,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://nbpl.org/mobile-printing/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://nbpl.org/esl-resources/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -8862,8 +10529,14 @@
    "value": "2018694715",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "info@nbpl.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://nbpl.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -8892,7 +10565,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://nbpl.org/mobile-printing/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://nbpl.org/esl-resources/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -8900,8 +10584,14 @@
    "value": "2018694715",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "info@nbpl.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://nbpl.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -8930,16 +10620,68 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
-  "hours": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://nbpl.org/mobile-printing/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://nbpl.org/esl-resources/",
+    "verified_on": "2026-09-18"
+   }
+  ],
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://nbpl.org/hours-and-locations/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2018694715",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "info@nbpl.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://nbpl.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -9242,7 +10984,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.flemingtonlibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0159",
@@ -9383,16 +11128,68 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
-  "hours": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://hclibrary.us/services/notary",
+    "verified_on": "2026-09-18"
+   }
+  ],
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://hclibrary.us/about/locationsandhours",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2017881444",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "reference@hclibrary.us",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://hclibrary.us/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -9421,7 +11218,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://hclibrary.us/services/notary",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -9429,8 +11232,14 @@
    "value": "9087881444",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "reference@hclibrary.us",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://hclibrary.us/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -9459,7 +11268,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://hclibrary.us/services/notary",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -9467,8 +11282,14 @@
    "value": "9087306262",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "reference@hclibrary.us",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://hclibrary.us/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -9497,7 +11318,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://hclibrary.us/services/notary",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -9505,8 +11332,14 @@
    "value": "9087823564",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "reference@hclibrary.us",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://hclibrary.us/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -9578,10 +11411,19 @@
    "value": "6093970275",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "staff@lambertvillelibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://lambertvillelibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://lambertvillelibrary.org/library-board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0163",
@@ -9692,8 +11534,14 @@
    "value": "6095814060",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "schianese@hamiltonnjpl.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://hamiltonnjpl.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -9731,9 +11579,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://redlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://redlibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0165",
@@ -9760,7 +11614,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://mcl.org/services/notary-public/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -9798,7 +11658,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://mcl.org/services/notary-public/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -9836,7 +11702,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://mcl.org/services/notary-public/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -9874,7 +11746,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://mcl.org/services/notary-public/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -9912,7 +11790,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://mcl.org/services/notary-public/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -9950,8 +11834,44 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
-  "hours": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://mcl.org/services/notary-public/",
+    "verified_on": "2026-09-18"
+   }
+  ],
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://mcl.org/about/hours/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -9988,7 +11908,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://mcl.org/services/notary-public/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -10026,7 +11952,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://mcl.org/services/notary-public/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -10064,7 +11996,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://mcl.org/services/notary-public/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -10103,17 +12041,56 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://www.penningtonlibrary.org/meet-us/location-hours/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "6097370404",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "ihighcock@penningtonlibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.penningtonlibrary.org/meet-us/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.penningtonlibrary.org/meet-us/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0169",
@@ -10148,7 +12125,10 @@
    "value": "6099249529",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "refstaff@princetonlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -10305,7 +12285,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://cranburypubliclibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0189",
@@ -10417,9 +12400,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.ebpl.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.ebpl.org/library-board-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0175",
@@ -10446,7 +12435,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://edisonpubliclibrary.org/literacy-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://edisonpubliclibrary.org/meeting-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -10454,10 +12454,16 @@
    "value": "2017380096",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "helpdesk@edisonpubliclibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://edisonpubliclibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0175",
@@ -10484,18 +12490,75 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
-  "hours": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://edisonpubliclibrary.org/literacy-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://edisonpubliclibrary.org/meeting-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "18:00"
+    },
+    {
+     "day": "sunday",
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://edisonpubliclibrary.org/location-hours/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2012872298",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "helpdesk@edisonpubliclibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://edisonpubliclibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0175",
@@ -10522,7 +12585,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://edisonpubliclibrary.org/literacy-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://edisonpubliclibrary.org/meeting-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -10530,10 +12604,16 @@
    "value": "2015483045",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "helpdesk@edisonpubliclibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://edisonpubliclibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0176",
@@ -10637,14 +12717,52 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.metuchenlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2016328526",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "info@metuchenlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -10718,7 +12836,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.middlesexlibrarynj.org/contact-us-hours/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -10758,7 +12879,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.milltownlibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0181",
@@ -10785,7 +12909,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://www.monroetwplibrary.org/services/notary-service/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.monroetwplibrary.org/esl-resources-for-parents-students/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.monroetwplibrary.org/contact/meetingroom/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -10793,10 +12933,19 @@
    "value": "7325215000",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "kklapperstuck@monroetwplibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.monroetwplibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.monroetwplibrary.org/library/library-board-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0181",
@@ -10823,18 +12972,83 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
-  "hours": null,
+  "services": [
+   {
+    "name": "notary",
+    "evidence_url": "https://www.monroetwplibrary.org/services/notary-service/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "language help",
+    "evidence_url": "https://www.monroetwplibrary.org/esl-resources-for-parents-students/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://www.monroetwplibrary.org/contact/meetingroom/",
+    "verified_on": "2026-09-18"
+   }
+  ],
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.monroetwplibrary.org/library/library-hours/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2015215000",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "kklapperstuck@monroetwplibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.monroetwplibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.monroetwplibrary.org/library/library-board-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0182",
@@ -10942,10 +13156,16 @@
    "value": "2012463545",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "web@northbrunswicklibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://northbrunswicklibrary.org/library-board",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0184",
@@ -11020,10 +13240,19 @@
    "value": "2016795622",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "director@oldbridgelibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://oldbridgelibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://oldbridgelibrary.org/library-agendas-and-minutes/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0185",
@@ -11051,7 +13280,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:30",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://pafpl.org/library/hours",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -11059,9 +13323,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://pafpl.org/library/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://pafpl.org/library/board",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0186",
@@ -11089,17 +13359,61 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.piscatawaylibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2014631633",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "hcramer@piscatawaylibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.piscatawaylibrary.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.piscatawaylibrary.org/about-us/library-board",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0186",
@@ -11134,10 +13448,19 @@
    "value": "2017521166",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "hcramer@piscatawaylibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.piscatawaylibrary.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.piscatawaylibrary.org/about-us/library-board",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0187",
@@ -11165,7 +13488,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:30"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:30"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://plainsborolibrary.org/makerspace-open-hours/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -11173,9 +13536,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://plainsborolibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://plainsborolibrary.org/board-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0188",
@@ -11325,9 +13694,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://southplainfield.lib.nj.us/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://southplainfield.lib.nj.us/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0192",
@@ -11400,7 +13775,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "http://www.southriverlibrary.org/board-trustees-meeting-minutes",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0193",
@@ -11438,7 +13816,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://spotslibrary.org/the-library/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0194",
@@ -11476,7 +13857,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.woodbridgelibrary.org/1073/Board-of-Trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0194",
@@ -11514,7 +13898,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.woodbridgelibrary.org/1073/Board-of-Trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0194",
@@ -11552,7 +13939,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.woodbridgelibrary.org/1073/Board-of-Trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0197",
@@ -11625,7 +14015,10 @@
    "value": "2017756998",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "library@avonbytheseanj.com",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -11656,7 +14049,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "19:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "19:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "19:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "19:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "09:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://belmarlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -11664,9 +14092,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://belmarlibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://belmarlibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0201",
@@ -11742,7 +14176,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.briellelibrary.com/team-3",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0203",
@@ -11802,7 +14239,10 @@
    "value": "2013892665",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "library@eatontownnj.com",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -11840,7 +14280,10 @@
    "value": "2017475031",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "fairhavennjlibrary@gmail.com",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -11990,7 +14433,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.littlesilverlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -12019,7 +14465,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://longbranchlib.org/services/meeting-study-rooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://longbranchlib.org/services/notary-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "tax prep",
+    "evidence_url": "https://longbranchlib.org/services/free-tax-preparation-assistance/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -12030,7 +14492,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://longbranchlib.org/about/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0209",
@@ -12057,7 +14522,23 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://longbranchlib.org/services/meeting-study-rooms/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://longbranchlib.org/services/notary-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "tax prep",
+    "evidence_url": "https://longbranchlib.org/services/free-tax-preparation-assistance/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -12068,7 +14549,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://longbranchlib.org/about/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0210",
@@ -12181,10 +14665,16 @@
    "value": "2015839100",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "info@mapl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://mapl.org/library-links/board/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0211",
@@ -12212,7 +14702,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    }
+   ],
+   "source_url": "https://www.mtpl.org/directions-hours-location/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -12220,9 +14735,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.mtpl.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.mtpl.org/publicnotices/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0212",
@@ -12257,7 +14778,10 @@
    "value": "2012291187",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "jbakos@monmouthcountylib.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -12868,7 +15392,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://oceaniclib.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -12940,10 +15467,19 @@
    "value": "2018420690",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "admin@redbanklibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.redbanklibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.redbanklibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ9010",
@@ -13048,10 +15584,19 @@
    "value": "7324499433",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "info@seagirtlibrary.com",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.seagirtlibrary.com/contact-us-0",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.seagirtlibrary.com/library-board-trustees-meeting-6",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0217",
@@ -13124,10 +15669,16 @@
    "value": "2015423110",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "tintonfallslibrary@gmail.com",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.tintonfallslibrary.com/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0219",
@@ -13314,10 +15865,16 @@
    "value": "2018797612",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "circ-chs@mainlib.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://chesterlib.org/about-us/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0226",
@@ -13353,9 +15910,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.denvillelibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.denvillelibrary.org/about-us/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0227",
@@ -13459,17 +16022,63 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://florhamparklib.org/about/library-hours-closures/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2013772694",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "reference@flo.mainlib.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://florhamparklib.org/about/our-library/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ9011",
@@ -13542,10 +16151,16 @@
    "value": "2016976363",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "seth.stephens@jeffersonlibrary.net",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.jeffersonlibrary.net/About+Us/Library+Board+of+Trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0232",
@@ -13606,7 +16221,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://kinnelonlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -13643,10 +16261,19 @@
    "value": "2016948283",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "librarylincolnpark@gmail.com",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.lincolnparklibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.lincolnparklibrary.org/board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0244",
@@ -13681,8 +16308,14 @@
    "value": "2016472088",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "librarians@lhtlibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://longhilllibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -13757,7 +16390,10 @@
    "value": "2015434152",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "circ-mnb@mainlib.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -13872,7 +16508,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.mclib.info/About/Contact-Us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -13939,7 +16578,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://mmtlibrary.org/resources/english-as-a-second-language/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://mmtlibrary.org/meeting-study-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -13947,10 +16597,19 @@
    "value": "2015386161",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "circ-mmt@mainlib.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://mmtlibrary.org/about-us/contact-us-hours/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://mmtlibrary.org/about-us/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0238",
@@ -13977,7 +16636,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://mmtlibrary.org/resources/english-as-a-second-language/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://mmtlibrary.org/meeting-study-rooms/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": {
    "days": [
     {
@@ -14020,10 +16690,19 @@
    "value": "2015386161",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "circ-mmt@mainlib.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://mmtlibrary.org/about-us/contact-us-hours/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://mmtlibrary.org/about-us/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0241",
@@ -14083,8 +16762,14 @@
    "value": "2013981516",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "main@mainlib.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.mainlib.org/get-involved/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -14311,10 +16996,19 @@
    "value": "2018357460",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "peqchildrens@pequannocklibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://pequannocklibrary.org/contact-us/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://pequannocklibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0246",
@@ -14422,10 +17116,16 @@
    "value": "9738355044",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "circ-riv@mainlib.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.riverdalelibrary.org/board-of-trustees-1",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0247",
@@ -14460,10 +17160,16 @@
    "value": "2016275709",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "rcblibrary@gmail.com",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://rblibrary.org/library-board-of-trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0248",
@@ -14499,7 +17205,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.rtlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -14567,7 +17276,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.rtlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -14604,10 +17316,16 @@
    "value": "2015842400",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "comments@roxburylibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.roxburylibrary.org/trustees-4851/location/roxbury",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0250",
@@ -14681,9 +17399,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.whartonlibrary.org/contact-us.html",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.whartonlibrary.org/board-of-trustees.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0230",
@@ -14753,10 +17477,16 @@
    "value": "2014282460",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "general@whippanong.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.whippanong.org/contact/library-board/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0253",
@@ -14827,7 +17557,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.beachhavenlibrary.org/contact-us",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -14856,7 +17589,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -14865,7 +17604,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -14894,7 +17636,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -14903,7 +17651,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -14932,7 +17683,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -14941,7 +17698,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -14970,7 +17730,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -14979,7 +17745,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15008,7 +17777,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15017,7 +17792,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15046,7 +17824,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15055,7 +17839,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15084,7 +17871,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15093,7 +17886,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15122,7 +17918,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15131,7 +17933,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15160,7 +17965,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15169,7 +17980,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15198,7 +18012,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15207,7 +18027,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15236,7 +18059,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15245,7 +18074,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15274,7 +18106,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15283,7 +18121,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15312,7 +18153,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15321,7 +18168,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15350,7 +18200,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15359,7 +18215,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15388,7 +18247,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15397,7 +18262,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15426,7 +18294,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15435,7 +18309,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15464,7 +18341,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15473,7 +18356,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15502,7 +18388,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15511,7 +18403,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15540,7 +18435,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15549,7 +18450,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15578,7 +18482,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15587,7 +18497,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15616,7 +18529,13 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "language help",
+    "evidence_url": "https://theoceancountylibrary.org/esl",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -15625,7 +18544,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://theoceancountylibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15655,14 +18577,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    }
+   ],
+   "source_url": "https://www.abwplibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2013458120",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "library@abwplibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -15736,7 +18686,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://www.bloomingdalelibrary.org/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -15849,10 +18802,16 @@
    "value": "2017903265",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "krautheimanne@totowapl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.totowapl.org/trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0257",
@@ -15890,7 +18849,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://haledonlib.org/library-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0259",
@@ -15925,10 +18887,16 @@
    "value": "2012562784",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "littlefallslibraryweb@gmail.com",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://littlefallslibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0258",
@@ -16036,8 +19004,14 @@
    "value": "2014276213",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "staff@northhaledonlibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://northhaledonlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -16343,7 +19317,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.pomptonlakeslibrary.org/about/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0264",
@@ -16378,10 +19355,16 @@
    "value": "2019626256",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "ringwoodpl@ringwoodlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.ringwoodlibrary.org/library-board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0266",
@@ -16447,7 +19430,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:30"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.waynepubliclibrary.org/about/library-hours-directions.html",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -16457,7 +19475,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.waynepubliclibrary.org/departments/library-board.html",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0268",
@@ -16492,10 +19513,16 @@
    "value": "2017282820",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "wmtl@wmtl.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.wmtl.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0270",
@@ -16669,7 +19696,10 @@
    "value": "6097690098",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "woodstownlibrary@gmail.com",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -16735,7 +19765,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.dillonlibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0277",
@@ -16836,7 +19869,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://bernardsvillelibrary.org/about/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0280",
@@ -17020,8 +20056,14 @@
    "value": "2017250413",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "info@raritanlibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://raritanlibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17050,7 +20092,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17059,7 +20112,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17088,8 +20144,59 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
-  "hours": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://sclsnj.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -17097,7 +20204,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17126,7 +20236,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17135,7 +20256,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17164,7 +20288,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17173,7 +20308,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17202,7 +20340,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17211,7 +20360,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17240,7 +20392,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17249,7 +20412,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17278,7 +20444,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17287,7 +20464,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17316,7 +20496,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17325,7 +20516,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17354,7 +20548,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17363,7 +20568,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17392,7 +20600,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17401,7 +20620,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17430,7 +20652,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "passport",
+    "evidence_url": "https://sclsnj.org/services/passport-services/",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "notary",
+    "evidence_url": "https://sclsnj.org/services/notary/",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -17439,7 +20672,10 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://sclsnj.org/about-us/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
   "board_url": null
  },
@@ -17501,10 +20737,16 @@
    "value": "2017293101",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "library@spartalibrary.com",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://spartalibrary.com/about-us/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0284",
@@ -17798,17 +21040,53 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "12:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://clarklibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2013885999",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "librarians@clarklibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://clarklibrary.org/library-board/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0288",
@@ -17878,10 +21156,16 @@
    "value": "2017097272",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "cranfordfriends@cranfordlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.cranfordlibrary.org/meeting-minutes-for-the-cranford-public-library",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0289",
@@ -17909,7 +21193,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "08:30",
+     "close": "19:45"
+    },
+    {
+     "day": "tuesday",
+     "open": "08:30",
+     "close": "19:45"
+    },
+    {
+     "day": "wednesday",
+     "open": "08:30",
+     "close": "19:45"
+    },
+    {
+     "day": "thursday",
+     "open": "08:30",
+     "close": "19:45"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:45"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "16:45"
+    }
+   ],
+   "source_url": "http://www.elizpl.org/hoursanddirections.html",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -18258,7 +21577,10 @@
   "admin_email": null,
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://lindenlibrary-nj.gov/notices/board-of-trustees-special-meeting-on-september-12-2026/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0295",
@@ -18286,17 +21608,61 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "18:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "18:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.mountainsidelibrary.org/about/hours",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2012330115",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "npmlref@newprovidencelibrary.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://mountainsidelibrary.org/about/contact",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.mountainsidelibrary.org/programs/full-calendar/board-of-trustees-meetings/board-of-trustees-meeting-7",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0296",
@@ -18476,7 +21842,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://roselleparklibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -18484,9 +21885,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "https://roselleparklibrary.org/contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://roselleparklibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0301",
@@ -18552,17 +21959,61 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.sfplnj.org/about/hours-holidays",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2013764930",
    "verified_on": null
   },
-  "admin_email": null,
-  "contact_form_url": null,
+  "admin_email": {
+   "value": "questions@sfplnj.org",
+   "verified_on": "2026-09-18"
+  },
+  "contact_form_url": {
+   "value": "https://www.sfplnj.org/about/contact-form",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.sfplnj.org/about/trustees",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0303",
@@ -18638,9 +22089,15 @@
    "verified_on": null
   },
   "admin_email": null,
-  "contact_form_url": null,
+  "contact_form_url": {
+   "value": "http://www.summitlibrary.org/hours-contact/",
+   "verified_on": "2026-09-18"
+  },
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "http://www.summitlibrary.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0304",
@@ -18824,7 +22281,10 @@
    "value": "2018524936",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "info@hackettstownlibrary.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -18862,7 +22322,10 @@
    "value": "2014532625",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "oxfordlibrary@comcast.net",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
   "board_url": null
@@ -18893,17 +22356,58 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://www.pburglib.org/about-the-library/hours-directions-holidays/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
    "value": "2014543712",
    "verified_on": null
   },
-  "admin_email": null,
+  "admin_email": {
+   "value": "director@pburglib.org",
+   "verified_on": "2026-09-18"
+  },
   "contact_form_url": null,
   "director": null,
-  "board_url": null
+  "board_url": {
+   "value": "https://www.pburglib.org/board-of-trustees/",
+   "verified_on": "2026-09-18"
+  }
  },
  {
   "fscskey": "NJ0307",
@@ -18968,7 +22472,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://warrenlib.org/printing",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://warrenlib.org/content/study-room-reservations",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -19006,7 +22521,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://warrenlib.org/printing",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://warrenlib.org/content/study-room-reservations",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -19044,7 +22570,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://warrenlib.org/printing",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://warrenlib.org/content/study-room-reservations",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -19082,7 +22619,18 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://warrenlib.org/printing",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://warrenlib.org/content/study-room-reservations",
+    "verified_on": "2026-09-18"
+   }
+  ],
   "hours": null,
   "resources": null,
   "proposed_hours_note": null,
@@ -19120,8 +22668,54 @@
    "status": "todo",
    "notes": null
   },
-  "services": null,
-  "hours": null,
+  "services": [
+   {
+    "name": "printing/scanning",
+    "evidence_url": "https://warrenlib.org/printing",
+    "verified_on": "2026-09-18"
+   },
+   {
+    "name": "meeting rooms",
+    "evidence_url": "https://warrenlib.org/content/study-room-reservations",
+    "verified_on": "2026-09-18"
+   }
+  ],
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://warrenlib.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
