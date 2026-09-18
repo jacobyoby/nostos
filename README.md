@@ -1,20 +1,29 @@
 # Nostos
 
 [![CI](https://github.com/jacobyoby/nostos/actions/workflows/ci.yml/badge.svg)](https://github.com/jacobyoby/nostos/actions/workflows/ci.yml)
+[![v0.1.0](https://img.shields.io/badge/version-0.1.0-1f5c8b)](CHANGELOG.md)
 [![IMLS PLS FY2023](https://img.shields.io/badge/data-IMLS%20PLS%20FY2023-1f5c8b)](https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey)
 
 Find the public library near you and what it offers.
 
 A library is not a restaurant. **Nostos has no ratings, no stars, and no reviews.** People can name a service, note hours or a closure, or say a book is at a location. Those proposals go to a moderation queue, never onto the page.
 
-v0.1.0 covers every active IMLS public library outlet in **New Jersey** (449 locations, 21 counties).
+**v0.1.0** covers every active IMLS public library outlet in **New Jersey** — 449 locations, 21 counties. Web, Android, and iOS share the same static UI.
 
-<p>
-  <img src="docs/screenshots/finder.png" alt="Finder: libraries near Hoboken, sorted by miles" width="900">
-</p>
-<p>
-  <img src="docs/screenshots/outlet.png" alt="Outlet page: contact the library above the fold" width="900">
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/finder.png" alt="Finder: libraries near Hoboken, sorted by miles" width="900">
+      <br>
+      <sub>ZIP, town, or device location → nearest outlets</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/outlet.png" alt="Outlet page: contact the library above the fold" width="900">
+      <br>
+      <sub>Contact first. Unpublished fields stay unpublished.</sub>
+    </td>
+  </tr>
+</table>
 
 ## Try it
 
@@ -30,8 +39,6 @@ python3 -m http.server 8080
 | ZIP `07030` or town `Hoboken` | Nearest outlets, miles, phone, hours |
 | Device location (or deny it) | Same list, or ZIP/town fallback |
 | A library name | Outlet page: **contact the administration** first, then services, then a proposal form |
-
-Web, Android, and iOS share that UI (Capacitor 7).
 
 ## Product rules
 
@@ -60,7 +67,7 @@ npm run test:e2e      # Playwright
 npm run test:all
 ```
 
-Android / iOS:
+Android / iOS (Capacitor 7, `com.jacobyoby.nostos`):
 
 ```bash
 npm run build:www && npx cap sync
@@ -68,7 +75,7 @@ npm run android:assemble   # SDK + JDK
 npm run ios:pod            # macOS + Xcode
 ```
 
-CI runs on every push and PR. Intended production host is loam (with the other jacobrakai static sites). Until that path is wired, serve `src/` + `data/`, or `www/` after `npm run build:www`.
+CI runs on every push and PR. Intended production host is loam (with the other jacobrakai static sites). Until that path is wired, serve `src/` + `data/`, or `www/` after `npm run build:www`. See [CHANGELOG](CHANGELOG.md) for the v0.1.0 cut.
 
 ## Status
 
