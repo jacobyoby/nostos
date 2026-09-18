@@ -123,12 +123,37 @@ function zip5Of(zip) {
 }
 
 /**
+ * Case-fold a place name. Periods drop so "W. Milford" matches "W MILFORD".
+ * @param {unknown} s
+ */
+function normalizePlaceName(s) {
+  return String(s || "")
+    .toLowerCase()
+    .replace(/[.]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
  * @param {string} haystack
  * @param {string} needle
  */
 function hasWordBoundary(haystack, needle) {
+  if (!needle || needle.length > 80) return false;
   const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   return new RegExp(`\\b${escaped}\\b`, "i").test(haystack);
+}
+
+/**
+ * City match that does not treat "Milford" as "New Milford".
+ * Normalized exact equality (periods stripped) — never substring includes.
+ * @param {string} city
+ * @param {string} term
+ */
+function cityMatchesQuery(city, term) {
+  const c = normalizePlaceName(city);
+  const t = normalizePlaceName(term);
+  return Boolean(c && t && c === t);
 }
 
 export function resolveLocationQuery(query, libraries) {
@@ -143,21 +168,20 @@ export function resolveLocationQuery(query, libraries) {
     return centroid(hits, `ZIP ${zip5}`);
   }
 
-  const term = q.toLowerCase();
-  const exactCity = libraries.filter(
-    (r) => isValidCoord(r) && String(r.city || "").trim().toLowerCase() === term,
-  );
+  if (q.length > 80) return null;
+
+  const exactCity = libraries.filter((r) => isValidCoord(r) && cityMatchesQuery(String(r.city || ""), q));
   if (exactCity.length > 0) {
-    const cities = [...new Set(exactCity.map((r) => String(r.city).trim().toLowerCase()))];
+    const cities = [...new Set(exactCity.map((r) => normalizePlaceName(r.city)))];
+    const labelCity = title(exactCity[0].city);
     const label =
-      exactCity.length > 1 && cities.length === 1
-        ? `${title(exactCity[0].city)} (${exactCity.length} locations)`
-        : cities.length > 1
-          ? `${title(term)} (${exactCity.length} locations)`
-          : title(exactCity[0].city);
-    return centroid(exactCity, label);
+      exactCity.length > 1
+        ? `${labelCity} (${exactCity.length} locations)`
+        : labelCity;
+    return centroid(exactCity, cities.length === 1 ? label : `${title(q)} (${exactCity.length} locations)`);
   }
 
+  const term = q.toLowerCase();
   if (term.length < NAME_FALLBACK_MIN_LEN || term.length > 80 || GENERIC_NAME_TERMS.has(term)) return null;
 
   const nameHits = libraries.filter(

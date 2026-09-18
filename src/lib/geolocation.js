@@ -1,5 +1,9 @@
 /**
  * Resolve device position via Capacitor on native, else the browser Geolocation API.
+ *
+ * `@capacitor/geolocation` is a runtime plugin (see capacitor.plugins.json).
+ * src/ is unbundled static HTML, so we call Capacitor.Plugins.Geolocation
+ * rather than a bare specifier that the browser cannot resolve.
  * @returns {Promise<{ lat: number; lon: number }>}
  */
 export async function getDevicePosition() {
