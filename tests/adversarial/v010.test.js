@@ -38,19 +38,13 @@ test("hoursStatus reports open now from structured hours", () => {
   };
   const status = hoursStatus(r, mondayMorning);
   assert.equal(status.kind, "open");
-  assert.match(status.label, /Open now/);
+  assert.match(status.label, /Open now · closes 5:00 PM/);
 });
 
-test("hoursStatus falls back to weekly hours", () => {
+test("hoursStatus does not treat IMLS weekly totals as a schedule", () => {
   const status = hoursStatus({ hours_open_weekly: 48 }, new Date());
-  assert.equal(status.kind, "weekly");
-  assert.equal(status.label, "48 h/wk");
-});
-
-test("hoursStatus rounds fractional IMLS weekly hours", () => {
-  const status = hoursStatus({ hours_open_weekly: 42.69230769230769 }, new Date());
-  assert.equal(status.kind, "weekly");
-  assert.equal(status.label, "42.7 h/wk");
+  assert.equal(status.kind, "unpublished");
+  assert.equal(status.label, "Hours not published");
 });
 
 test("formatPhone and telHref for NANP numbers", () => {

@@ -28,6 +28,9 @@ function requireArray(rel) {
 
 const libraries = requireArray("data/nj-libraries.json");
 if (libraries.length !== 449) errors.push(`nj-libraries.json: expected 449 outlets, got ${libraries.length}`);
+if (libraries.some((r) => !/^\d{4}$/.test(String(r.municipality_code || "")))) {
+  errors.push("nj-libraries.json: every outlet needs a 4-digit municipality_code");
+}
 
 for (const [i, r] of libraries.entries()) {
   const loc = `outlet[${i}] ${r.fscskey}-${r.fscs_seq}`;
@@ -45,6 +48,20 @@ for (const [i, r] of libraries.entries()) {
         if (s.evidence_url != null && !safeHttpUrl(s.evidence_url)) {
           errors.push(`${loc}: service evidence is not http(s)`);
         }
+      }
+    }
+  }
+  if (r.hours != null) {
+    const days = Array.isArray(r.hours) ? r.hours : r.hours.days;
+    if (!Array.isArray(days)) errors.push(`${loc}: hours must be an array or {days, source_url, verified_on}`);
+    else {
+      for (const slot of days) {
+        if (!slot || typeof slot.day !== "string" || typeof slot.open !== "string" || typeof slot.close !== "string") {
+          errors.push(`${loc}: hours slot needs day, open, close`);
+        }
+      }
+      if (!Array.isArray(r.hours) && r.hours.source_url != null && !safeHttpUrl(r.hours.source_url)) {
+        errors.push(`${loc}: hours source_url is not http(s)`);
       }
     }
   }

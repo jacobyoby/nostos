@@ -12,8 +12,9 @@
   "phone": "6093452269",
   "lat": 39.3622473,
   "lon": -74.4280483,
-  "hours_open_weekly": 48.0,
+  "hours_open_weekly": 48,
   "source_year": "FY2023",
+  "municipality_code": "0102",
   "website": "http://acfpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -49,8 +50,9 @@
   "phone": "6093471902",
   "lat": 39.3492001,
   "lon": -74.4595499,
-  "hours_open_weekly": 15.0,
+  "hours_open_weekly": 15,
   "source_year": "FY2023",
+  "municipality_code": "0102",
   "website": "http://acfpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -86,8 +88,9 @@
   "phone": "6096468699",
   "lat": 39.4511116,
   "lon": -74.7255794,
-  "hours_open_weekly": 57.0,
+  "hours_open_weekly": 57,
   "source_year": "FY2023",
+  "municipality_code": "0112",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -123,8 +126,9 @@
   "phone": "6092660110",
   "lat": 39.402278,
   "lon": -74.3742595,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0103",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -162,6 +166,7 @@
   "lon": -74.9179286,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0105",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -197,8 +202,9 @@
   "phone": "6098041063",
   "lat": 39.5295931,
   "lon": -74.6466123,
-  "hours_open_weekly": 46.0,
+  "hours_open_weekly": 46,
   "source_year": "FY2023",
+  "municipality_code": "0107",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -236,6 +242,7 @@
   "lon": -74.6250999,
   "hours_open_weekly": 48.63461538461539,
   "source_year": "FY2023",
+  "municipality_code": "0108",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -273,6 +280,7 @@
   "lon": -74.499325,
   "hours_open_weekly": 55.5,
   "source_year": "FY2023",
+  "municipality_code": "0111",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -310,6 +318,7 @@
   "lon": -74.7946462,
   "hours_open_weekly": 55.5,
   "source_year": "FY2023",
+  "municipality_code": "0113",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -347,6 +356,7 @@
   "lon": -74.5240668,
   "hours_open_weekly": 55.5,
   "source_year": "FY2023",
+  "municipality_code": "0119",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -384,6 +394,7 @@
   "lon": -74.5960218,
   "hours_open_weekly": 55.5,
   "source_year": "FY2023",
+  "municipality_code": "0121",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -421,6 +432,7 @@
   "lon": -74.4827185,
   "hours_open_weekly": 55.5,
   "source_year": "FY2023",
+  "municipality_code": "0122",
   "website": "https://atlanticlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -458,6 +470,7 @@
   "lon": -74.5706081,
   "hours_open_weekly": 51.21153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0114",
   "website": "https://linwoodlibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -468,7 +481,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "sunday",
+     "open": "11:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://linwoodlibrary.com/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -495,6 +533,7 @@
   "lon": -74.5273473,
   "hours_open_weekly": 52.34615384615385,
   "source_year": "FY2023",
+  "municipality_code": "0115",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -530,8 +569,9 @@
   "phone": "6098224700",
   "lat": 39.3280342,
   "lon": -74.4992656,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "0116",
   "website": "http://www.margatelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -542,7 +582,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "19:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "19:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.margatelibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -569,6 +644,7 @@
   "lon": -74.5559559,
   "hours_open_weekly": 54.07692307692308,
   "source_year": "FY2023",
+  "municipality_code": "0118",
   "website": "https://www.nflibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -606,6 +682,7 @@
   "lon": -73.9996022,
   "hours_open_weekly": 54.40384615384615,
   "source_year": "FY2023",
+  "municipality_code": "0203",
   "website": "https://www.bergenfieldlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -616,7 +693,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.bergenfieldlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -641,8 +758,9 @@
   "phone": "2014887185",
   "lat": 40.8794815,
   "lon": -74.0301927,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0204",
   "website": "https://bogotapubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -653,7 +771,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://bogotapubliclibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -680,6 +828,7 @@
   "lon": -73.9884682,
   "hours_open_weekly": 61.15384615384615,
   "source_year": "FY2023",
+  "municipality_code": "0206",
   "website": "https://cliffsideparklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -717,6 +866,7 @@
   "lon": -73.9671605,
   "hours_open_weekly": 54.96153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0207",
   "website": "https://www.closterpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -754,6 +904,7 @@
   "lon": -73.9604975,
   "hours_open_weekly": 54.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "0208",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -791,6 +942,7 @@
   "lon": -73.9675161,
   "hours_open_weekly": 55.46153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0209",
   "website": "http://demarestlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -801,7 +953,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://www.demarestlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -826,8 +1013,9 @@
   "phone": "2013842030",
   "lat": 40.9417187,
   "lon": -73.9933961,
-  "hours_open_weekly": 48.0,
+  "hours_open_weekly": 48,
   "source_year": "FY2023",
+  "municipality_code": "0210",
   "website": "https://www.dumontlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -838,7 +1026,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://www.dumontlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -863,8 +1086,9 @@
   "phone": "2019393930",
   "lat": 40.8325586,
   "lon": -74.0987972,
-  "hours_open_weekly": 51.0,
+  "hours_open_weekly": 51,
   "source_year": "FY2023",
+  "municipality_code": "0212",
   "website": "http://eastrutherford.bccls.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -902,6 +1126,7 @@
   "lon": -73.9743897,
   "hours_open_weekly": 44.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0213",
   "website": "https://edgewaterlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -937,8 +1162,9 @@
   "phone": "2017968888",
   "lat": 40.9088925,
   "lon": -74.1183012,
-  "hours_open_weekly": 55.0,
+  "hours_open_weekly": 55,
   "source_year": "FY2023",
+  "municipality_code": "0211",
   "website": "https://www.elmwoodparknj.us/about-elmwood-park/elmwood-park-public-library",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -974,8 +1200,9 @@
   "phone": "2012615604",
   "lat": 40.9727385,
   "lon": -74.0267216,
-  "hours_open_weekly": 45.0,
+  "hours_open_weekly": 45,
   "source_year": "FY2023",
+  "municipality_code": "0214",
   "website": "https://www.emersonlibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -986,7 +1213,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.emersonlibrary.com/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1011,8 +1273,9 @@
   "phone": "2015682215",
   "lat": 40.8941017,
   "lon": -73.9723338,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "0215",
   "website": "http://englewoodlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1048,8 +1311,9 @@
   "phone": "2019436244",
   "lat": 40.8156813,
   "lon": -73.9956255,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "0218",
   "website": "https://fairviewlibrarynj.org/en/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1087,6 +1351,7 @@
   "lon": -73.9731172,
   "hours_open_weekly": 62.5,
   "source_year": "FY2023",
+  "municipality_code": "0219",
   "website": "https://fortleelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1122,8 +1387,9 @@
   "phone": "2018912224",
   "lat": 41.0201234,
   "lon": -74.1997432,
-  "hours_open_weekly": 63.0,
+  "hours_open_weekly": 63,
   "source_year": "FY2023",
+  "municipality_code": "0220",
   "website": "http://www.franklinlakeslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1134,7 +1400,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://franklinlakeslibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1159,8 +1465,9 @@
   "phone": "2014783800",
   "lat": 40.8806999,
   "lon": -74.1012307,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0221",
   "website": "https://garfieldnjbccls.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1198,6 +1505,7 @@
   "lon": -74.126421,
   "hours_open_weekly": 53.05769230769231,
   "source_year": "FY2023",
+  "municipality_code": "0222",
   "website": "https://www.glenrocklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1208,7 +1516,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.glenrocklibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1233,8 +1581,9 @@
   "phone": "2017685675",
   "lat": 40.98716,
   "lon": -73.9781081,
-  "hours_open_weekly": 45.0,
+  "hours_open_weekly": 45,
   "source_year": "FY2023",
+  "municipality_code": "0224",
   "website": "http://catalog.bccls.org/polaris/library/hours.aspx?ctx=51",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1272,6 +1621,7 @@
   "lon": -74.0749697,
   "hours_open_weekly": 49.23076923076923,
   "source_year": "FY2023",
+  "municipality_code": "0225",
   "website": "https://hasbrouckheightslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1309,6 +1659,7 @@
   "lon": -73.988025,
   "hours_open_weekly": 46.42307692307692,
   "source_year": "FY2023",
+  "municipality_code": "0226",
   "website": "https://www.haworthlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1346,6 +1697,7 @@
   "lon": -74.0459058,
   "hours_open_weekly": 52.15384615384615,
   "source_year": "FY2023",
+  "municipality_code": "0227",
   "website": "https://hfpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1383,6 +1735,7 @@
   "lon": -74.1133312,
   "hours_open_weekly": 44.01923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0265",
   "website": "https://www.wallingtonpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1393,7 +1746,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "12:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "12:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://www.wallingtonpubliclibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1418,8 +1806,9 @@
   "phone": "2013434169",
   "lat": 40.8870319,
   "lon": -74.0412599,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "0223",
   "website": "https://www.johnsonlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1430,7 +1819,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.johnsonlib.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1455,8 +1879,9 @@
   "phone": "2013274338",
   "lat": 41.0296159,
   "lon": -74.1378425,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "0201",
   "website": "http://leememoriallibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1467,7 +1892,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.leememoriallibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1492,8 +1947,9 @@
   "phone": "2015925770",
   "lat": 40.8622706,
   "lon": -73.9887408,
-  "hours_open_weekly": 51.0,
+  "hours_open_weekly": 51,
   "source_year": "FY2023",
+  "municipality_code": "0229",
   "website": "https://leonialibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1504,7 +1960,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.leonialibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1531,6 +2022,7 @@
   "lon": -74.0437697,
   "hours_open_weekly": 49.03846153846154,
   "source_year": "FY2023",
+  "municipality_code": "0230",
   "website": "https://www.littleferrynj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1566,8 +2058,9 @@
   "phone": "2013654044",
   "lat": 40.8755663,
   "lon": -74.0876863,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0231",
   "website": "https://www.lodilibrarynj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1605,6 +2098,7 @@
   "lon": -74.1247024,
   "hours_open_weekly": 33.94230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0232",
   "website": "https://www.facebook.com/p/Lyndhurst-Public-Library-100077938340794/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1640,8 +2134,9 @@
   "phone": "2015292183",
   "lat": 41.0871092,
   "lon": -74.1601326,
-  "hours_open_weekly": 62.0,
+  "hours_open_weekly": 62,
   "source_year": "FY2023",
+  "municipality_code": "0233",
   "website": "http://www.mahwahlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1679,6 +2174,7 @@
   "lon": -74.1313532,
   "hours_open_weekly": 62.80769230769231,
   "source_year": "FY2023",
+  "municipality_code": "0217",
   "website": "https://www.fairlawnlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1716,6 +2212,7 @@
   "lon": -74.0630566,
   "hours_open_weekly": 47.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0234",
   "website": "https://www.maywoodpubliclibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1751,8 +2248,9 @@
   "phone": "2014442390",
   "lat": 40.9901128,
   "lon": -74.1410927,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "0235",
   "website": "https://www.midlandparklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1763,7 +2261,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "04:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "04:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "thursday",
+     "open": "04:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "12:00"
+    }
+   ],
+   "source_url": "https://www.midlandparklibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1790,6 +2323,7 @@
   "lon": -74.061995,
   "hours_open_weekly": 52.71153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0236",
   "website": "https://www.montvalelibrarynj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1825,8 +2359,9 @@
   "phone": "2012621221",
   "lat": 40.9203372,
   "lon": -74.0230205,
-  "hours_open_weekly": 45.0,
+  "hours_open_weekly": 45,
   "source_year": "FY2023",
+  "municipality_code": "0238",
   "website": "https://newmilfordlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1862,8 +2397,9 @@
   "phone": "2019555640",
   "lat": 40.7887776,
   "lon": -74.1330635,
-  "hours_open_weekly": 53.0,
+  "hours_open_weekly": 53,
   "source_year": "FY2023",
+  "municipality_code": "0239",
   "website": "https://northarlingtonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1899,8 +2435,9 @@
   "phone": "2017684784",
   "lat": 41.0077171,
   "lon": -73.9517718,
-  "hours_open_weekly": 42.0,
+  "hours_open_weekly": 42,
   "source_year": "FY2023",
+  "municipality_code": "0240",
   "website": "http://www.northvalelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1936,8 +2473,9 @@
   "phone": "2017689555",
   "lat": 40.996149,
   "lon": -73.9607018,
-  "hours_open_weekly": 50.0,
+  "hours_open_weekly": 50,
   "source_year": "FY2023",
+  "municipality_code": "0241",
   "website": "http://www.nplnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -1975,6 +2513,7 @@
   "lon": -74.2452281,
   "hours_open_weekly": 57.23076923076923,
   "source_year": "FY2023",
+  "municipality_code": "0242",
   "website": "http://www.oaklandnjlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2010,8 +2549,9 @@
   "phone": "2016643499",
   "lat": 41.0101475,
   "lon": -73.9812835,
-  "hours_open_weekly": 50.0,
+  "hours_open_weekly": 50,
   "source_year": "FY2023",
+  "municipality_code": "0243",
   "website": "https://www.oldtappanlibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2049,6 +2589,7 @@
   "lon": -74.0317641,
   "hours_open_weekly": 62.17307692307692,
   "source_year": "FY2023",
+  "municipality_code": "0244",
   "website": "https://oradellpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2084,8 +2625,9 @@
   "phone": "2015854150",
   "lat": 40.8466015,
   "lon": -73.9969174,
-  "hours_open_weekly": 53.0,
+  "hours_open_weekly": 53,
   "source_year": "FY2023",
+  "municipality_code": "0245",
   "website": "https://www.palparklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2096,7 +2638,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://www.palparklibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -2121,8 +2693,9 @@
   "phone": "2014444911",
   "lat": 40.9603868,
   "lon": -74.089832,
-  "hours_open_weekly": 43.0,
+  "hours_open_weekly": 43,
   "source_year": "FY2023",
+  "municipality_code": "0246",
   "website": "http://www.paramuslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2158,8 +2731,9 @@
   "phone": "2015991302",
   "lat": 40.9267542,
   "lon": -74.0604893,
-  "hours_open_weekly": 68.0,
+  "hours_open_weekly": 68,
   "source_year": "FY2023",
+  "municipality_code": "0246",
   "website": "http://www.paramuslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2197,6 +2771,7 @@
   "lon": -74.0382309,
   "hours_open_weekly": 42.07692307692308,
   "source_year": "FY2023",
+  "municipality_code": "0247",
   "website": "https://parkridgelibrarynj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2234,6 +2809,7 @@
   "lon": -74.1469984,
   "hours_open_weekly": 59.61538461538461,
   "source_year": "FY2023",
+  "municipality_code": "0248",
   "website": "http://www.ramseylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2244,7 +2820,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "sunday",
+     "open": "12:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://www.ramseylibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -2271,6 +2887,7 @@
   "lon": -74.0048948,
   "hours_open_weekly": 17.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0249",
   "website": "https://www.ridgefieldpubliclibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2308,6 +2925,7 @@
   "lon": -74.0221235,
   "hours_open_weekly": 53.5,
   "source_year": "FY2023",
+  "municipality_code": "0250",
   "website": "http://www.ridgefieldpark.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2343,8 +2961,9 @@
   "phone": "2016705600",
   "lat": 40.9815178,
   "lon": -74.1125826,
-  "hours_open_weekly": 69.0,
+  "hours_open_weekly": 69,
   "source_year": "FY2023",
+  "municipality_code": "0251",
   "website": "http://www.ridgewoodlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2382,6 +3001,7 @@
   "lon": -74.0380716,
   "hours_open_weekly": 56.92307692307692,
   "source_year": "FY2023",
+  "municipality_code": "0252",
   "website": "https://www.riveredgepubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2419,6 +3039,7 @@
   "lon": -74.0105954,
   "hours_open_weekly": 58.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "0253",
   "website": "https://www.rivervalelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2454,8 +3075,9 @@
   "phone": "2015877735",
   "lat": 40.9125213,
   "lon": -74.0782386,
-  "hours_open_weekly": 56.0,
+  "hours_open_weekly": 56,
   "source_year": "FY2023",
+  "municipality_code": "0254",
   "website": "https://www.rplibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2466,7 +3088,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    },
+    {
+     "day": "sunday",
+     "open": "12:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://www.rplibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -2493,6 +3155,7 @@
   "lon": -74.1064715,
   "hours_open_weekly": 50.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0256",
   "website": "http://www.rutherfordlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2530,6 +3193,7 @@
   "lon": -74.0893501,
   "hours_open_weekly": 55.15384615384615,
   "source_year": "FY2023",
+  "municipality_code": "0257",
   "website": "https://saddlebrooklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2565,8 +3229,9 @@
   "phone": "2018374171",
   "lat": 40.8855389,
   "lon": -74.0062425,
-  "hours_open_weekly": 68.0,
+  "hours_open_weekly": 68,
   "source_year": "FY2023",
+  "municipality_code": "0260",
   "website": "https://teanecklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2577,7 +3242,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://teanecklibrary.org/about/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -2604,6 +3294,7 @@
   "lon": -73.9687531,
   "hours_open_weekly": 55.07692307692308,
   "source_year": "FY2023",
+  "municipality_code": "0261",
   "website": "https://www.tenaflylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2614,7 +3305,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "12:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://www.tenaflylibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -2641,6 +3372,7 @@
   "lon": -74.0942423,
   "hours_open_weekly": 58.84615384615385,
   "source_year": "FY2023",
+  "municipality_code": "0263",
   "website": "https://uppersaddleriverlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2676,8 +3408,9 @@
   "phone": "2016525104",
   "lat": 41.0108466,
   "lon": -74.1176877,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "0264",
   "website": "https://www.waldwicklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2713,8 +3446,9 @@
   "phone": "2016644586",
   "lat": 40.9865425,
   "lon": -74.0617118,
-  "hours_open_weekly": 59.0,
+  "hours_open_weekly": 59,
   "source_year": "FY2023",
+  "municipality_code": "0266",
   "website": "https://www.twpofwashingtonpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2752,6 +3486,7 @@
   "lon": -74.034505,
   "hours_open_weekly": 55.25,
   "source_year": "FY2023",
+  "municipality_code": "0267",
   "website": "https://www.westwoodpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2789,6 +3524,7 @@
   "lon": -74.091438,
   "hours_open_weekly": 50.23076923076923,
   "source_year": "FY2023",
+  "municipality_code": "0205",
   "website": "https://carlstadtlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2824,8 +3560,9 @@
   "phone": "2014382455",
   "lat": 40.8479198,
   "lon": -74.0816445,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0269",
   "website": "https://woodridgememoriallibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2861,8 +3598,9 @@
   "phone": "2014458078",
   "lat": 40.9987644,
   "lon": -74.1119534,
-  "hours_open_weekly": 44.0,
+  "hours_open_weekly": 44,
   "source_year": "FY2023",
+  "municipality_code": "0228",
   "website": "https://www.hohokuslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2873,7 +3611,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://www.hohokuslibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -2900,6 +3673,7 @@
   "lon": -74.1667837,
   "hours_open_weekly": 65.53846153846153,
   "source_year": "FY2023",
+  "municipality_code": "0270",
   "website": "https://wyckofflibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2937,6 +3711,7 @@
   "lon": -74.4514258,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0301",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -2971,6 +3746,7 @@
   "lon": -74.9187312,
   "hours_open_weekly": 21.153846153846153,
   "source_year": "FY2023",
+  "municipality_code": "0302",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3008,6 +3784,7 @@
   "lon": -74.7074231,
   "hours_open_weekly": 53.46153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0303",
   "website": "http://www.bcls.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3051,6 +3828,7 @@
   "lon": -74.820496,
   "hours_open_weekly": 17.596153846153847,
   "source_year": "FY2023",
+  "municipality_code": "0337",
   "website": "http://www.bcls.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3094,6 +3872,7 @@
   "lon": -74.79733,
   "hours_open_weekly": 66.6923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0337",
   "website": "http://www.bcls.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3137,6 +3916,7 @@
   "lon": -74.9942549,
   "hours_open_weekly": 54.61538461538461,
   "source_year": "FY2023",
+  "municipality_code": "0308",
   "website": "http://www.bcls.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3180,6 +3960,7 @@
   "lon": -74.8773788,
   "hours_open_weekly": 56.46153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0313",
   "website": "http://www.bcls.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3223,6 +4004,7 @@
   "lon": -74.9962804,
   "hours_open_weekly": 53.46153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0319",
   "website": "http://www.bcls.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3266,6 +4048,7 @@
   "lon": -74.6799362,
   "hours_open_weekly": 56.46153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0328",
   "website": "http://www.bcls.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3309,6 +4092,7 @@
   "lon": -74.8235599,
   "hours_open_weekly": 53.46153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0320",
   "website": "http://www.bcls.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3352,6 +4136,7 @@
   "lon": -75.0153723,
   "hours_open_weekly": 48.57692307692308,
   "source_year": "FY2023",
+  "municipality_code": "0331",
   "website": "http://www.bcls.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3395,6 +4180,7 @@
   "lon": -74.6470435,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0307",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3430,8 +4216,9 @@
   "phone": "6094616850",
   "lat": 40.0530546,
   "lon": -74.9479556,
-  "hours_open_weekly": 30.0,
+  "hours_open_weekly": 30,
   "source_year": "FY2023",
+  "municipality_code": "0309",
   "website": "http://delancolibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3467,8 +4254,9 @@
   "phone": "6094990143",
   "lat": 40.1162566,
   "lon": -74.7782758,
-  "hours_open_weekly": 45.0,
+  "hours_open_weekly": 45,
   "source_year": "FY2023",
+  "municipality_code": "0315",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3506,6 +4294,7 @@
   "lon": -74.8603266,
   "hours_open_weekly": 43.26923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0305",
   "website": "http://www.librarycompanyofburlington.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3541,8 +4330,9 @@
   "phone": "6092340333",
   "lat": 39.9640027,
   "lon": -74.9496055,
-  "hours_open_weekly": 65.0,
+  "hours_open_weekly": 65,
   "source_year": "FY2023",
+  "municipality_code": "0322",
   "website": "https://moorestownlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3580,6 +4370,7 @@
   "lon": -74.7905213,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0323",
   "website": "https://twp.mountholly.nj.us/libraries/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3615,8 +4406,9 @@
   "phone": "6092347319",
   "lat": 39.9580548,
   "lon": -74.9240906,
-  "hours_open_weekly": 68.0,
+  "hours_open_weekly": 68,
   "source_year": "FY2023",
+  "municipality_code": "0324",
   "website": "http://www.mtlaurel.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3654,6 +4446,7 @@
   "lon": -74.9590616,
   "hours_open_weekly": 21.923076923076923,
   "source_year": "FY2023",
+  "municipality_code": "0330",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3691,6 +4484,7 @@
   "lon": -74.7503388,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0333",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3726,8 +4520,9 @@
   "phone": "6098776668",
   "lat": 40.052978,
   "lon": -74.890393,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0338",
   "website": "https://www.willingboro.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3765,6 +4560,7 @@
   "lon": -75.0695273,
   "hours_open_weekly": 41.23076923076923,
   "source_year": "FY2023",
+  "municipality_code": "0401",
   "website": "http://www.audubonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3800,8 +4596,9 @@
   "phone": "6099311400",
   "lat": 39.8665523,
   "lon": -75.0780062,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "0404",
   "website": "http://www.camdencountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3837,8 +4634,9 @@
   "phone": "8563429789",
   "lat": 39.9200684,
   "lon": -75.110872,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "0408",
   "website": "http://www.camdencountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3874,8 +4672,9 @@
   "phone": "6092280022",
   "lat": 39.8026796,
   "lon": -75.0525961,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "0415",
   "website": "http://www.camdencountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3911,8 +4710,9 @@
   "phone": "8568542752",
   "lat": 39.9022656,
   "lon": -75.0612407,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "0416",
   "website": "http://www.camdencountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3948,8 +4748,9 @@
   "phone": "6097721636",
   "lat": 39.8485633,
   "lon": -75.0014257,
-  "hours_open_weekly": 62.0,
+  "hours_open_weekly": 62,
   "source_year": "FY2023",
+  "municipality_code": "0434",
   "website": "http://www.camdencountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -3987,6 +4788,7 @@
   "lon": -75.0485112,
   "hours_open_weekly": 25.5,
   "source_year": "FY2023",
+  "municipality_code": "0424",
   "website": "http://www.camdencountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4022,8 +4824,9 @@
   "phone": "8562256807",
   "lat": 39.9480199,
   "lon": -75.1204534,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "0408",
   "website": "http://www.camdencountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4059,8 +4862,9 @@
   "phone": "8565679770",
   "lat": 39.7505752,
   "lon": -74.9049314,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "0436",
   "website": "http://www.camdencountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4098,6 +4902,7 @@
   "lon": -75.003812,
   "hours_open_weekly": 54.84615384615385,
   "source_year": "FY2023",
+  "municipality_code": "0409",
   "website": "http://www.chplnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4135,6 +4940,7 @@
   "lon": -74.987826,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0411",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4170,8 +4976,9 @@
   "phone": "6098580649",
   "lat": 39.9156599,
   "lon": -75.0667697,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "0412",
   "website": "http://www.collingswoodlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4209,6 +5016,7 @@
   "lon": -74.9689632,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0413",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4246,6 +5054,7 @@
   "lon": -75.1185886,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0414",
   "website": "https://gloucestercitylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4256,7 +5065,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "12:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://gloucestercitylibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -4281,8 +5125,9 @@
   "phone": "6095477132",
   "lat": 39.8819545,
   "lon": -75.0591237,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "0418",
   "website": "http://www.haddonheightslibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4320,6 +5165,7 @@
   "lon": -75.0346332,
   "hours_open_weekly": 51.59615384615385,
   "source_year": "FY2023",
+  "municipality_code": "0417",
   "website": "https://www.haddonfieldlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4355,8 +5201,9 @@
   "phone": "6097672448",
   "lat": 39.7958165,
   "lon": -74.932185,
-  "hours_open_weekly": 47.0,
+  "hours_open_weekly": 47,
   "source_year": "FY2023",
+  "municipality_code": "0405",
   "website": "https://berlinborolibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4394,6 +5241,7 @@
   "lon": -75.0797712,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0426",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4431,6 +5279,7 @@
   "lon": -75.0576156,
   "hours_open_weekly": 52.51923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0427",
   "website": "http://www.pennsaukenlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4468,6 +5317,7 @@
   "lon": -75.0759999,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0430",
   "website": "https://runnemedepubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4503,8 +5353,9 @@
   "phone": "6097830602",
   "lat": 39.8325758,
   "lon": -75.0073922,
-  "hours_open_weekly": 20.0,
+  "hours_open_weekly": 20,
   "source_year": "FY2023",
+  "municipality_code": "0432",
   "website": "https://www.stratfordlibrarynj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4515,7 +5366,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "14:00",
+     "close": "19:00"
+    },
+    {
+     "day": "thursday",
+     "open": "14:00",
+     "close": "19:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://www.stratfordlibrarynj.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -4540,8 +5421,9 @@
   "phone": "6097677727",
   "lat": 39.7700624,
   "lon": -74.8872015,
-  "hours_open_weekly": 51.0,
+  "hours_open_weekly": 51,
   "source_year": "FY2023",
+  "municipality_code": "0435",
   "website": "http://www.waterford.njlibraries.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4577,8 +5459,9 @@
   "phone": "6099674010",
   "lat": 39.0952732,
   "lon": -74.7252369,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "0501",
   "website": "http://www.avalonfreelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4589,7 +5472,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.avalonfreelibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -4614,8 +5532,9 @@
   "phone": "6099670090",
   "lat": 39.0903963,
   "lon": -74.7283092,
-  "hours_open_weekly": 35.0,
+  "hours_open_weekly": 35,
   "source_year": "FY2023",
+  "municipality_code": "0501",
   "website": "http://www.avalonfreelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4653,6 +5572,7 @@
   "lon": -74.8288297,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0506",
   "website": "https://cmclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4688,8 +5608,9 @@
   "phone": "6094651040",
   "lat": 38.9321776,
   "lon": -74.9208039,
-  "hours_open_weekly": 53.0,
+  "hours_open_weekly": 53,
   "source_year": "FY2023",
+  "municipality_code": "0502",
   "website": "https://cmclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4725,8 +5646,9 @@
   "phone": "6094651040",
   "lat": 39.0843884,
   "lon": -74.8288297,
-  "hours_open_weekly": 70.0,
+  "hours_open_weekly": 70,
   "source_year": "FY2023",
+  "municipality_code": "0506",
   "website": "https://cmclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4764,6 +5686,7 @@
   "lon": -74.9388785,
   "hours_open_weekly": 56.5,
   "source_year": "FY2023",
+  "municipality_code": "0505",
   "website": "https://cmclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4799,8 +5722,9 @@
   "phone": "6092638485",
   "lat": 39.1560746,
   "lon": -74.6920378,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0509",
   "website": "https://cmclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4836,8 +5760,9 @@
   "phone": "6093685102",
   "lat": 39.05415,
   "lon": -74.7581699,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0510",
   "website": "https://cmclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4875,6 +5800,7 @@
   "lon": -74.7545526,
   "hours_open_weekly": 47.5,
   "source_year": "FY2023",
+  "municipality_code": "0511",
   "website": "https://cmclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4910,8 +5836,9 @@
   "phone": "6095220564",
   "lat": 38.9734934,
   "lon": -74.8300829,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0515",
   "website": "https://cmclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4947,8 +5874,9 @@
   "phone": "6098612501",
   "lat": 39.235082,
   "lon": -74.8166024,
-  "hours_open_weekly": 42.0,
+  "hours_open_weekly": 42,
   "source_year": "FY2023",
+  "municipality_code": "0516",
   "website": "https://cmclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -4984,8 +5912,9 @@
   "phone": "6093992434",
   "lat": 39.2717646,
   "lon": -74.5905492,
-  "hours_open_weekly": 6.0,
+  "hours_open_weekly": 6,
   "source_year": "FY2023",
+  "municipality_code": "0508",
   "website": "http://www.oceancitylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5021,8 +5950,9 @@
   "phone": "6093992434",
   "lat": 39.2717646,
   "lon": -74.5905492,
-  "hours_open_weekly": 74.0,
+  "hours_open_weekly": 74,
   "source_year": "FY2023",
+  "municipality_code": "0508",
   "website": "http://www.oceancitylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5060,6 +5990,7 @@
   "lon": -75.2318305,
   "hours_open_weekly": 40.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0601",
   "website": "https://bridgetonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5095,8 +6026,9 @@
   "phone": "6094550080",
   "lat": 39.423174,
   "lon": -75.205183,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "0605",
   "website": "https://cclnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5132,8 +6064,9 @@
   "phone": "6098257087",
   "lat": 39.3990206,
   "lon": -75.0400058,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0610",
   "website": "http://www.millvillepubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5144,7 +6077,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "19:45"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "19:45"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "19:45"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "19:45"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "16:45"
+    }
+   ],
+   "source_url": "https://www.millvillepubliclibrary.org/en/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -5171,6 +6134,7 @@
   "lon": -75.0093167,
   "hours_open_weekly": 45.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "0614",
   "website": "https://www.vinelandlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5208,6 +6172,7 @@
   "lon": -74.3000549,
   "hours_open_weekly": 57.5,
   "source_year": "FY2023",
+  "municipality_code": "0707",
   "website": "http://www.ffpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5245,6 +6210,7 @@
   "lon": -74.1525613,
   "hours_open_weekly": 51.92307692307692,
   "source_year": "FY2023",
+  "municipality_code": "0701",
   "website": "http://www.bellepl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5280,8 +6246,9 @@
   "phone": "2014299292",
   "lat": 40.7964021,
   "lon": -74.1973562,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0702",
   "website": "https://www.bplnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5292,7 +6259,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "07:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.bplnj.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -5319,6 +6311,7 @@
   "lon": -74.274232,
   "hours_open_weekly": 44.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "0703",
   "website": "http://www.caldwellpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5356,6 +6349,7 @@
   "lon": -74.2285636,
   "hours_open_weekly": 50.25,
   "source_year": "FY2023",
+  "municipality_code": "0704",
   "website": "http://www.cedargrovelibrary.net/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5393,6 +6387,7 @@
   "lon": -74.1947468,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0705",
   "website": "http://www.eopl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5428,8 +6423,9 @@
   "phone": "2012665600",
   "lat": 40.7598788,
   "lon": -74.2116704,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "0705",
   "website": "http://www.eopl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5467,6 +6463,7 @@
   "lon": -74.2223513,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0705",
   "website": "http://www.eopl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5504,6 +6501,7 @@
   "lon": -74.2102948,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0705",
   "website": "http://www.eopl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5541,6 +6539,7 @@
   "lon": -74.2035515,
   "hours_open_weekly": 55.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0708",
   "website": "http://www.glenridgelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5578,6 +6577,7 @@
   "lon": -74.233967,
   "hours_open_weekly": 54.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "0709",
   "website": "http://www.irvingtonpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5615,6 +6615,7 @@
   "lon": -74.2609876,
   "hours_open_weekly": 49.75,
   "source_year": "FY2023",
+  "municipality_code": "0711",
   "website": "http://www.maplewoodlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5652,6 +6653,7 @@
   "lon": -74.2759715,
   "hours_open_weekly": 48.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "0711",
   "website": "http://www.maplewoodlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5689,6 +6691,7 @@
   "lon": -74.3060764,
   "hours_open_weekly": 62.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0712",
   "website": "https://millburnlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5726,6 +6729,7 @@
   "lon": -74.204619,
   "hours_open_weekly": 29.5,
   "source_year": "FY2023",
+  "municipality_code": "0713",
   "website": "http://www.montclairlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5761,8 +6765,9 @@
   "phone": "2017440500",
   "lat": 40.811523,
   "lon": -74.2183323,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0713",
   "website": "http://www.montclairlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5800,6 +6805,7 @@
   "lon": -74.2183323,
   "hours_open_weekly": 0.4423076923076923,
   "source_year": "FY2023",
+  "municipality_code": "0713",
   "website": "http://www.montclairlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5835,8 +6841,9 @@
   "phone": "2017337800",
   "lat": 40.7578247,
   "lon": -74.1763307,
-  "hours_open_weekly": 35.0,
+  "hours_open_weekly": 35,
   "source_year": "FY2023",
+  "municipality_code": "0714",
   "website": "http://www.npl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5880,6 +6887,7 @@
   "lon": -74.17038,
   "hours_open_weekly": 57.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0714",
   "website": "http://www.npl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5896,7 +6904,42 @@
     "verified_on": null
    }
   ],
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "17:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:30"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:30"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:30"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "source_url": "https://www.npl.org/hours/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -5921,8 +6964,9 @@
   "phone": "2017337800",
   "lat": 40.7765595,
   "lon": -74.1626753,
-  "hours_open_weekly": 35.0,
+  "hours_open_weekly": 35,
   "source_year": "FY2023",
+  "municipality_code": "0714",
   "website": "http://www.npl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -5964,8 +7008,9 @@
   "phone": "2017337800",
   "lat": 40.737753,
   "lon": -74.1897134,
-  "hours_open_weekly": 35.0,
+  "hours_open_weekly": 35,
   "source_year": "FY2023",
+  "municipality_code": "0714",
   "website": "http://www.npl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6007,8 +7052,9 @@
   "phone": "2017337800",
   "lat": 40.7429388,
   "lon": -74.2253879,
-  "hours_open_weekly": 35.0,
+  "hours_open_weekly": 35,
   "source_year": "FY2023",
+  "municipality_code": "0714",
   "website": "http://www.npl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6050,8 +7096,9 @@
   "phone": "2017337800",
   "lat": 40.7279062,
   "lon": -74.1575463,
-  "hours_open_weekly": 35.0,
+  "hours_open_weekly": 35,
   "source_year": "FY2023",
+  "municipality_code": "0714",
   "website": "http://www.npl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6093,8 +7140,9 @@
   "phone": "2017337800",
   "lat": 40.7109689,
   "lon": -74.2113688,
-  "hours_open_weekly": 35.0,
+  "hours_open_weekly": 35,
   "source_year": "FY2023",
+  "municipality_code": "0714",
   "website": "http://www.npl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6136,8 +7184,9 @@
   "phone": "2016670405",
   "lat": 40.8175919,
   "lon": -74.1588888,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "0716",
   "website": "https://nutleypubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6175,6 +7224,7 @@
   "lon": -74.2914278,
   "hours_open_weekly": 54.67307692307692,
   "source_year": "FY2023",
+  "municipality_code": "0706",
   "website": "https://roselandpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6212,6 +7262,7 @@
   "lon": -74.3194865,
   "hours_open_weekly": 59.80769230769231,
   "source_year": "FY2023",
+  "municipality_code": "0710",
   "website": "https://livingstonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6249,6 +7300,7 @@
   "lon": -74.25705,
   "hours_open_weekly": 58.42307692307692,
   "source_year": "FY2023",
+  "municipality_code": "0719",
   "website": "http://www.sopl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6259,7 +7311,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "08:30",
+     "close": "18:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "08:30",
+     "close": "14:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "08:30",
+     "close": "14:00"
+    },
+    {
+     "day": "thursday",
+     "open": "08:30",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://www.sopl.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -6284,8 +7361,9 @@
   "phone": "2016730153",
   "lat": 40.7728412,
   "lon": -74.2315013,
-  "hours_open_weekly": 47.0,
+  "hours_open_weekly": 47,
   "source_year": "FY2023",
+  "municipality_code": "0717",
   "website": "http://www.orangepl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6323,6 +7401,7 @@
   "lon": -74.2465114,
   "hours_open_weekly": 50.88461538461539,
   "source_year": "FY2023",
+  "municipality_code": "0720",
   "website": "http://www.veronalibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6358,8 +7437,9 @@
   "phone": "2012265441",
   "lat": 40.8510399,
   "lon": -74.293572,
-  "hours_open_weekly": 57.0,
+  "hours_open_weekly": 57,
   "source_year": "FY2023",
+  "municipality_code": "0721",
   "website": "https://wcplnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6395,8 +7475,9 @@
   "phone": "2017360198",
   "lat": 40.7794237,
   "lon": -74.2408908,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "0722",
   "website": "http://www.wopl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6407,7 +7488,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:30"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.wopl.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -6434,6 +7555,7 @@
   "lon": -75.0780367,
   "hours_open_weekly": 51.15384615384615,
   "source_year": "FY2023",
+  "municipality_code": "0805",
   "website": "http://www.ftlnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6471,6 +7593,7 @@
   "lon": -75.2379524,
   "hours_open_weekly": 30.26923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0814",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6508,6 +7631,7 @@
   "lon": -75.2663835,
   "hours_open_weekly": 53.03846153846154,
   "source_year": "FY2023",
+  "municipality_code": "0807",
   "website": "http://www.gcls.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6545,6 +7669,7 @@
   "lon": -75.1107529,
   "hours_open_weekly": 53.03846153846154,
   "source_year": "FY2023",
+  "municipality_code": "0806",
   "website": "http://www.gcls.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6582,6 +7707,7 @@
   "lon": -75.218405,
   "hours_open_weekly": 57.73076923076923,
   "source_year": "FY2023",
+  "municipality_code": "0808",
   "website": "http://www.gcls.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6619,6 +7745,7 @@
   "lon": -75.1102828,
   "hours_open_weekly": 53.03846153846154,
   "source_year": "FY2023",
+  "municipality_code": "0818",
   "website": "http://www.gcls.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6656,6 +7783,7 @@
   "lon": -75.3104567,
   "hours_open_weekly": 53.03846153846154,
   "source_year": "FY2023",
+  "municipality_code": "0817",
   "website": "http://www.gcls.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6693,6 +7821,7 @@
   "lon": -75.1393872,
   "hours_open_weekly": 53.63461538461539,
   "source_year": "FY2023",
+  "municipality_code": "0802",
   "website": "https://www.deptfordpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6728,8 +7857,9 @@
   "phone": "6095893334",
   "lat": 39.7470978,
   "lon": -75.1133053,
-  "hours_open_weekly": 62.0,
+  "hours_open_weekly": 62,
   "source_year": "FY2023",
+  "municipality_code": "0818",
   "website": "http://www.hegganlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6767,6 +7897,7 @@
   "lon": -75.1294659,
   "hours_open_weekly": 53.46153846153846,
   "source_year": "FY2023",
+  "municipality_code": "0815",
   "website": "https://www.mccowan-pitman.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6802,8 +7933,9 @@
   "phone": "6096291212",
   "lat": 39.6931273,
   "lon": -75.0013829,
-  "hours_open_weekly": 50.0,
+  "hours_open_weekly": 50,
   "source_year": "FY2023",
+  "municipality_code": "0811",
   "website": "http://www.monroetpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6841,6 +7973,7 @@
   "lon": -75.019835,
   "hours_open_weekly": 40.03846153846154,
   "source_year": "FY2023",
+  "municipality_code": "0813",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6878,6 +8011,7 @@
   "lon": -75.1487877,
   "hours_open_weekly": 37.53846153846154,
   "source_year": "FY2023",
+  "municipality_code": "0819",
   "website": "http://www.wenonahlibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6913,8 +8047,9 @@
   "phone": "6098455593",
   "lat": 39.8445466,
   "lon": -75.1897935,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "0820",
   "website": "http://www.westdeptford.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6952,6 +8087,7 @@
   "lon": -75.1341174,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0821",
   "website": "http://www.westvillelibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -6987,8 +8123,9 @@
   "phone": "6098452611",
   "lat": 39.8386905,
   "lon": -75.1544062,
-  "hours_open_weekly": 41.0,
+  "hours_open_weekly": 41,
   "source_year": "FY2023",
+  "municipality_code": "0822",
   "website": "https://www.woodburylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7026,6 +8163,7 @@
   "lon": -74.115591,
   "hours_open_weekly": 62.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "0901",
   "website": "http://www.bayonnelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7063,6 +8201,7 @@
   "lon": -74.1553053,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0904",
   "website": "https://townofharrison.com/331/Harrison-Public-Library",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7098,8 +8237,9 @@
   "phone": "2044202346",
   "lat": 40.7393113,
   "lon": -74.0361578,
-  "hours_open_weekly": 42.0,
+  "hours_open_weekly": 42,
   "source_year": "FY2023",
+  "municipality_code": "0905",
   "website": "https://hobokenlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7135,8 +8275,9 @@
   "phone": "2014202346",
   "lat": 40.7427588,
   "lon": -74.0321864,
-  "hours_open_weekly": 59.0,
+  "hours_open_weekly": 59,
   "source_year": "FY2023",
+  "municipality_code": "0905",
   "website": "https://hobokenlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7147,7 +8288,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://hobokenlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -7174,6 +8350,7 @@
   "lon": -74.0595761,
   "hours_open_weekly": 42.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7211,6 +8388,7 @@
   "lon": -74.0818744,
   "hours_open_weekly": 42.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7248,6 +8426,7 @@
   "lon": -74.091219,
   "hours_open_weekly": 42.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7285,6 +8464,7 @@
   "lon": -74.0504246,
   "hours_open_weekly": 42.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7322,6 +8502,7 @@
   "lon": -74.0475556,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7359,6 +8540,7 @@
   "lon": -74.0475556,
   "hours_open_weekly": 42.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7396,6 +8578,7 @@
   "lon": -74.0624617,
   "hours_open_weekly": 5.769230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7433,6 +8616,7 @@
   "lon": -74.071612,
   "hours_open_weekly": 35.19230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7470,6 +8654,7 @@
   "lon": -74.0766729,
   "hours_open_weekly": 42.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7507,6 +8692,7 @@
   "lon": -74.0475596,
   "hours_open_weekly": 42.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7544,6 +8730,7 @@
   "lon": -74.0839639,
   "hours_open_weekly": 35.19230769230769,
   "source_year": "FY2023",
+  "municipality_code": "0906",
   "website": "https://jclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7579,8 +8766,9 @@
   "phone": "2019912116",
   "lat": 40.7781192,
   "lon": -74.1413967,
-  "hours_open_weekly": 21.0,
+  "hours_open_weekly": 21,
   "source_year": "FY2023",
+  "municipality_code": "0907",
   "website": "http://www.kearnylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7616,8 +8804,9 @@
   "phone": "2019982666",
   "lat": 40.7619043,
   "lon": -74.1499957,
-  "hours_open_weekly": 44.0,
+  "hours_open_weekly": 44,
   "source_year": "FY2023",
+  "municipality_code": "0907",
   "website": "http://www.kearnylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7655,6 +8844,7 @@
   "lon": -74.00103987,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "0903",
   "website": "http://www.nbpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7692,6 +8882,7 @@
   "lon": -74.0401898,
   "hours_open_weekly": 54.03846153846154,
   "source_year": "FY2023",
+  "municipality_code": "0908",
   "website": "http://www.nbpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7729,6 +8920,7 @@
   "lon": -74.0045516,
   "hours_open_weekly": 57.26923076923077,
   "source_year": "FY2023",
+  "municipality_code": "0908",
   "website": "http://www.nbpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7766,6 +8958,7 @@
   "lon": -74.0805794,
   "hours_open_weekly": 46.5,
   "source_year": "FY2023",
+  "municipality_code": "0909",
   "website": "https://secaucuslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7801,8 +8994,9 @@
   "phone": "2013302083",
   "lat": 40.7933711,
   "lon": -74.0583434,
-  "hours_open_weekly": 71.0,
+  "hours_open_weekly": 71,
   "source_year": "FY2023",
+  "municipality_code": "0909",
   "website": "https://secaucuslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7838,8 +9032,9 @@
   "phone": "2018667503",
   "lat": 40.7659279,
   "lon": -74.0385153,
-  "hours_open_weekly": 47.0,
+  "hours_open_weekly": 47,
   "source_year": "FY2023",
+  "municipality_code": "0910",
   "website": "http://www.uclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7875,8 +9070,9 @@
   "phone": "2018667500",
   "lat": 40.7772062,
   "lon": -74.0225266,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "0910",
   "website": "http://www.uclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7914,6 +9110,7 @@
   "lon": -74.0228095,
   "hours_open_weekly": 53.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "0911",
   "website": "http://www.weehawken-nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7949,8 +9146,9 @@
   "phone": "2018541028",
   "lat": 40.7883656,
   "lon": -74.0153927,
-  "hours_open_weekly": 57.0,
+  "hours_open_weekly": 57,
   "source_year": "FY2023",
+  "municipality_code": "0912",
   "website": "http://www.wnypl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7988,6 +9186,7 @@
   "lon": -74.858737,
   "hours_open_weekly": 55.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "1009",
   "website": "https://flemingtonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -7998,7 +9197,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "16:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "16:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://www.flemingtonlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -8025,6 +9259,7 @@
   "lon": -75.0608132,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1011",
   "website": "https://frenchtownboro.com/library/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8060,8 +9295,9 @@
   "phone": "2016388231",
   "lat": 40.6691302,
   "lon": -74.8956141,
-  "hours_open_weekly": 24.0,
+  "hours_open_weekly": 24,
   "source_year": "FY2023",
+  "municipality_code": "1014",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8099,6 +9335,7 @@
   "lon": -75.1049595,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1015",
   "website": "http://www.hollandlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8134,8 +9371,9 @@
   "phone": "2017881444",
   "lat": 40.50378,
   "lon": -74.90148,
-  "hours_open_weekly": 70.0,
+  "hours_open_weekly": 70,
   "source_year": "FY2023",
+  "municipality_code": "1021",
   "website": "http://www.hclibrary.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8173,6 +9411,7 @@
   "lon": -74.90145,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1021",
   "website": "http://www.hclibrary.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8210,6 +9449,7 @@
   "lon": -74.9117839,
   "hours_open_weekly": 69.23076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1005",
   "website": "http://www.hclibrary.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8245,8 +9485,9 @@
   "phone": "9087823564",
   "lat": 40.3843891,
   "lon": -74.9230949,
-  "hours_open_weekly": 56.0,
+  "hours_open_weekly": 56,
   "source_year": "FY2023",
+  "municipality_code": "1026",
   "website": "http://www.hclibrary.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8282,8 +9523,9 @@
   "phone": "6093970275",
   "lat": 40.365559,
   "lon": -74.9422172,
-  "hours_open_weekly": 50.0,
+  "hours_open_weekly": 50,
   "source_year": "FY2023",
+  "municipality_code": "1017",
   "website": "http://www.lambertvillelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8294,7 +9536,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "12:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://lambertvillelibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -8321,6 +9598,7 @@
   "lon": -75.0934841,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1020",
   "website": "http://www.milfordnjlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8356,8 +9634,9 @@
   "phone": "2014393761",
   "lat": 40.6704359,
   "lon": -74.7494973,
-  "hours_open_weekly": 38.0,
+  "hours_open_weekly": 38,
   "source_year": "FY2023",
+  "municipality_code": "1024",
   "website": "http://www.tewksburylibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8395,6 +9674,7 @@
   "lon": -74.6954557,
   "hours_open_weekly": 60.11538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1103",
   "website": "http://www.hamiltonnjpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8430,8 +9710,9 @@
   "phone": "6094661625",
   "lat": 40.389537,
   "lon": -74.7608151,
-  "hours_open_weekly": 35.0,
+  "hours_open_weekly": 35,
   "source_year": "FY2023",
+  "municipality_code": "1105",
   "website": "http://www.redlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8469,6 +9750,7 @@
   "lon": -74.8007434,
   "hours_open_weekly": 37.36538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1102",
   "website": "http://www.mcl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8506,6 +9788,7 @@
   "lon": -74.5546287,
   "hours_open_weekly": 37.36538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1101",
   "website": "http://www.mcl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8543,6 +9826,7 @@
   "lon": -74.5218579,
   "hours_open_weekly": 34.84615384615385,
   "source_year": "FY2023",
+  "municipality_code": "1104",
   "website": "http://www.mcl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8580,6 +9864,7 @@
   "lon": -74.7703421,
   "hours_open_weekly": 24.403846153846153,
   "source_year": "FY2023",
+  "municipality_code": "1102",
   "website": "http://www.mcl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8617,6 +9902,7 @@
   "lon": -74.8016363,
   "hours_open_weekly": 35.55769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1106",
   "website": "http://www.mcl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8654,6 +9940,7 @@
   "lon": -74.7176176,
   "hours_open_weekly": 37.36538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1107",
   "website": "http://www.mcl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8691,6 +9978,7 @@
   "lon": -74.488195,
   "hours_open_weekly": 35.55769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1101",
   "website": "http://www.mcl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8728,6 +10016,7 @@
   "lon": -74.6206938,
   "hours_open_weekly": 35.51923076923077,
   "source_year": "FY2023",
+  "municipality_code": "1112",
   "website": "http://www.mcl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8765,6 +10054,7 @@
   "lon": -74.6323923,
   "hours_open_weekly": 37.36538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1113",
   "website": "http://www.mcl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8800,8 +10090,9 @@
   "phone": "6097370404",
   "lat": 40.3293627,
   "lon": -74.7914183,
-  "hours_open_weekly": 40.0,
+  "hours_open_weekly": 40,
   "source_year": "FY2023",
+  "municipality_code": "1108",
   "website": "https://www.penningtonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8837,8 +10128,9 @@
   "phone": "6099249529",
   "lat": 40.3516294,
   "lon": -74.6605484,
-  "hours_open_weekly": 72.0,
+  "hours_open_weekly": 72,
   "source_year": "FY2023",
+  "municipality_code": "1114",
   "website": "http://www.princetonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8874,8 +10166,9 @@
   "phone": "6093927188",
   "lat": 40.2219707,
   "lon": -74.7638935,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "1111",
   "website": "http://www.trentonlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8911,8 +10204,9 @@
   "phone": "2015415737",
   "lat": 40.5787365,
   "lon": -74.2195533,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "1201",
   "website": "https://www.carteretlibrary.net/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8948,8 +10242,9 @@
   "phone": "6096550555",
   "lat": 40.31196,
   "lon": -74.518413,
-  "hours_open_weekly": 57.0,
+  "hours_open_weekly": 57,
   "source_year": "FY2023",
+  "municipality_code": "1202",
   "website": "http://www.cranburypubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -8960,7 +10255,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "sunday",
+     "open": "12:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://cranburypubliclibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -8987,6 +10322,7 @@
   "lon": -74.2744111,
   "hours_open_weekly": 42.92307692307692,
   "source_year": "FY2023",
+  "municipality_code": "1220",
   "website": "http://www.dowdell.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9024,6 +10360,7 @@
   "lon": -74.4608286,
   "hours_open_weekly": 47.11538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1203",
   "website": "https://www.dunellen-nj.gov/departments/public_library/index.php",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9061,6 +10398,7 @@
   "lon": -74.420112,
   "hours_open_weekly": 62.98076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1204",
   "website": "http://www.ebpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9096,8 +10434,9 @@
   "phone": "2017380096",
   "lat": 40.5343526,
   "lon": -74.3313339,
-  "hours_open_weekly": 61.0,
+  "hours_open_weekly": 61,
   "source_year": "FY2023",
+  "municipality_code": "1205",
   "website": "https://edisonpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9135,6 +10474,7 @@
   "lon": -74.4078913,
   "hours_open_weekly": 62.53846153846154,
   "source_year": "FY2023",
+  "municipality_code": "1205",
   "website": "https://edisonpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9170,8 +10510,9 @@
   "phone": "2015483045",
   "lat": 40.5758871,
   "lon": -74.3586465,
-  "hours_open_weekly": 61.0,
+  "hours_open_weekly": 61,
   "source_year": "FY2023",
+  "municipality_code": "1205",
   "website": "https://edisonpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9207,8 +10548,9 @@
   "phone": "2015722750",
   "lat": 40.5017181,
   "lon": -74.4244636,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "1207",
   "website": "http://www.hpplnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9246,6 +10588,7 @@
   "lon": -74.4421835,
   "hours_open_weekly": 32.25,
   "source_year": "FY2023",
+  "municipality_code": "1208",
   "website": "https://www.jamesburglibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9283,6 +10626,7 @@
   "lon": -74.3618402,
   "hours_open_weekly": 61.23076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1209",
   "website": "http://www.metuchenlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9318,8 +10662,9 @@
   "phone": "2013566602",
   "lat": 40.5791504,
   "lon": -74.5004946,
-  "hours_open_weekly": 49.0,
+  "hours_open_weekly": 49,
   "source_year": "FY2023",
+  "municipality_code": "1210",
   "website": "http://www.middlesexlibrarynj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9330,7 +10675,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "http://www.middlesexlibrarynj.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -9355,8 +10735,9 @@
   "phone": "2012472270",
   "lat": 40.4518494,
   "lon": -74.4398818,
-  "hours_open_weekly": 45.0,
+  "hours_open_weekly": 45,
   "source_year": "FY2023",
+  "municipality_code": "1211",
   "website": "https://www.milltownlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9394,6 +10775,7 @@
   "lon": -74.4430648,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1212",
   "website": "https://www.monroetwplibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9431,6 +10813,7 @@
   "lon": -74.4430648,
   "hours_open_weekly": 63.55769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1212",
   "website": "https://www.monroetwplibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9466,8 +10849,9 @@
   "phone": "2017455108",
   "lat": 40.4915436,
   "lon": -74.445858,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "1213",
   "website": "http://www.nbfpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9503,8 +10887,9 @@
   "phone": "2012463545",
   "lat": 40.4685433,
   "lon": -74.4639604,
-  "hours_open_weekly": 56.0,
+  "hours_open_weekly": 56,
   "source_year": "FY2023",
+  "municipality_code": "1214",
   "website": "http://www.northbrunswicklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9515,7 +10900,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "13:00",
+     "close": "19:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "thursday",
+     "open": "13:00",
+     "close": "19:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://northbrunswicklibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -9542,6 +10962,7 @@
   "lon": -74.2978697,
   "hours_open_weekly": 83.61538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1215",
   "website": "http://www.oldbridgelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9552,7 +10973,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://oldbridgelibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -9577,8 +11038,9 @@
   "phone": "2018262600",
   "lat": 40.5103756,
   "lon": -74.27075,
-  "hours_open_weekly": 56.0,
+  "hours_open_weekly": 56,
   "source_year": "FY2023",
+  "municipality_code": "1216",
   "website": "https://pafpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9614,8 +11076,9 @@
   "phone": "2014631633",
   "lat": 40.5369142,
   "lon": -74.4708563,
-  "hours_open_weekly": 62.0,
+  "hours_open_weekly": 62,
   "source_year": "FY2023",
+  "municipality_code": "1217",
   "website": "http://www.piscatawaylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9653,6 +11116,7 @@
   "lon": -74.4573927,
   "hours_open_weekly": 53.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "1217",
   "website": "http://www.piscatawaylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9690,6 +11154,7 @@
   "lon": -74.5912526,
   "hours_open_weekly": 55.53846153846154,
   "source_year": "FY2023",
+  "municipality_code": "1218",
   "website": "https://plainsborolibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9725,8 +11190,9 @@
   "phone": "2017270212",
   "lat": 40.4625499,
   "lon": -74.3255851,
-  "hours_open_weekly": 65.0,
+  "hours_open_weekly": 65,
   "source_year": "FY2023",
+  "municipality_code": "1219",
   "website": "http://www.sayrevillelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9762,8 +11228,9 @@
   "phone": "2018218224",
   "lat": 40.3826477,
   "lon": -74.5312511,
-  "hours_open_weekly": 74.0,
+  "hours_open_weekly": 74,
   "source_year": "FY2023",
+  "municipality_code": "1221",
   "website": "http://www.sbpl.info/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9801,6 +11268,7 @@
   "lon": -74.5263675,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1221",
   "website": "http://www.sbpl.info/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9838,6 +11306,7 @@
   "lon": -74.4159235,
   "hours_open_weekly": 46.19230769230769,
   "source_year": "FY2023",
+  "municipality_code": "1222",
   "website": "https://southplainfield.lib.nj.us/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9873,8 +11342,9 @@
   "phone": "2012542488",
   "lat": 40.4348238,
   "lon": -74.3776478,
-  "hours_open_weekly": 45.0,
+  "hours_open_weekly": 45,
   "source_year": "FY2023",
+  "municipality_code": "1223",
   "website": "http://www.southriverlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9885,7 +11355,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "12:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "12:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "11:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "http://www.southriverlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -9910,8 +11415,9 @@
   "phone": "2012511515",
   "lat": 40.3914968,
   "lon": -74.3912664,
-  "hours_open_weekly": 48.0,
+  "hours_open_weekly": 48,
   "source_year": "FY2023",
+  "municipality_code": "1224",
   "website": "https://spotslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9947,8 +11453,9 @@
   "phone": "2017380250",
   "lat": 40.5372632,
   "lon": -74.3173667,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "1225",
   "website": "http://www.woodbridgelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -9984,8 +11491,9 @@
   "phone": "2012831200",
   "lat": 40.5713133,
   "lon": -74.313452,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "1225",
   "website": "http://www.woodbridgelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10021,8 +11529,9 @@
   "phone": "2016344450",
   "lat": 40.567795,
   "lon": -74.2874024,
-  "hours_open_weekly": 68.0,
+  "hours_open_weekly": 68,
   "source_year": "FY2023",
+  "municipality_code": "1225",
   "website": "http://www.woodbridgelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10058,8 +11567,9 @@
   "phone": "2017744221",
   "lat": 40.2205496,
   "lon": -74.0074103,
-  "hours_open_weekly": 48.0,
+  "hours_open_weekly": 48,
   "source_year": "FY2023",
+  "municipality_code": "1304",
   "website": "https://asbury.ent.sirsi.net/client/en_US/default",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10097,6 +11607,7 @@
   "lon": -74.0204999,
   "hours_open_weekly": 39.28846153846154,
   "source_year": "FY2023",
+  "municipality_code": "1306",
   "website": "https://www.avonbytheseanj.com/community/library/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10132,8 +11643,9 @@
   "phone": "2016810775",
   "lat": 40.1788618,
   "lon": -74.0233395,
-  "hours_open_weekly": 50.0,
+  "hours_open_weekly": 50,
   "source_year": "FY2023",
+  "municipality_code": "1307",
   "website": "http://www.belmarlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10169,8 +11681,9 @@
   "phone": "2017762995",
   "lat": 40.200645,
   "lon": -74.016175,
-  "hours_open_weekly": 50.0,
+  "hours_open_weekly": 50,
   "source_year": "FY2023",
+  "municipality_code": "1308",
   "website": "https://bradleybeachlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10208,6 +11721,7 @@
   "lon": -74.062483,
   "hours_open_weekly": 39.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "1309",
   "website": "https://www.briellelibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10245,6 +11759,7 @@
   "lon": -74.0586539,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1312",
   "website": "https://www.eatontownnj.com/164/Eatontown-Library",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10255,7 +11770,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "19:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://www.eatontownnj.com/164/Eatontown-Library",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -10282,6 +11822,7 @@
   "lon": -74.0357815,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1314",
   "website": "http://www.fairhavenlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10317,8 +11858,9 @@
   "phone": "2014625135",
   "lat": 40.2608668,
   "lon": -74.2730067,
-  "hours_open_weekly": 40.0,
+  "hours_open_weekly": 40,
   "source_year": "FY2023",
+  "municipality_code": "1316",
   "website": "http://www.freeholdpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10354,8 +11896,9 @@
   "phone": "2012640543",
   "lat": 40.4359383,
   "lon": -74.2011684,
-  "hours_open_weekly": 48.0,
+  "hours_open_weekly": 48,
   "source_year": "FY2023",
+  "municipality_code": "1324",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10391,8 +11934,9 @@
   "phone": "2017479649",
   "lat": 40.3392246,
   "lon": -74.0422527,
-  "hours_open_weekly": 47.0,
+  "hours_open_weekly": 47,
   "source_year": "FY2023",
+  "municipality_code": "1325",
   "website": "https://www.littlesilverlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10403,7 +11947,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "17:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:30"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:30"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://www.littlesilverlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -10430,6 +12009,7 @@
   "lon": -73.996494,
   "hours_open_weekly": 29.53846153846154,
   "source_year": "FY2023",
+  "municipality_code": "1327",
   "website": "http://www.longbranchlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10467,6 +12047,7 @@
   "lon": -73.9927988,
   "hours_open_weekly": 49.84615384615385,
   "source_year": "FY2023",
+  "municipality_code": "1327",
   "website": "http://www.longbranchlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10504,6 +12085,7 @@
   "lon": -74.0502733,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1329",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10541,6 +12123,7 @@
   "lon": -74.2303583,
   "hours_open_weekly": 57.23076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1331",
   "website": "https://mapl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10551,7 +12134,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "13:00"
+    },
+    {
+     "day": "sunday",
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://mapl.org/library-links/about/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -10576,8 +12199,9 @@
   "phone": "2016713700",
   "lat": 40.404353,
   "lon": -74.1099918,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "1332",
   "website": "http://www.mtpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10615,6 +12239,7 @@
   "lon": -73.9789222,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1334",
   "website": "https://monmouthbeachlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10650,8 +12275,9 @@
   "phone": "6092597565",
   "lat": 40.177378,
   "lon": -74.5849189,
-  "hours_open_weekly": 44.0,
+  "hours_open_weekly": 44,
   "source_year": "FY2023",
+  "municipality_code": "1303",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10689,6 +12315,7 @@
   "lon": -74.0382148,
   "hours_open_weekly": 37.73076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1305",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10726,6 +12353,7 @@
   "lon": -74.1905077,
   "hours_open_weekly": 43.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1310",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10763,6 +12391,7 @@
   "lon": -74.0623412,
   "hours_open_weekly": 66.3076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1344",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10800,6 +12429,7 @@
   "lon": -74.1766104,
   "hours_open_weekly": 43.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1318",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10837,6 +12467,7 @@
   "lon": -74.1874056,
   "hours_open_weekly": 56.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1320",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10874,6 +12505,7 @@
   "lon": -74.1795533,
   "hours_open_weekly": 57.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1321",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10911,6 +12543,7 @@
   "lon": -74.2621816,
   "hours_open_weekly": 56.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1330",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10948,6 +12581,7 @@
   "lon": -74.3036137,
   "hours_open_weekly": 66.3076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1328",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -10985,6 +12619,7 @@
   "lon": -74.0346548,
   "hours_open_weekly": 58.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1337",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11020,8 +12655,9 @@
   "phone": "2012292626",
   "lat": 40.32178,
   "lon": -74.0168799,
-  "hours_open_weekly": 25.0,
+  "hours_open_weekly": 25,
   "source_year": "FY2023",
+  "municipality_code": "1338",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11059,6 +12695,7 @@
   "lon": -74.071075,
   "hours_open_weekly": 58.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1352",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11096,6 +12733,7 @@
   "lon": -74.0161835,
   "hours_open_weekly": 49.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1353",
   "website": "http://www.monmouthcountylib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11133,6 +12771,7 @@
   "lon": -74.0358884,
   "hours_open_weekly": 46.19230769230769,
   "source_year": "FY2023",
+  "municipality_code": "1335",
   "website": "http://www.neptunepubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11170,6 +12809,7 @@
   "lon": -73.9945837,
   "hours_open_weekly": 6.730769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1341",
   "website": "http://www.oceaniclib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11180,7 +12820,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "sunday",
+     "open": "00:00",
+     "close": "00:00"
+    }
+   ],
+   "source_url": "https://oceaniclib.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -11205,8 +12885,9 @@
   "phone": "2018420690",
   "lat": 40.3512295,
   "lon": -74.0689684,
-  "hours_open_weekly": 48.0,
+  "hours_open_weekly": 48,
   "source_year": "FY2023",
+  "municipality_code": "1339",
   "website": "https://www.redbanklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11217,7 +12898,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://www.redbanklibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -11244,6 +12960,7 @@
   "lon": -73.9740764,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1342",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11276,8 +12993,9 @@
   "phone": "7324499433",
   "lat": 40.1312864,
   "lon": -74.0419386,
-  "hours_open_weekly": 26.0,
+  "hours_open_weekly": 26,
   "source_year": "FY2023",
+  "municipality_code": "1343",
   "website": "https://www.seagirtlibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11288,7 +13006,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "13:00",
+     "close": "19:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "13:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "13:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "12:30"
+    }
+   ],
+   "source_url": "https://www.seagirtlibrary.com/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -11315,6 +13068,7 @@
   "lon": -74.0273233,
   "hours_open_weekly": 39.84615384615385,
   "source_year": "FY2023",
+  "municipality_code": "1347",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11352,6 +13106,7 @@
   "lon": -74.0981323,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1349",
   "website": "https://www.tintonfallslibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11389,6 +13144,7 @@
   "lon": -74.1655837,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1350",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11426,6 +13182,7 @@
   "lon": -74.4107363,
   "hours_open_weekly": 54.73076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1401",
   "website": "http://boontonlibrary.org",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11463,6 +13220,7 @@
   "lon": -74.3443534,
   "hours_open_weekly": 51.13461538461539,
   "source_year": "FY2023",
+  "municipality_code": "1403",
   "website": "http://www.butlerlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11500,6 +13258,7 @@
   "lon": -74.3809562,
   "hours_open_weekly": 58.84615384615385,
   "source_year": "FY2023",
+  "municipality_code": "1404",
   "website": "http://www.chatham-library.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11537,6 +13296,7 @@
   "lon": -74.7065879,
   "hours_open_weekly": 56.44230769230769,
   "source_year": "FY2023",
+  "municipality_code": "1406",
   "website": "https://chesterlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11574,6 +13334,7 @@
   "lon": -74.4731865,
   "hours_open_weekly": 32.84615384615385,
   "source_year": "FY2023",
+  "municipality_code": "1408",
   "website": "http://www.denvillelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11609,8 +13370,9 @@
   "phone": "2013660172",
   "lat": 40.8866179,
   "lon": -74.5571803,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "1409",
   "website": "http://www.dfpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11646,8 +13408,9 @@
   "phone": "2018876215",
   "lat": 40.8257201,
   "lon": -74.3609468,
-  "hours_open_weekly": 65.0,
+  "hours_open_weekly": 65,
   "source_year": "FY2023",
+  "municipality_code": "1410",
   "website": "http://www.easthanoverlibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11685,6 +13448,7 @@
   "lon": -74.3987116,
   "hours_open_weekly": 59.86538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1411",
   "website": "http://florhamparklib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11720,8 +13484,9 @@
   "phone": "9732678000",
   "lat": 40.7458652,
   "lon": -74.4967385,
-  "hours_open_weekly": 38.0,
+  "hours_open_weekly": 38,
   "source_year": "FY2023",
+  "municipality_code": "1413",
   "website": "http://www.hardinglibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11759,6 +13524,7 @@
   "lon": -74.5488833,
   "hours_open_weekly": 72.11538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1414",
   "website": "https://www.jeffersonlibrary.net/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11794,8 +13560,9 @@
   "phone": "2018381321",
   "lat": 40.9963237,
   "lon": -74.3784425,
-  "hours_open_weekly": 51.0,
+  "hours_open_weekly": 51,
   "source_year": "FY2023",
+  "municipality_code": "1415",
   "website": "http://www.kinnelonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11806,7 +13573,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://kinnelonlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -11833,6 +13625,7 @@
   "lon": -74.3050049,
   "hours_open_weekly": 41.07692307692308,
   "source_year": "FY2023",
+  "municipality_code": "1416",
   "website": "http://www.lincolnparklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11870,6 +13663,7 @@
   "lon": -74.4777394,
   "hours_open_weekly": 48.44230769230769,
   "source_year": "FY2023",
+  "municipality_code": "1430",
   "website": "http://www.longhilllibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11905,8 +13699,9 @@
   "phone": "2013770722",
   "lat": 40.7531592,
   "lon": -74.4129779,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "1417",
   "website": "http://www.rosenet.org/329/Madison-Free-Public-Library",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11942,8 +13737,9 @@
   "phone": "2015434152",
   "lat": 40.7746651,
   "lon": -74.6001966,
-  "hours_open_weekly": 51.0,
+  "hours_open_weekly": 51,
   "source_year": "FY2023",
+  "municipality_code": "1418",
   "website": "http://mendhamboroughlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -11979,8 +13775,9 @@
   "phone": "2015434018",
   "lat": 40.7941812,
   "lon": -74.5689919,
-  "hours_open_weekly": 48.0,
+  "hours_open_weekly": 48,
   "source_year": "FY2023",
+  "municipality_code": "1419",
   "website": "http://mendhamtownshiplibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12018,6 +13815,7 @@
   "lon": -74.358603,
   "hours_open_weekly": 56.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "1421",
   "website": "https://www.montvillelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12053,8 +13851,9 @@
   "phone": "2012856930",
   "lat": 40.805835,
   "lon": -74.4481066,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "1412",
   "website": "http://www.mclib.info/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12090,8 +13889,9 @@
   "phone": "2015382599",
   "lat": 40.8281018,
   "lon": -74.4865638,
-  "hours_open_weekly": 41.0,
+  "hours_open_weekly": 41,
   "source_year": "FY2023",
+  "municipality_code": "1423",
   "website": "http://www.morrisplainsboro.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12129,6 +13929,7 @@
   "lon": -74.4780668,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1424",
   "website": "https://mmtlibrary.org",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12166,6 +13967,7 @@
   "lon": -74.4780668,
   "hours_open_weekly": 65.57692307692308,
   "source_year": "FY2023",
+  "municipality_code": "1424",
   "website": "https://mmtlibrary.org",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12176,7 +13978,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "11:00",
+     "close": "15:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://mmtlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -12201,8 +14038,9 @@
   "phone": "2013981516",
   "lat": 40.9242901,
   "lon": -74.6335175,
-  "hours_open_weekly": 44.0,
+  "hours_open_weekly": 44,
   "source_year": "FY2023",
+  "municipality_code": "1426",
   "website": "https://www.mainlib.org/libraries/mount-arlington-public-library/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12213,7 +14051,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "12:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "source_url": "https://www.mainlib.org/libraries/mount-arlington-public-library/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -12238,8 +14101,9 @@
   "phone": "2016918686",
   "lat": 40.8475543,
   "lon": -74.745138,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "1427",
   "website": "http://www.mopl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12275,8 +14139,9 @@
   "phone": "2013345095",
   "lat": 40.8872619,
   "lon": -74.4336307,
-  "hours_open_weekly": 53.0,
+  "hours_open_weekly": 53,
   "source_year": "FY2023",
+  "municipality_code": "1425",
   "website": "http://www.mtnlakes.org/library",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12312,8 +14177,9 @@
   "phone": "2013350952",
   "lat": 40.881885,
   "lon": -74.3811925,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "1429",
   "website": "https://www.parsippanylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12351,6 +14217,7 @@
   "lon": -74.4803275,
   "hours_open_weekly": 8.884615384615385,
   "source_year": "FY2023",
+  "municipality_code": "1408",
   "website": "https://www.parsippanylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12388,6 +14255,7 @@
   "lon": -74.4270207,
   "hours_open_weekly": 66.3076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1429",
   "website": "https://www.parsippanylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12425,6 +14293,7 @@
   "lon": -74.2942034,
   "hours_open_weekly": 53.09615384615385,
   "source_year": "FY2023",
+  "municipality_code": "1431",
   "website": "http://www.pequannocklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12462,6 +14331,7 @@
   "lon": -74.5918722,
   "hours_open_weekly": 63.84615384615385,
   "source_year": "FY2023",
+  "municipality_code": "1432",
   "website": "http://www.randolphnj.org/library",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12499,6 +14369,7 @@
   "lon": -74.3025517,
   "hours_open_weekly": 46.11538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1433",
   "website": "https://riverdalelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12509,7 +14380,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://www.riverdalelibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -12534,8 +14440,9 @@
   "phone": "2016275709",
   "lat": 40.8984912,
   "lon": -74.5090196,
-  "hours_open_weekly": 44.0,
+  "hours_open_weekly": 44,
   "source_year": "FY2023",
+  "municipality_code": "1434",
   "website": "http://rblibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12571,8 +14478,9 @@
   "phone": "2016276872",
   "lat": 40.9456627,
   "lon": -74.4942194,
-  "hours_open_weekly": 12.0,
+  "hours_open_weekly": 12,
   "source_year": "FY2023",
+  "municipality_code": "1435",
   "website": "http://www.rtlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12610,6 +14518,7 @@
   "lon": -74.525099,
   "hours_open_weekly": 62.42307692307692,
   "source_year": "FY2023",
+  "municipality_code": "1435",
   "website": "http://www.rtlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12620,7 +14529,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "11:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "14:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://www.rtlibrary.org/hours/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -12645,8 +14584,9 @@
   "phone": "2015842400",
   "lat": 40.8687102,
   "lon": -74.6389014,
-  "hours_open_weekly": 57.0,
+  "hours_open_weekly": 57,
   "source_year": "FY2023",
+  "municipality_code": "1436",
   "website": "http://www.roxburylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12684,6 +14624,7 @@
   "lon": -74.7914448,
   "hours_open_weekly": 47.40384615384615,
   "source_year": "FY2023",
+  "municipality_code": "1438",
   "website": "http://www.wtpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12721,6 +14662,7 @@
   "lon": -74.5832695,
   "hours_open_weekly": 41.25,
   "source_year": "FY2023",
+  "municipality_code": "1439",
   "website": "http://www.whartonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12758,6 +14700,7 @@
   "lon": -74.433915,
   "hours_open_weekly": 46.96153846153846,
   "source_year": "FY2023",
+  "municipality_code": "1412",
   "website": "http://www.whippanong.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12768,7 +14711,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "14:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://www.whippanong.org/hours-location/hours/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -12795,6 +14773,7 @@
   "lon": -74.2373799,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1504",
   "website": "http://beachhavenlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12805,7 +14784,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://www.beachhavenlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -12830,8 +14844,9 @@
   "phone": "6096983331",
   "lat": 39.7559192,
   "lon": -74.2327082,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "1501",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12867,8 +14882,9 @@
   "phone": "9088920662",
   "lat": 40.0689839,
   "lon": -74.049637,
-  "hours_open_weekly": 35.0,
+  "hours_open_weekly": 35,
   "source_year": "FY2023",
+  "municipality_code": "1503",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12904,8 +14920,9 @@
   "phone": "2012444573",
   "lat": 39.9397693,
   "lon": -74.191075,
-  "hours_open_weekly": 43.0,
+  "hours_open_weekly": 43,
   "source_year": "FY2023",
+  "municipality_code": "1505",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12941,8 +14958,9 @@
   "phone": "2012692144",
   "lat": 39.8989424,
   "lon": -74.1595543,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "1506",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -12978,8 +14996,9 @@
   "phone": "2014774513",
   "lat": 40.0706951,
   "lon": -74.1494256,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "1507",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13015,8 +15034,9 @@
   "phone": "2012706266",
   "lat": 39.9439236,
   "lon": -74.1496554,
-  "hours_open_weekly": 43.0,
+  "hours_open_weekly": 43,
   "source_year": "FY2023",
+  "municipality_code": "1511",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13052,8 +15072,9 @@
   "phone": "2019284400",
   "lat": 40.1108791,
   "lon": -74.355718,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "1512",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13089,8 +15110,9 @@
   "phone": "6096938566",
   "lat": 39.8390481,
   "lon": -74.1905252,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "1513",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13126,8 +15148,9 @@
   "phone": "7323631435",
   "lat": 40.0939504,
   "lon": -74.212451,
-  "hours_open_weekly": 68.0,
+  "hours_open_weekly": 68,
   "source_year": "FY2023",
+  "municipality_code": "1515",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13163,8 +15186,9 @@
   "phone": "6092941197",
   "lat": 39.5846221,
   "lon": -74.37303,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "1517",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13200,8 +15224,9 @@
   "phone": "6094942480",
   "lat": 39.6536321,
   "lon": -74.1740804,
-  "hours_open_weekly": 56.0,
+  "hours_open_weekly": 56,
   "source_year": "FY2023",
+  "municipality_code": "1532",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13237,8 +15262,9 @@
   "phone": "9086577600",
   "lat": 40.0071297,
   "lon": -74.2950366,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "1519",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13274,8 +15300,9 @@
   "phone": "2013496200",
   "lat": 39.9528729,
   "lon": -74.1956848,
-  "hours_open_weekly": 68.0,
+  "hours_open_weekly": 68,
   "source_year": "FY2023",
+  "municipality_code": "1508",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13311,8 +15338,9 @@
   "phone": "6097587888",
   "lat": 40.0681822,
   "lon": -74.5308976,
-  "hours_open_weekly": 43.0,
+  "hours_open_weekly": 43,
   "source_year": "FY2023",
+  "municipality_code": "1524",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13348,8 +15376,9 @@
   "phone": "2018924575",
   "lat": 40.0937056,
   "lon": -74.0523305,
-  "hours_open_weekly": 43.0,
+  "hours_open_weekly": 43,
   "source_year": "FY2023",
+  "municipality_code": "1526",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13385,8 +15414,9 @@
   "phone": "9082951555",
   "lat": 40.0781598,
   "lon": -74.0690182,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "1525",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13422,8 +15452,9 @@
   "phone": "6095973381",
   "lat": 39.6986586,
   "lon": -74.257305,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "1531",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13459,8 +15490,9 @@
   "phone": "6092961470",
   "lat": 39.5958967,
   "lon": -74.3371154,
-  "hours_open_weekly": 43.0,
+  "hours_open_weekly": 43,
   "source_year": "FY2023",
+  "municipality_code": "1533",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13496,8 +15528,9 @@
   "phone": "9087933996",
   "lat": 39.9637297,
   "lon": -74.0717927,
-  "hours_open_weekly": 56.0,
+  "hours_open_weekly": 56,
   "source_year": "FY2023",
+  "municipality_code": "1516",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13533,8 +15566,9 @@
   "phone": "6096935133",
   "lat": 39.7941625,
   "lon": -74.1923491,
-  "hours_open_weekly": 43.0,
+  "hours_open_weekly": 43,
   "source_year": "FY2023",
+  "municipality_code": "1521",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13570,8 +15604,9 @@
   "phone": "7328490391",
   "lat": 39.956419,
   "lon": -74.387399,
-  "hours_open_weekly": 43.0,
+  "hours_open_weekly": 43,
   "source_year": "FY2023",
+  "municipality_code": "1519",
   "website": "https://theoceancountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13607,8 +15642,9 @@
   "phone": "2013458120",
   "lat": 40.8964801,
   "lon": -74.1996628,
-  "hours_open_weekly": 52.0,
+  "hours_open_weekly": 52,
   "source_year": "FY2023",
+  "municipality_code": "1616",
   "website": "https://www.abwplibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13644,8 +15680,9 @@
   "phone": "2018380077",
   "lat": 41.008083,
   "lon": -74.3392711,
-  "hours_open_weekly": 50.0,
+  "hours_open_weekly": 50,
   "source_year": "FY2023",
+  "municipality_code": "1601",
   "website": "http://www.bloomingdalelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13656,7 +15693,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "19:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "19:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "19:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://www.bloomingdalelibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -13683,6 +15755,7 @@
   "lon": -74.1617788,
   "hours_open_weekly": 55.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "1602",
   "website": "http://www.cliftonpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13720,6 +15793,7 @@
   "lon": -74.1467358,
   "hours_open_weekly": 49.42307692307692,
   "source_year": "FY2023",
+  "municipality_code": "1602",
   "website": "http://www.cliftonpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13757,6 +15831,7 @@
   "lon": -74.2180031,
   "hours_open_weekly": 46.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "1612",
   "website": "http://www.totowapl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13794,6 +15869,7 @@
   "lon": -74.1856083,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1603",
   "website": "http://www.haledonlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13831,6 +15907,7 @@
   "lon": -74.2290666,
   "hours_open_weekly": 52.48076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1605",
   "website": "http://www.littlefallslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13868,6 +15945,7 @@
   "lon": -74.1552664,
   "hours_open_weekly": 61.13461538461539,
   "source_year": "FY2023",
+  "municipality_code": "1604",
   "website": "https://louisbay2ndlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13905,6 +15983,7 @@
   "lon": -74.1834728,
   "hours_open_weekly": 60.53846153846154,
   "source_year": "FY2023",
+  "municipality_code": "1606",
   "website": "http://www.northhaledonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13915,7 +15994,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://northhaledonlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -13940,8 +16054,9 @@
   "phone": "2017790474",
   "lat": 40.857588,
   "lon": -74.1277733,
-  "hours_open_weekly": 71.0,
+  "hours_open_weekly": 71,
   "source_year": "FY2023",
+  "municipality_code": "1607",
   "website": "http://www.passaicpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -13979,6 +16094,7 @@
   "lon": -74.1277733,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1607",
   "website": "http://www.passaicpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14014,8 +16130,9 @@
   "phone": "2017776044",
   "lat": 40.8641305,
   "lon": -74.1156274,
-  "hours_open_weekly": 20.0,
+  "hours_open_weekly": 20,
   "source_year": "FY2023",
+  "municipality_code": "1607",
   "website": "http://www.passaicpubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14051,8 +16168,9 @@
   "phone": "9733211309",
   "lat": 40.9243883,
   "lon": -74.1746177,
-  "hours_open_weekly": 40.0,
+  "hours_open_weekly": 40,
   "source_year": "FY2023",
+  "municipality_code": "1608",
   "website": "http://www.patersonpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14088,8 +16206,9 @@
   "phone": "2018817038",
   "lat": 40.9186833,
   "lon": -74.1642453,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "1608",
   "website": "http://www.patersonpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14125,8 +16244,9 @@
   "phone": "2012796577",
   "lat": 40.8957558,
   "lon": -74.1605692,
-  "hours_open_weekly": 40.0,
+  "hours_open_weekly": 40,
   "source_year": "FY2023",
+  "municipality_code": "1608",
   "website": "http://www.patersonpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14162,8 +16282,9 @@
   "phone": "2017900950",
   "lat": 40.9209595,
   "lon": -74.1856908,
-  "hours_open_weekly": 10.0,
+  "hours_open_weekly": 10,
   "source_year": "FY2023",
+  "municipality_code": "1608",
   "website": "http://www.patersonpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14201,6 +16322,7 @@
   "lon": -74.2906184,
   "hours_open_weekly": 52.46153846153846,
   "source_year": "FY2023",
+  "municipality_code": "1609",
   "website": "http://www.pomptonlakeslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14236,8 +16358,9 @@
   "phone": "2019626256",
   "lat": 41.0883194,
   "lon": -74.2662454,
-  "hours_open_weekly": 55.0,
+  "hours_open_weekly": 55,
   "source_year": "FY2023",
+  "municipality_code": "1611",
   "website": "http://www.ringwoodlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14273,8 +16396,9 @@
   "phone": "2018394434",
   "lat": 41.0501746,
   "lon": -74.2892806,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "1613",
   "website": "http://www.wanaquelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14312,6 +16436,7 @@
   "lon": -74.2322662,
   "hours_open_weekly": 66.46153846153847,
   "source_year": "FY2023",
+  "municipality_code": "1614",
   "website": "http://www.waynepubliclibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14347,8 +16472,9 @@
   "phone": "2017282820",
   "lat": 41.1309011,
   "lon": -74.3681078,
-  "hours_open_weekly": 59.0,
+  "hours_open_weekly": 59,
   "source_year": "FY2023",
+  "municipality_code": "1615",
   "website": "https://www.wmtl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14386,6 +16512,7 @@
   "lon": -75.168527,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1703",
   "website": "http://elmerlibrarynj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14423,6 +16550,7 @@
   "lon": -75.5182069,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1709",
   "website": "https://www.pennsvillelibrary.org",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14460,6 +16588,7 @@
   "lon": -75.4699495,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1713",
   "website": "http://www.mysalemlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14470,7 +16599,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "15:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://mysalemlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -14497,6 +16651,7 @@
   "lon": -75.3211825,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "1715",
   "website": "https://www.woodstownlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14534,6 +16689,7 @@
   "lon": -74.6510195,
   "hours_open_weekly": 57.26923076923077,
   "source_year": "FY2023",
+  "municipality_code": "1801",
   "website": "https://www.dillonlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14544,7 +16700,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://www.dillonlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -14571,6 +16752,7 @@
   "lon": -74.5479897,
   "hours_open_weekly": 54.07692307692308,
   "source_year": "FY2023",
+  "municipality_code": "1802",
   "website": "http://www.bernardslibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14608,6 +16790,7 @@
   "lon": -74.5693693,
   "hours_open_weekly": 50.69230769230769,
   "source_year": "FY2023",
+  "municipality_code": "1803",
   "website": "http://www.bernardsvillelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14618,7 +16801,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://bernardsvillelibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -14643,8 +16851,9 @@
   "phone": "7328738700",
   "lat": 40.4272149,
   "lon": -74.5625383,
-  "hours_open_weekly": 43.0,
+  "hours_open_weekly": 43,
   "source_year": "FY2023",
+  "municipality_code": "1808",
   "website": "http://www.franklintwp.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14680,8 +16889,9 @@
   "phone": "2018738700",
   "lat": 40.498322,
   "lon": -74.5231274,
-  "hours_open_weekly": 61.0,
+  "hours_open_weekly": 61,
   "source_year": "FY2023",
+  "municipality_code": "1808",
   "website": "http://www.franklintwp.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14717,8 +16927,9 @@
   "phone": "8488381960",
   "lat": 40.49078891,
   "lon": -74.47873682,
-  "hours_open_weekly": 26.0,
+  "hours_open_weekly": 26,
   "source_year": "FY2023",
+  "municipality_code": "1808",
   "website": "http://www.franklintwp.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14754,8 +16965,9 @@
   "phone": "2017250413",
   "lat": 40.569087,
   "lon": -74.6291389,
-  "hours_open_weekly": 57.0,
+  "hours_open_weekly": 57,
   "source_year": "FY2023",
+  "municipality_code": "1816",
   "website": "http://raritanlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14766,7 +16978,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://raritanlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -14793,6 +17040,7 @@
   "lon": -74.5294546,
   "hours_open_weekly": 41.76923076923077,
   "source_year": "FY2023",
+  "municipality_code": "1804",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14830,6 +17078,7 @@
   "lon": -74.6076637,
   "hours_open_weekly": 58.26923076923077,
   "source_year": "FY2023",
+  "municipality_code": "1806",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14867,6 +17116,7 @@
   "lon": -74.6742605,
   "hours_open_weekly": 58.26923076923077,
   "source_year": "FY2023",
+  "municipality_code": "1810",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14904,6 +17154,7 @@
   "lon": -74.5950807,
   "hours_open_weekly": 54.11538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1811",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14941,6 +17192,7 @@
   "lon": -74.6393889,
   "hours_open_weekly": 12.23076923076923,
   "source_year": "FY2023",
+  "municipality_code": "1817",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -14978,6 +17230,7 @@
   "lon": -74.65818725,
   "hours_open_weekly": 58.26923076923077,
   "source_year": "FY2023",
+  "municipality_code": "1813",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15015,6 +17268,7 @@
   "lon": -74.433651,
   "hours_open_weekly": 54.11538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1814",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15052,6 +17306,7 @@
   "lon": -74.658728,
   "hours_open_weekly": 54.11538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1815",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15089,6 +17344,7 @@
   "lon": -74.6196374,
   "hours_open_weekly": 54.11538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1818",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15126,6 +17382,7 @@
   "lon": -74.496525,
   "hours_open_weekly": 58.26923076923077,
   "source_year": "FY2023",
+  "municipality_code": "1820",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15163,6 +17420,7 @@
   "lon": -74.4513132,
   "hours_open_weekly": 54.11538461538461,
   "source_year": "FY2023",
+  "municipality_code": "1821",
   "website": "https://sclsnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15200,6 +17458,7 @@
   "lon": -74.6377016,
   "hours_open_weekly": 61.65384615384615,
   "source_year": "FY2023",
+  "municipality_code": "1918",
   "website": "http://spartalibrary.com/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15210,7 +17469,32 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "thursday",
+     "open": "08:30",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "08:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "08:30",
+     "close": "15:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://spartalibrary.com/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -15235,8 +17519,9 @@
   "phone": "9733834810",
   "lat": 41.0553137,
   "lon": -74.7550321,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "1915",
   "website": "http://www.sussexcountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15274,6 +17559,7 @@
   "lon": -74.5433325,
   "hours_open_weekly": 51.92307692307692,
   "source_year": "FY2023",
+  "municipality_code": "1922",
   "website": "http://www.sussexcountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15311,6 +17597,7 @@
   "lon": -74.6959027,
   "hours_open_weekly": 48.80769230769231,
   "source_year": "FY2023",
+  "municipality_code": "1919",
   "website": "http://www.sussexcountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15346,8 +17633,9 @@
   "phone": "9738276555",
   "lat": 41.1221385,
   "lon": -74.5854869,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "1906",
   "website": "http://www.sussexcountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15383,8 +17671,9 @@
   "phone": "9739483660",
   "lat": 41.1231573,
   "lon": -74.7555663,
-  "hours_open_weekly": 64.0,
+  "hours_open_weekly": 64,
   "source_year": "FY2023",
+  "municipality_code": "1905",
   "website": "http://www.sussexcountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15420,8 +17709,9 @@
   "phone": "9738753940",
   "lat": 41.1991067,
   "lon": -74.6285627,
-  "hours_open_weekly": 54.0,
+  "hours_open_weekly": 54,
   "source_year": "FY2023",
+  "municipality_code": "1924",
   "website": "http://www.sussexcountylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15457,8 +17747,9 @@
   "phone": "2014649333",
   "lat": 40.6786699,
   "lon": -74.4398896,
-  "hours_open_weekly": 67.0,
+  "hours_open_weekly": 67,
   "source_year": "FY2023",
+  "municipality_code": "2001",
   "website": "http://library.bhplnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15494,8 +17785,9 @@
   "phone": "2013885999",
   "lat": 40.6220651,
   "lon": -74.3100731,
-  "hours_open_weekly": 61.0,
+  "hours_open_weekly": 61,
   "source_year": "FY2023",
+  "municipality_code": "2002",
   "website": "http://www.clarklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15531,8 +17823,9 @@
   "phone": "2017097272",
   "lat": 40.651924,
   "lon": -74.3039108,
-  "hours_open_weekly": 58.0,
+  "hours_open_weekly": 58,
   "source_year": "FY2023",
+  "municipality_code": "2003",
   "website": "http://www.cranfordlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15543,7 +17836,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.cranfordlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -15570,6 +17898,7 @@
   "lon": -74.2151433,
   "hours_open_weekly": 53.34615384615385,
   "source_year": "FY2023",
+  "municipality_code": "2004",
   "website": "http://www.elizpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15607,6 +17936,7 @@
   "lon": -74.1911007,
   "hours_open_weekly": 36.44230769230769,
   "source_year": "FY2023",
+  "municipality_code": "2004",
   "website": "http://www.elizpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15644,6 +17974,7 @@
   "lon": -74.2360459,
   "hours_open_weekly": 53.98076923076923,
   "source_year": "FY2023",
+  "municipality_code": "2004",
   "website": "http://www.elizpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15681,6 +18012,7 @@
   "lon": -74.206721,
   "hours_open_weekly": 36.28846153846154,
   "source_year": "FY2023",
+  "municipality_code": "2004",
   "website": "http://www.elizpl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15718,6 +18050,7 @@
   "lon": -74.3853946,
   "hours_open_weekly": 49.5,
   "source_year": "FY2023",
+  "municipality_code": "2005",
   "website": "http://www.fanwoodlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15755,6 +18088,7 @@
   "lon": -74.3267971,
   "hours_open_weekly": 50.5,
   "source_year": "FY2023",
+  "municipality_code": "2006",
   "website": "http://www.youseemore.com/garwood",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15790,8 +18124,9 @@
   "phone": "2019234413",
   "lat": 40.7008998,
   "lon": -74.2288158,
-  "hours_open_weekly": 53.0,
+  "hours_open_weekly": 53,
   "source_year": "FY2023",
+  "municipality_code": "2007",
   "website": "http://www.hillsidepl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15827,8 +18162,9 @@
   "phone": "2012762451",
   "lat": 40.6762067,
   "lon": -74.2902526,
-  "hours_open_weekly": 49.0,
+  "hours_open_weekly": 49,
   "source_year": "FY2023",
+  "municipality_code": "2008",
   "website": "http://www.kenilworthlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15864,8 +18200,9 @@
   "phone": "2012983830",
   "lat": 40.6345197,
   "lon": -74.2578433,
-  "hours_open_weekly": 56.0,
+  "hours_open_weekly": 56,
   "source_year": "FY2023",
+  "municipality_code": "2009",
   "website": "https://lindenlibrary-nj.gov/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15876,7 +18213,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://lindenlibrary-nj.gov/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -15903,6 +18275,7 @@
   "lon": -74.3581266,
   "hours_open_weekly": 51.55769230769231,
   "source_year": "FY2023",
+  "municipality_code": "2010",
   "website": "http://www.mountainsidelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15940,6 +18313,7 @@
   "lon": -74.4047127,
   "hours_open_weekly": 56.5,
   "source_year": "FY2023",
+  "municipality_code": "2011",
   "website": "https://newprovlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -15975,8 +18349,9 @@
   "phone": "2017571111",
   "lat": 40.6139276,
   "lon": -74.415586,
-  "hours_open_weekly": 60.0,
+  "hours_open_weekly": 60,
   "source_year": "FY2023",
+  "municipality_code": "2012",
   "website": "http://www.plfdpl.info/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16012,8 +18387,9 @@
   "phone": "2013880761",
   "lat": 40.6045769,
   "lon": -74.2735151,
-  "hours_open_weekly": 50.0,
+  "hours_open_weekly": 50,
   "source_year": "FY2023",
+  "municipality_code": "2013",
   "website": "https://www.rahwaylibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16051,6 +18427,7 @@
   "lon": -74.2632011,
   "hours_open_weekly": 47.07692307692308,
   "source_year": "FY2023",
+  "municipality_code": "2014",
   "website": "https://rosellelibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16088,7 +18465,8 @@
   "lon": -74.2649305,
   "hours_open_weekly": null,
   "source_year": "FY2023",
-  "website": null,
+  "municipality_code": "2015",
+  "website": "https://roselleparklibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
   "has_legal_help_program": null,
@@ -16123,8 +18501,9 @@
   "phone": "2013225007",
   "lat": 40.6513609,
   "lon": -74.3972521,
-  "hours_open_weekly": 57.0,
+  "hours_open_weekly": 57,
   "source_year": "FY2023",
+  "municipality_code": "2016",
   "website": "http://www.scotlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16162,6 +18541,7 @@
   "lon": -74.313033,
   "hours_open_weekly": 52.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "2017",
   "website": "http://www.sfplnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16199,6 +18579,7 @@
   "lon": -74.3598684,
   "hours_open_weekly": 64.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "2018",
   "website": "http://summitlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16209,7 +18590,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "http://www.summitlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -16234,8 +18655,9 @@
   "phone": "2016860420",
   "lat": 40.6961699,
   "lon": -74.2690505,
-  "hours_open_weekly": 57.0,
+  "hours_open_weekly": 57,
   "source_year": "FY2023",
+  "municipality_code": "2019",
   "website": "https://uplnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16271,8 +18693,9 @@
   "phone": "2016881078",
   "lat": 40.715911,
   "lon": -74.2808753,
-  "hours_open_weekly": 40.0,
+  "hours_open_weekly": 40,
   "source_year": "FY2023",
+  "municipality_code": "2019",
   "website": "https://uplnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16308,8 +18731,9 @@
   "phone": "2017894090",
   "lat": 40.6568498,
   "lon": -74.3426913,
-  "hours_open_weekly": 62.0,
+  "hours_open_weekly": 62,
   "source_year": "FY2023",
+  "municipality_code": "2020",
   "website": "http://www.wmlnj.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16347,6 +18771,7 @@
   "lon": -74.8283907,
   "hours_open_weekly": 54.88461538461539,
   "source_year": "FY2023",
+  "municipality_code": "2108",
   "website": "http://www.hackettstownlibrary.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16357,7 +18782,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://hackettstownlibrary.org/",
+   "verified_on": "2026-09-18"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -16384,6 +18844,7 @@
   "lon": -74.9971673,
   "hours_open_weekly": null,
   "source_year": "FY2023",
+  "municipality_code": "2117",
   "website": "https://oxford.njlibraries.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16421,6 +18882,7 @@
   "lon": -75.1799937,
   "hours_open_weekly": 37.5,
   "source_year": "FY2023",
+  "municipality_code": "2119",
   "website": "http://www.pburglib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16456,8 +18918,9 @@
   "phone": "2014541445",
   "lat": 40.6634169,
   "lon": -75.1606682,
-  "hours_open_weekly": 25.0,
+  "hours_open_weekly": 25,
   "source_year": "FY2023",
+  "municipality_code": "2102",
   "website": null,
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16495,6 +18958,7 @@
   "lon": -74.9936925,
   "hours_open_weekly": 45.30769230769231,
   "source_year": "FY2023",
+  "municipality_code": "2104",
   "website": "http://warrenlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16532,6 +18996,7 @@
   "lon": -75.0232055,
   "hours_open_weekly": 1.2115384615384615,
   "source_year": "FY2023",
+  "municipality_code": "2105",
   "website": "http://warrenlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16569,6 +19034,7 @@
   "lon": -74.846464,
   "hours_open_weekly": 55.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "2112",
   "website": "http://warrenlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16606,6 +19072,7 @@
   "lon": -75.1592106,
   "hours_open_weekly": 55.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "2120",
   "website": "http://warrenlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16643,6 +19110,7 @@
   "lon": -75.075625,
   "hours_open_weekly": 55.38461538461539,
   "source_year": "FY2023",
+  "municipality_code": "2103",
   "website": "http://warrenlib.org/",
   "catalog_url": null,
   "library_card_signup_url": null,
@@ -16678,8 +19146,9 @@
   "phone": "2016890201",
   "lat": 40.7630215,
   "lon": -74.9848245,
-  "hours_open_weekly": 32.0,
+  "hours_open_weekly": 32,
   "source_year": "FY2023",
+  "municipality_code": "2121",
   "website": "https://washboropl.org/",
   "catalog_url": null,
   "library_card_signup_url": null,

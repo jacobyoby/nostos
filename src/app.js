@@ -7,6 +7,7 @@ import {
   findOutlet,
   formatPhone,
   hoursStatus,
+  hoursWeek,
   makeProposal,
   nearestLibraries,
   outletKey,
@@ -136,7 +137,7 @@ function renderFinder() {
         <td>${escapeHtml(title(r.county))}</td>
         <td>${escapeHtml([title(r.address), title(r.city), r.zip].filter(Boolean).join(", "))}</td>
         <td>${phone}</td>
-        <td>${escapeHtml(hours.label)}</td>
+        <td data-testid="finder-hours">${escapeHtml(hours.label)}</td>
       </tr>`;
     })
     .join("");
@@ -155,6 +156,9 @@ function renderOutlet(key) {
     return;
   }
   const hours = hoursStatus(r);
+  const week = hoursWeek(r);
+  const hoursRecord = r.hours && typeof r.hours === "object" && !Array.isArray(r.hours) ? r.hours : null;
+  const hoursSource = hoursRecord && safeHttpUrl(hoursRecord.source_url);
   const phone = contactField(r.admin_phone) || (r.phone ? { value: r.phone, verified_on: null } : null);
   const phoneHref = phone ? telHref(phone.value) : null;
   const email = contactField(r.admin_email);
@@ -196,6 +200,18 @@ function renderOutlet(key) {
     <div class="outlet-contact" data-testid="outlet-contact">
       <h2>Contact the library</h2>
       <dl>${contactRows}</dl>
+    </div>
+    <div class="outlet-hours" data-testid="outlet-hours">
+      <h2>Hours</h2>
+      ${
+        hours.kind === "unpublished"
+          ? `<p class="sub" data-testid="hours-status">Hours not published. IMLS weekly totals are not a schedule.</p>`
+          : `<p class="sub" data-testid="hours-status">${escapeHtml(hours.label)}</p>
+      <table data-testid="hours-week">${week
+        .map((row) => `<tr><th>${escapeHtml(title(row.day))}</th><td>${escapeHtml(row.label)}</td></tr>`)
+        .join("")}</table>
+      ${hoursSource ? `<p class="sub">Source: <a href="${escapeHtml(hoursSource)}" rel="noopener noreferrer" target="_blank">${escapeHtml(hoursSource)}</a></p>` : ""}`
+      }
     </div>
     <h3>Services</h3>
     <div data-testid="outlet-services">${

@@ -366,6 +366,8 @@ const DAY_INDEX = {
   saturday: 6,
 };
 
+const DAY_ORDER = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+
 /**
  * @param {string} hhmm
  * @returns {number | null} minutes from midnight
@@ -380,13 +382,37 @@ function parseHhmm(hhmm) {
 }
 
 /**
- * Open-now / opens-at using America/New_York, else weekly hours.
+ * @param {string} hhmm
+ * @returns {string}
+ */
+export function formatClock(hhmm) {
+  const mins = parseHhmm(hhmm);
+  if (mins == null) return String(hhmm || "");
+  const hour24 = Math.floor(mins / 60);
+  const min = mins % 60;
+  const ampm = hour24 >= 12 ? "PM" : "AM";
+  const hour12 = hour24 % 12 === 0 ? 12 : hour24 % 12;
+  return `${hour12}:${String(min).padStart(2, "0")} ${ampm}`;
+}
+
+/**
+ * @param {LibraryRecord} r
+ * @returns {{ day: string, open: string, close: string }[]}
+ */
+export function hoursSlots(r) {
+  if (Array.isArray(r?.hours)) return r.hours;
+  if (r?.hours && Array.isArray(r.hours.days)) return r.hours.days;
+  return [];
+}
+
+/**
+ * Open-now / opens-at using America/New_York. Weekly IMLS totals are not a schedule.
  * @param {LibraryRecord} r
  * @param {Date} [now]
  */
 export function hoursStatus(r, now = new Date()) {
-  const slots = Array.isArray(r.hours) ? r.hours : r.hours && Array.isArray(r.hours.days) ? r.hours.days : null;
-  if (slots && slots.length > 0) {
+  const slots = hoursSlots(r);
+  if (slots.length > 0) {
     const fmt = new Intl.DateTimeFormat("en-US", {
       timeZone: "America/New_York",
       weekday: "long",
@@ -403,7 +429,7 @@ export function hoursStatus(r, now = new Date()) {
       const close = parseHhmm(s.close);
       if (open == null || close == null || nowMin == null) continue;
       if (nowMin >= open && nowMin < close) {
-        return { kind: "open", label: `Open now · closes ${s.close}` };
+        return { kind: "open", label: `Open now · closes ${formatClock(s.close)}` };
       }
     }
     const upcoming = slots
@@ -417,21 +443,32 @@ export function hoursStatus(r, now = new Date()) {
         .filter((x) => x.open != null && nowMin != null && x.open > nowMin)
         .sort((a, b) => a.open - b.open)[0];
       if (laterToday) {
-        return { kind: "opens", label: `Opens at ${laterToday.s.open}` };
+        return { kind: "opens", label: `Opens at ${formatClock(laterToday.s.open)}` };
       }
       const next = upcoming.find((x) => x.idx > todayIdx) || upcoming[0];
       if (next) {
-        return { kind: "opens", label: `Opens ${title(next.s.day)} at ${next.s.open}` };
+        return { kind: "opens", label: `Opens ${title(next.s.day)} at ${formatClock(next.s.open)}` };
       }
     }
+    return { kind: "closed", label: "Closed" };
   }
-  const w = r.hours_open_weekly;
-  if (w != null && Number.isFinite(w)) {
-    const rounded = Math.round(w * 10) / 10;
-    const n = Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
-    return { kind: "weekly", label: `${n} h/wk` };
-  }
-  return { kind: "unknown", label: "Hours unknown" };
+  return { kind: "unpublished", label: "Hours not published" };
+}
+
+/**
+ * @param {LibraryRecord} r
+ * @returns {{ day: string, label: string }[]}
+ */
+export function hoursWeek(r) {
+  const slots = hoursSlots(r);
+  return DAY_ORDER.map((day) => {
+    const today = slots.filter((s) => s.day === day);
+    if (!today.length) return { day, label: "Closed" };
+    return {
+      day,
+      label: today.map((s) => `${formatClock(s.open)}–${formatClock(s.close)}`).join(", "),
+    };
+  });
 }
 
 /**

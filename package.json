@@ -11,6 +11,8 @@
     "pretest:e2e": "node scripts/build-www.mjs",
     "test:e2e": "playwright test",
     "check:data": "node scripts/check-data.mjs",
+    "seed:hours": "node scripts/seed_hours.mjs",
+    "seed:muni": "node scripts/assign_municipalities.mjs",
     "test:all": "npm run test && npm run check:data && npm run test:e2e",
     "serve": "python3 -m http.server 8080",
     "cap:sync": "npm run build:www && npx cap sync",

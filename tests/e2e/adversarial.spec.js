@@ -88,6 +88,21 @@ test("outlet page shows contact above the fold and rejects a review proposal", a
   await expect(page.getByTestId("proposal-error")).toContainText(/Ratings and reviews/i);
 });
 
+test("finder never shows weekly IMLS totals as hours and Hoboken has a weekday schedule", async ({ page }) => {
+  await page.goto(BASE, { waitUntil: "networkidle" });
+  await page.getByTestId("finder-location").fill("Hoboken");
+  await page.getByTestId("finder-submit").click();
+  await expect(page.getByTestId("finder-row").first()).toBeVisible();
+  const hours = await page.getByTestId("finder-hours").allTextContents();
+  expect(hours.length).toBeGreaterThan(0);
+  expect(hours.every((t) => !/h\/wk/i.test(t))).toBeTruthy();
+  await page.goto(`${BASE}#/outlet/NJ0148-002`, { waitUntil: "networkidle" });
+  await expect(page.getByTestId("hours-week")).toBeVisible();
+  await expect(page.getByTestId("hours-week")).toContainText(/Monday/);
+  await expect(page.getByTestId("hours-week")).toContainText(/10:00 AM/);
+  await expect(page.getByTestId("outlet-contact")).toBeVisible();
+});
+
 test("finder county filter changes result set", async ({ page }) => {
   await page.goto(BASE, { waitUntil: "networkidle" });
   await page.getByTestId("finder-location").fill("Hoboken");
