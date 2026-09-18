@@ -1,74 +1,55 @@
 # Nostos
 
-Find the public library near you and what it offers.
+Find the public library near you and what it offers. **v0.1.0** covers every IMLS public library outlet in New Jersey.
 
-## Product
+## Product (v0.1.0)
 
-- **Finder.** Nearest publicly funded libraries by location, with hours, phone, address, and the
-  services each location offers (legal-help desks, notary, passport, meeting rooms, printing,
-  language help, tax prep, and whatever the community adds).
-- **Community input, no reviews.** People can name a service, post hours or closures, or note that a
-  book or resource is at a location. There is no rating, no star, no free-text review. Reviews turn
-  into a place to fight; a library is not a restaurant.
-- **Contact the library.** Every location page has a direct route to the library's administration:
-  phone, email or contact form, and the board or governing body. This is a first-class feature, not a
-  footer link.
-- **Publicly funded only.** The IMLS Public Libraries Survey outlet file defines the universe. Anything
-  not in IMLS needs a citation before it goes in.
-
-Starting scope is New Jersey: every outlet, every county, every municipality.
+- **Finder.** Nearest publicly funded libraries by ZIP, town, or device location: miles, address, phone, hours.
+- **Outlet page.** Contact the administration above the fold (phone, email, contact form, director, board). Unpublished fields are shown as “Not published”, never guessed.
+- **Services.** Documented list per outlet (`{name, evidence_url, verified_on}`). Legal-help desks are seeded from the NJSL flags; other services stay empty until evidenced.
+- **Community input, no reviews.** Propose a service, hours/closure, or that a book/resource is here. Proposals go to a moderation queue (`data/proposals/`), never onto the page. No ratings, stars, or free-text reviews.
+- **Publicly funded only.** Universe is the IMLS Public Libraries Survey outlet file.
 
 ## Data
 
-- `data/imls-nj-outlets.json` — every active NJ outlet from IMLS PLS FY2023 (449 rows), produced by
-  `scripts/ingest_imls_nj.py`. Re-run it; never hand-edit.
-- `data/nj-libraries.json` — canonical merged list: outlets + system website + legal-help flag +
-  Forma Pauperis outreach status. Produced by `scripts/merge.py`, which preserves outreach status
-  across re-runs.
-- `scripts/outreach.py <fscskey>-<seq> <todo|contacted|posted|partner> "<note>"` — records outreach
-  progress on one outlet.
+- `data/imls-nj-outlets.json` — every active NJ outlet from IMLS PLS FY2023 (449 rows), produced by `scripts/ingest_imls_nj.py`.
+- `data/nj-libraries.json` — merged outlets + NJSL website/legal-help + services + admin contact + outreach. Produced by `scripts/merge.py`.
+- `data/proposals/accepted.json` / `rejected.json` / `inbox/` — community queue. `merge.py` applies accepted proposals.
+- Service names: legal-help desk, lawyer-in-the-library, notary, passport, printing/scanning, meeting rooms, tax prep, language help, computer access, other.
+- Each service: `{name, evidence_url, verified_on}`.
+- Admin fields: `admin_phone`, `admin_email`, `contact_form_url`, `director`, `board_url` as `{value, verified_on}` or null.
+- Hours: `hours` as `[{day, open, close}]` plus weekly `hours_open_weekly`. Finder shows open-now when structured hours exist.
 
 ## Apps
 
-### Web
-
-`src/index.html` is a static ES-module app:
-
-- **Find nearby** — ZIP/town or device geolocation, haversine distance, county and outlet-type filters (issue #1).
-- **Directory** — outreach progress tiles, county / status / legal-help filters, search.
-
-Serve from the repo root (JSON fetch needs http, not `file://`):
+Web: static ES modules in `src/`. Hash routes `#/`, `#/directory`, `#/outlet/NJ0003-002`.
 
 ```bash
 python3 -m http.server 8080
 # http://127.0.0.1:8080/src/
 ```
 
-### Android & iOS (Capacitor)
-
-Shared UI is copied into `www/` and wrapped with Capacitor 7.
+Android & iOS: Capacitor 7 (`com.jacobyoby.nostos`, version 0.1.0).
 
 ```bash
 npm install
 npm run build:www
 npx cap sync
-# Android (requires SDK + JDK)
-npm run android:assemble
-# iOS (requires macOS + Xcode)
-npm run ios:pod
-npx cap open ios
+npm run android:assemble   # SDK + JDK
+npm run ios:pod            # macOS + Xcode
 ```
 
-Location permissions are declared in `android/app/src/main/AndroidManifest.xml` and `ios/App/App/Info.plist`.
-Native apps call `@capacitor/geolocation` via the Capacitor bridge; the browser uses `navigator.geolocation`.
+## Hosting and CI
 
-## Tests (adversarial)
+CI on every push/PR: `npm test`, `node scripts/check-data.mjs` (JSON parse + http(s) website/service URLs), Playwright e2e.
 
-`npm test` builds `www/` first (gitignored) so a clean clone can run checks without a pre-built APK.
+Intended production host is **loam**, alongside other jacobrakai static sites. Until that deploy path is wired, serve `src/` + `data/` (or `www/` after `npm run build:www`) as a static site. GitHub Pages can publish `www/`.
+
+## Tests
 
 ```bash
-npm test          # town/ZIP matching, http(s)-only hrefs, legal=no, mobile project checks
-npm run test:e2e  # Playwright: ZIP finder, geolocation denied, poisoned javascript: href, filters
+npm test          # builds www/, unit + mobile project checks
+npm run check:data
+npm run test:e2e
 npm run test:all
-npm run android:assemble   # optional: produce app-debug.apk (requires Android SDK)
 ```

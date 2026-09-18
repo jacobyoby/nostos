@@ -1,6 +1,6 @@
 {
   "name": "nostos",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "description": "Nostos — NJ public library finder (web, Android, iOS)",
@@ -10,7 +10,8 @@
     "test": "node --test tests/adversarial/*.test.js",
     "pretest:e2e": "node scripts/build-www.mjs",
     "test:e2e": "playwright test",
-    "test:all": "npm run test && npm run test:e2e",
+    "check:data": "node scripts/check-data.mjs",
+    "test:all": "npm run test && npm run check:data && npm run test:e2e",
     "serve": "python3 -m http.server 8080",
     "cap:sync": "npm run build:www && npx cap sync",
     "android:assemble": "cd android && ./gradlew assembleDebug",

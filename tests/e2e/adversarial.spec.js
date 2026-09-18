@@ -52,8 +52,11 @@ test("directory does not emit javascript: href from poisoned website", async ({ 
       lon: -74.76,
       hours_open_weekly: 10,
       website: "javascript:alert(document.domain)",
+      admin_email: { value: "javascript:alert(1)", verified_on: null },
+      contact_form_url: { value: "javascript:alert(1)", verified_on: null },
       has_legal_help_program: true,
       legal_help_evidence: "javascript:alert(1)",
+      services: [{ name: "legal-help desk", evidence_url: "javascript:alert(1)", verified_on: null }],
       outreach: { status: "todo", notes: null },
     },
     ...libraries,
@@ -65,13 +68,24 @@ test("directory does not emit javascript: href from poisoned website", async ({ 
       body: JSON.stringify(poisoned),
     });
   });
+  await page.goto(`${BASE}#/outlet/XSS001-001`, { waitUntil: "networkidle" });
+  const contact = page.getByTestId("outlet-contact");
+  await expect(contact).toBeVisible();
+  await expect(page.locator('a[href^="javascript:"]')).toHaveCount(0);
+  await expect(page.getByTestId("outlet-name")).toContainText("Xss Outlet");
+});
+
+test("outlet page shows contact above the fold and rejects a review proposal", async ({ page }) => {
   await page.goto(BASE, { waitUntil: "networkidle" });
-  await page.getByTestId("tab-directory").click();
-  await page.getByTestId("search").fill("XSS OUTLET");
-  const row = page.locator('[data-fscs="XSS001-001"]');
-  await expect(row).toBeVisible();
-  await expect(row.locator('a[href^="javascript:"]')).toHaveCount(0);
-  await expect(row.locator("td").first()).toContainText("Xss Outlet");
+  await page.getByTestId("finder-location").fill("08401");
+  await page.getByTestId("finder-submit").click();
+  await page.getByTestId("outlet-link").first().click();
+  await expect(page.getByTestId("outlet-contact")).toBeVisible();
+  await expect(page.getByTestId("admin-phone")).toBeVisible();
+  await page.getByTestId("proposal-kind").selectOption("resource");
+  await page.getByTestId("proposal-value").fill("5 star review of this library");
+  await page.getByTestId("proposal-submit").click();
+  await expect(page.getByTestId("proposal-error")).toContainText(/Ratings and reviews/i);
 });
 
 test("finder county filter changes result set", async ({ page }) => {
