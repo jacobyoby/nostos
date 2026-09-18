@@ -5,6 +5,7 @@ import {
   escapeHtml,
   filterDirectory,
   findOutlet,
+  formatPhone,
   hoursStatus,
   makeProposal,
   nearestLibraries,
@@ -14,6 +15,7 @@ import {
   resolveLocationQuery,
   safeHttpUrl,
   servicesOf,
+  telHref,
   statusOf,
   title,
 } from "./lib/nostos.js";
@@ -100,7 +102,7 @@ function renderDirectory() {
             ? "no"
             : "<span style='color:var(--muted)'>?</span>";
       return `<tr data-fscs="${escapeHtml(outletKey(r))}" data-testid="directory-row">
-        <td>${libraryLink(r)}<br><small style="color:var(--muted)">${escapeHtml(r.outlet_type || "")}${r.phone ? ` · ${escapeHtml(r.phone)}` : ""}</small></td>
+        <td>${libraryLink(r)}<br><small style="color:var(--muted)">${escapeHtml(r.outlet_type || "")}${r.phone ? ` · ${escapeHtml(formatPhone(r.phone))}` : ""}</small></td>
         <td>${escapeHtml(title(r.system_name))}</td><td>${escapeHtml(title(r.county))}</td>
         <td>${escapeHtml([title(r.address), title(r.city), r.zip].filter(Boolean).join(", "))}</td>
         <td>${legal}</td>
@@ -126,7 +128,7 @@ function renderFinder() {
   finderStatus.textContent = `Near ${finderOrigin.label} (${finderOrigin.lat.toFixed(4)}, ${finderOrigin.lon.toFixed(4)})`;
   finderResults.innerHTML = hits
     .map(({ record: r, distanceMi }) => {
-      const phone = r.phone ? escapeHtml(r.phone) : "";
+      const phone = r.phone ? escapeHtml(formatPhone(r.phone)) : "";
       const hours = hoursStatus(r);
       return `<tr data-testid="finder-row" data-fscs="${escapeHtml(outletKey(r))}">
         <td>${distanceMi.toFixed(1)} mi</td>
@@ -154,6 +156,7 @@ function renderOutlet(key) {
   }
   const hours = hoursStatus(r);
   const phone = contactField(r.admin_phone) || (r.phone ? { value: r.phone, verified_on: null } : null);
+  const phoneHref = phone ? telHref(phone.value) : null;
   const email = contactField(r.admin_email);
   const form = contactField(r.contact_form_url);
   const director = contactField(r.director);
@@ -165,8 +168,11 @@ function renderOutlet(key) {
   const serviceOpts = SERVICE_NAMES.map((n) => `<option value="${escapeHtml(n)}">${escapeHtml(n)}</option>`).join("");
 
   const contactRows = [
-    phone
-      ? contactLine("Phone", `<a href="tel:${escapeHtml(phone.value)}" data-testid="admin-phone">${escapeHtml(phone.value)}</a>`)
+    phoneHref
+      ? contactLine(
+          "Phone",
+          `<a href="tel:${escapeHtml(phoneHref)}" data-testid="admin-phone">${escapeHtml(formatPhone(phone.value))}</a>`,
+        )
       : contactLine("Phone", "Not published"),
     email
       ? contactLine("Email", `<a href="mailto:${escapeHtml(email.value)}">${escapeHtml(email.value)}</a>`)
