@@ -68,11 +68,26 @@ test("directory does not emit javascript: href from poisoned website", async ({ 
       body: JSON.stringify(poisoned),
     });
   });
+  await page.goto(`${BASE}#/directory`, { waitUntil: "networkidle" });
+  await page.getByTestId("search").fill("XSS OUTLET");
+  await expect(page.getByTestId("directory-row").first()).toBeVisible();
+  await expect(page.locator('a[href^="javascript:"]')).toHaveCount(0);
   await page.goto(`${BASE}#/outlet/XSS001-001`, { waitUntil: "networkidle" });
   const contact = page.getByTestId("outlet-contact");
   await expect(contact).toBeVisible();
   await expect(page.locator('a[href^="javascript:"]')).toHaveCount(0);
   await expect(page.getByTestId("outlet-name")).toContainText("Xss Outlet");
+});
+
+test("finder Milford is Hunterdon, not New Milford", async ({ page }) => {
+  await page.goto(BASE, { waitUntil: "networkidle" });
+  await page.getByTestId("finder-location").fill("Milford");
+  await page.getByTestId("finder-submit").click();
+  await expect(page.getByTestId("finder-status")).toContainText(/Milford/i);
+  await expect(page.getByTestId("finder-status")).not.toContainText(/New Milford/i);
+  await expect(page.getByTestId("finder-row").first()).toBeVisible();
+  const first = await page.getByTestId("finder-row").first().locator("td:nth-child(2)").textContent();
+  expect(first || "").not.toMatch(/New Milford/i);
 });
 
 test("outlet page shows contact above the fold and rejects a review proposal", async ({ page }) => {

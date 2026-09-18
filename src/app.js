@@ -102,11 +102,19 @@ function renderDirectory() {
           : r.has_legal_help_program === false
             ? "no"
             : "<span style='color:var(--muted)'>?</span>";
+      const evidence = r.has_legal_help_program === true ? safeHttpUrl(r.legal_help_evidence) : null;
+      const legalCell = evidence
+        ? `<a class="legal" href="${escapeHtml(evidence)}" rel="noopener noreferrer" target="_blank" data-testid="legal-evidence">yes</a>`
+        : legal;
+      const site = safeHttpUrl(r.website);
+      const siteLine = site
+        ? `<br><small><a href="${escapeHtml(site)}" rel="noopener noreferrer" target="_blank">website</a></small>`
+        : "";
       return `<tr data-fscs="${escapeHtml(outletKey(r))}" data-testid="directory-row">
-        <td>${libraryLink(r)}<br><small style="color:var(--muted)">${escapeHtml(r.outlet_type || "")}${r.phone ? ` · ${escapeHtml(formatPhone(r.phone))}` : ""}</small></td>
+        <td>${libraryLink(r)}${siteLine}<br><small style="color:var(--muted)">${escapeHtml(r.outlet_type || "")}${r.phone ? ` · ${escapeHtml(formatPhone(r.phone))}` : ""}</small></td>
         <td>${escapeHtml(title(r.system_name))}</td><td>${escapeHtml(title(r.county))}</td>
         <td>${escapeHtml([title(r.address), title(r.city), r.zip].filter(Boolean).join(", "))}</td>
-        <td>${legal}</td>
+        <td>${legalCell}</td>
         <td><span class="st st-${escapeHtml(s)}">${escapeHtml(s)}</span>${notes ? `<br><small>${notes}</small>` : ""}</td>
       </tr>`;
     })
@@ -166,6 +174,7 @@ function renderOutlet(key) {
   const director = contactField(r.director);
   const board = contactField(r.board_url);
   const website = safeHttpUrl(r.website);
+  const legalEvidence = safeHttpUrl(r.legal_help_evidence);
   const formUrl = form ? safeHttpUrl(form.value) : null;
   const boardUrl = board ? safeHttpUrl(board.value) : null;
   const services = servicesOf(r);
@@ -218,12 +227,22 @@ function renderOutlet(key) {
       services.length
         ? services
             .map((s) => {
-              const ev = s.evidence_url ? ` <a href="${escapeHtml(s.evidence_url)}" rel="noopener noreferrer" target="_blank">evidence</a>` : "";
-              return `<span class="chip">${escapeHtml(s.name)}${ev}</span>`;
+              const ev = safeHttpUrl(s.evidence_url);
+              const evHtml = ev ? ` <a href="${escapeHtml(ev)}" rel="noopener noreferrer" target="_blank">evidence</a>` : "";
+              return `<span class="chip">${escapeHtml(s.name)}${evHtml}</span>`;
             })
             .join("")
         : `<p class="sub">None recorded yet. Null beats guessed.</p>`
     }</div>
+    ${
+      r.has_legal_help_program === true
+        ? `<p data-testid="legal-help">Legal-help program${
+            legalEvidence
+              ? `: <a href="${escapeHtml(legalEvidence)}" rel="noopener noreferrer" target="_blank">evidence</a>`
+              : "."
+          }</p>`
+        : ""
+    }
     <div class="proposal">
       <h3>Propose an update</h3>
       <p class="sub">Name a service, hours or a closure, or a book/resource at this location. No ratings, stars, or reviews.</p>

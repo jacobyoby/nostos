@@ -115,6 +115,10 @@ test("resolveLocationQuery town matching is exact city, not substring", () => {
   assert.ok(franklinLakes);
   assert.match(franklinLakes.label, /Franklin Lakes/i);
 
+  const westMilford = resolveLocationQuery("W. Milford", libraries);
+  assert.ok(westMilford);
+  assert.match(westMilford.label, /W\.?\s*Milford/i);
+
   assert.equal(resolveLocationQuery("New", libraries), null);
   assert.equal(resolveLocationQuery("1", libraries), null);
   assert.equal(resolveLocationQuery("a", libraries), null);
