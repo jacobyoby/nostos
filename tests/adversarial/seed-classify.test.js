@@ -4,7 +4,9 @@ import {
   classifyServiceLink,
   extractDirector,
   extractLinks,
+  isAcceptableAdminEmail,
   isBoardLink,
+  isContactLink,
   pickAdminEmail,
 } from "../../scripts/site-facts.mjs";
 import { seedFromSites } from "../../scripts/seed_from_sites.mjs";
@@ -52,7 +54,38 @@ test("pickAdminEmail prefers same-domain info@", () => {
   );
 });
 
-test("extractDirector reads Library Director from JSON-LD", () => {
+test("admin email rejects maps coordinates, vendors, and partner inboxes", () => {
+  assert.equal(
+    isAcceptableAdminEmail(
+      "https://www.google.com/maps/place/2301+boardwalk/@39.35,-74.44",
+      "http://acfpl.org/",
+    ),
+    false,
+  );
+  assert.equal(isAcceptableAdminEmail("tsamuelsiegel@literacynj.org", "https://hobokenlibrary.org/"), false);
+  assert.equal(isAcceptableAdminEmail("bw-lb-longbranchlib@eprintitsaas.com", "http://www.longbranchlib.org/"), false);
+  assert.equal(isAcceptableAdminEmail("thesewingstudionj@gmail.com", "http://www.oceaniclib.org/"), false);
+  assert.equal(isAcceptableAdminEmail("bogtcirc@bccls.org", "https://bogotapubliclibrary.org/"), true);
+  assert.equal(isAcceptableAdminEmail("irvingtonpubliclibrarynj@gmail.com", "http://www.irvingtonpubliclibrary.org/"), true);
+});
+
+test("isContactLink ignores books-by-mail; isBoardLink ignores event calendars", () => {
+  assert.equal(
+    isContactLink({ href: "https://atlanticlibrary.org/contact-books-by-mail/", text: "Contact" }),
+    false,
+  );
+  assert.equal(isContactLink({ href: "https://example.org/contact-us/", text: "Contact Us" }), true);
+  assert.equal(
+    isBoardLink({
+      href: "https://www.elmwoodparknj.us/calendars/eventdetail/2103/library-board-meeting",
+      text: "Library Board",
+    }),
+    false,
+  );
+});
+
+test("extractDirector ignores HTML job-title bleed", () => {
+  assert.equal(extractDirector(`<p>Library Director: Kara Gilbert Email</p>`), null);
   const html = `<script type="application/ld+json">{"@type":"Person","name":"Jane Quill","jobTitle":"Library Director"}</script>`;
   assert.equal(extractDirector(html), "Jane Quill");
 });

@@ -7,6 +7,7 @@ import {
   applyAcceptedProposal,
   formatPhone,
   hoursStatus,
+  hoursSlots,
   makeProposal,
   outletKey,
   servicesOf,
@@ -78,6 +79,19 @@ test("applyAcceptedProposal adds a service without reviews", () => {
   );
   assert.equal(servicesOf(next).length, 1);
   assert.equal(servicesOf(next)[0].name, "notary");
+});
+
+test("website seed recorded evidenced services and weekday hours", () => {
+  const extraSystems = new Set();
+  let hours = 0;
+  for (const r of libraries) {
+    if (hoursSlots(r).length) hours += 1;
+    for (const s of r.services || []) {
+      if (s.name !== "legal-help desk") extraSystems.add(r.system_name);
+    }
+  }
+  assert.ok(hours >= 90, `expected >=90 outlets with weekday hours, got ${hours}`);
+  assert.ok(extraSystems.size >= 15, `expected >=15 systems with website services, got ${extraSystems.size}`);
 });
 
 test("outletKey matches FSCS format", () => {

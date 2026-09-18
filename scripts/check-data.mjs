@@ -37,6 +37,12 @@ for (const [i, r] of libraries.entries()) {
   if (!r.fscskey || !r.fscs_seq) errors.push(`${loc}: missing FSCS key`);
   if (!Number.isFinite(r.lat) || !Number.isFinite(r.lon)) errors.push(`${loc}: missing coordinates`);
   if (r.website != null && !safeHttpUrl(r.website)) errors.push(`${loc}: website is not http(s): ${r.website}`);
+  if (r.admin_email) {
+    const email = typeof r.admin_email === "object" ? r.admin_email.value : r.admin_email;
+    if (email != null && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email))) {
+      errors.push(`${loc}: admin_email is not an email address`);
+    }
+  }
   if (r.services != null) {
     if (!Array.isArray(r.services)) errors.push(`${loc}: services must be array or null`);
     else {

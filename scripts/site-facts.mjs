@@ -5,7 +5,7 @@ export const SERVICE_RULES = [
   { name: "passport", href: /passport/i, text: /\bpassports?\b/i },
   { name: "meeting rooms", href: /meeting[-_/ ]?rooms?|room[-_/ ]?reserv|study[-_/ ]?room/i, text: /\bmeeting rooms?\b|\bstudy rooms?\b/i },
   { name: "tax prep", href: /tax[-_/ ]?prep|\bvita\b/i, text: /\btax prep\b|\bvita\b/i },
-  { name: "language help", href: /\/esl|esol|english-as|literacy/i, text: /\besl\b|\besol\b|english as a second/i },
+  { name: "language help", href: /\/esl\/?|\besol\b|english-as-a-second|esl-classes/i, text: /\besl\b|\besol\b|english as a second/i },
   { name: "computer access", href: /public-access-computer|public-computers?/i, text: /public access computers?|public computers?/i },
   { name: "printing/scanning", href: /mobile-print|print(ing)?[-_/ ]?scan|online-print/i, text: /mobile printing|print(ing)? and scan/i },
   { name: "lawyer-in-the-library", href: /lawyer-in-the-library|lawyerinthe/i, text: /lawyer in the library/i },
@@ -61,7 +61,9 @@ export function classifyServiceLink(link) {
 
 export function isBoardLink(link) {
   const hay = `${link.href} ${link.text}`;
-  if (/libcal|board-games|boardgames|teenadvisory|advisory-board|teen-advisory/i.test(hay)) return false;
+  if (/libcal|board-games|boardgames|teenadvisory|advisory-board|teen-advisory|eventdetail|event-detail|\/calendars?\//i.test(hay)) {
+    return false;
+  }
   return /board of trustees|library board|board of directors|governing body/i.test(link.text);
 }
 
@@ -70,7 +72,15 @@ export function isHoursLink(link) {
 }
 
 export function isContactLink(link) {
-  return /\/contact\/?$|contact us|contact the library/i.test(`${link.text} ${link.href}`);
+  let path = "";
+  try {
+    path = new URL(link.href).pathname.toLowerCase();
+  } catch {
+    path = "";
+  }
+  if (/books-by-mail|interlibrary|card-application|room-reserv/.test(path)) return false;
+  if (/\/contact\/?$|\/contact-us\/?$/.test(path)) return true;
+  return /^(contact us|contact the library)$/i.test(link.text.trim()) && /contact/i.test(path);
 }
 
 export function isHoursPath(url) {
@@ -96,14 +106,37 @@ export function hasForm(html) {
   return /<form\b/i.test(html);
 }
 
+export function isEmailAddress(value) {
+  return /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i.test(String(value || "").trim());
+}
+
+const CONSORTIUM_EMAIL_DOMAINS = ["bccls.org", "mainlib.org", "lib.nj.us", "njlibraries.org"];
+const JUNK_EMAIL_DOMAINS = /eprintitsaas|literacynj|sewingstudio|constantcontact|sentry|wixpress|wordpress/;
+
+export function isAcceptableAdminEmail(email, siteUrl) {
+  if (!isEmailAddress(email)) return false;
+  const normalized = email.trim().toLowerCase();
+  const edomain = normalized.split("@")[1];
+  const local = normalized.split("@")[0];
+  if (JUNK_EMAIL_DOMAINS.test(edomain)) return false;
+  const siteHost = host(siteUrl);
+  if (siteHost && (edomain === siteHost || registrable(edomain) === registrable(siteHost))) return true;
+  if (CONSORTIUM_EMAIL_DOMAINS.some((d) => edomain === d || edomain.endsWith(`.${d}`))) return true;
+  if (["gmail.com", "yahoo.com", "comcast.net", "outlook.com", "hotmail.com"].includes(edomain)) {
+    return /librar/.test(local);
+  }
+  if (edomain.includes("library") || edomain.includes("lib.")) return true;
+  return false;
+}
+
 export function mailtoAddresses(html) {
   const found = [];
   const re = /mailto:([^"'>\s?]+)/gi;
   let m;
   while ((m = re.exec(html))) {
     const email = decodeURIComponent(m[1]).trim().toLowerCase();
-    if (!email.includes("@")) continue;
-    if (/constantcontact|wordpress|example\.com|sentry|wixpress|noreply|no-reply|donotreply/.test(email)) continue;
+    if (!isEmailAddress(email)) continue;
+    if (/noreply|no-reply|donotreply/.test(email)) continue;
     found.push(email);
   }
   return [...new Set(found)];
@@ -134,11 +167,12 @@ export function sameProperty(original, candidate) {
 }
 
 export function pickAdminEmail(emails, siteUrl) {
-  const domain = host(siteUrl);
   const scored = emails
+    .filter((email) => isAcceptableAdminEmail(email, siteUrl))
     .map((email) => {
       const edomain = email.split("@")[1] || "";
       let score = 0;
+      const domain = host(siteUrl);
       if (domain && (edomain === domain || registrable(edomain) === registrable(domain))) score += 3;
       if (/^(info|library|director|admin|reference|contact|ask|circulation)@/i.test(email)) score += 2;
       return { email, score };
@@ -169,14 +203,14 @@ export function extractDirector(html) {
         const name = String(node.name || "").trim();
         if (!/director/i.test(title)) continue;
         if (!/^[A-Za-z][A-Za-z .'-]{2,60}$/.test(name)) continue;
-        if (name.split(/\s+/).length < 2) continue;
+        const parts = name.split(/\s+/);
+        if (parts.length < 2 || parts.length > 3) continue;
+        if (/^(email|phone|contact|secretary|director|library)$/i.test(parts.at(-1))) continue;
         return name;
       }
     } catch {
       // skip malformed JSON-LD
     }
   }
-  const text = stripTags(html);
-  const tm = text.match(/\bLibrary Director\s*[:\-–]\s*([A-Z][a-z]+(?:\s+[A-Z][a-z'.-]+){1,3})\b/);
-  return tm ? tm[1] : null;
+  return null;
 }
