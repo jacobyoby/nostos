@@ -1,0 +1,9 @@
+{
+  "source_url": "https://www.imls.gov/sites/default/files/2025-08/pls_fy2023_csv.zip",
+  "file_name": "pls_fy23_outlet_pud23i.csv",
+  "release_year": "FY2023",
+  "row_count_before_filter": 17586,
+  "row_count_after_filter": 449,
+  "filter_rule": "STABR == 'NJ' AND STATSTRU != '23' (STATSTRU 23 = Structure Change Code for temporary closure per PLS-FY-2023-Data-Documentation-508.pdf)",
+  "ingest_script_path": "/private/tmp/claude-501/-Users-jacobrakai/53493178-4ca2-414c-b685-059e5141673b/scratchpad/nostos-imls/ingest_imls_nj.py"
+}
