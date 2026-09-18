@@ -2,27 +2,33 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Nostos — NJ Libraries</title>
-<meta name="description" content="Every publicly funded library in New Jersey, with Forma Pauperis outreach progress.">
+<meta name="description" content="Find public libraries in New Jersey and track Forma Pauperis outreach.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1f5c8b">
 <style>
   :root { --bg:#fbfaf7; --ink:#1d1c1a; --muted:#6b675f; --line:#e4e0d8; --accent:#1f5c8b; --ok:#2e7d4f; --warn:#b26a00; }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#15161a; --ink:#ecebe6; --muted:#a19d95; --line:#2b2d33; --accent:#7fb3e0; --ok:#7cc79a; --warn:#e0a94a; } }
   :root[data-theme="dark"] { --bg:#15161a; --ink:#ecebe6; --muted:#a19d95; --line:#2b2d33; --accent:#7fb3e0; --ok:#7cc79a; --warn:#e0a94a; }
   * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
   main { max-width:1100px; margin:0 auto; padding:24px 16px 64px; }
   h1 { font-size:1.6rem; margin:0 0 4px; }
-  .sub { color:var(--muted); margin:0 0 20px; }
+  .sub { color:var(--muted); margin:0 0 16px; }
+  .tabs { display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap; }
+  .tabs button { font:inherit; padding:8px 14px; border:1px solid var(--line); border-radius:999px; background:var(--bg); color:var(--ink); cursor:pointer; }
+  .tabs button[aria-selected="true"] { border-color:var(--accent); color:var(--accent); font-weight:600; }
   .progress { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin-bottom:20px; }
   .tile { border:1px solid var(--line); border-radius:10px; padding:12px 14px; }
   .tile b { display:block; font-size:1.5rem; line-height:1.1; }
   .tile span { color:var(--muted); font-size:.85rem; }
   .bar { height:8px; background:var(--line); border-radius:4px; overflow:hidden; margin:6px 0 20px; }
   .bar i { display:block; height:100%; background:var(--ok); width:0; transition:width .3s; }
-  .controls { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:14px; }
-  input, select { font:inherit; padding:8px 10px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--ink); min-width:160px; }
-  input[type=search] { flex:1 1 240px; }
+  .controls { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:14px; align-items:center; }
+  input, select, button.action { font:inherit; padding:8px 10px; border:1px solid var(--line); border-radius:8px; background:var(--bg); color:var(--ink); min-width:160px; }
+  button.action { cursor:pointer; background:var(--accent); color:#fff; border-color:var(--accent); min-width:auto; }
+  input[type=search], input[type=text] { flex:1 1 240px; }
   table { width:100%; border-collapse:collapse; font-size:.93rem; }
   th, td { text-align:left; padding:8px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
   th { color:var(--muted); font-weight:600; font-size:.8rem; text-transform:uppercase; letter-spacing:.04em; position:sticky; top:0; background:var(--bg); }
@@ -33,100 +39,62 @@
   .st-posted, .st-partner { color:var(--ok); border-color:var(--ok); }
   .legal { color:var(--ok); font-weight:600; }
   .empty { color:var(--muted); padding:32px 0; text-align:center; }
-  @media (max-width:640px) { th:nth-child(4), td:nth-child(4) { display:none; } }
+  .finder-status { color:var(--muted); font-size:.9rem; margin:0 0 10px; min-height:1.4em; }
+  @media (max-width:640px) { th:nth-child(4), td:nth-child(4) { display:none; } .finder-table th:nth-child(5), .finder-table td:nth-child(5) { display:none; } }
 </style>
 </head>
 <body>
 <main>
   <h1>Nostos</h1>
-  <p class="sub">Every publicly funded library in New Jersey. Outreach progress for Forma Pauperis.</p>
+  <p class="sub">Find publicly funded libraries in New Jersey. Outreach progress for Forma Pauperis.</p>
 
-  <div class="progress" id="progress"></div>
-  <div class="bar"><i id="bar"></i></div>
-
-  <div class="controls">
-    <input type="search" id="q" placeholder="Search name, city, system…" data-testid="search">
-    <select id="county" data-testid="county"><option value="">All counties</option></select>
-    <select id="status" data-testid="status">
-      <option value="">All statuses</option>
-      <option value="todo">To do</option>
-      <option value="contacted">Contacted</option>
-      <option value="posted">Posted</option>
-      <option value="partner">Partner</option>
-    </select>
-    <select id="legal" data-testid="legal">
-      <option value="">Legal help: any</option>
-      <option value="yes">Has legal-help program</option>
-      <option value="unknown">Unknown</option>
-    </select>
+  <div class="tabs" role="tablist">
+    <button type="button" role="tab" data-tab="finder" data-testid="tab-finder" aria-selected="true">Find nearby</button>
+    <button type="button" role="tab" data-tab="directory" data-testid="tab-directory" aria-selected="false">Directory</button>
   </div>
 
-  <table data-testid="table">
-    <thead><tr><th>Library</th><th>System</th><th>County</th><th>Address</th><th>Legal help</th><th>Outreach</th></tr></thead>
-    <tbody id="rows"></tbody>
-  </table>
-  <p class="empty" id="empty" hidden>No libraries match.</p>
+  <section data-panel="finder" data-testid="panel-finder">
+    <div class="controls">
+      <input type="text" id="finder-location" placeholder="ZIP or town (e.g. 07030 or Hoboken)" data-testid="finder-location" autocomplete="postal-code">
+      <button type="button" class="action" id="btn-find" data-testid="finder-submit">Find</button>
+      <button type="button" class="action" id="btn-geo" data-testid="finder-geo">Use my location</button>
+      <select id="finder-county" data-testid="finder-county"><option value="">All counties</option></select>
+      <select id="finder-type" data-testid="finder-type"><option value="">All outlet types</option></select>
+    </div>
+    <p class="finder-status" id="finder-status" data-testid="finder-status"></p>
+    <table class="finder-table" data-testid="finder-table">
+      <thead><tr><th>Distance</th><th>Library</th><th>County</th><th>Address</th><th>Phone</th><th>Hours</th></tr></thead>
+      <tbody id="finder-results"></tbody>
+    </table>
+    <p class="empty" id="finder-empty" data-testid="finder-empty">Enter a ZIP or town, or use your location.</p>
+  </section>
+
+  <section data-panel="directory" data-testid="panel-directory" hidden>
+    <div class="progress" id="progress"></div>
+    <div class="bar"><i id="bar"></i></div>
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search name, city, system…" data-testid="search">
+      <select id="county" data-testid="county"><option value="">All counties</option></select>
+      <select id="status" data-testid="status">
+        <option value="">All statuses</option>
+        <option value="todo">To do</option>
+        <option value="contacted">Contacted</option>
+        <option value="posted">Posted</option>
+        <option value="partner">Partner</option>
+      </select>
+      <select id="legal" data-testid="legal">
+        <option value="">Legal help: any</option>
+        <option value="yes">Has legal-help program</option>
+        <option value="unknown">Unknown</option>
+      </select>
+    </div>
+    <table data-testid="table">
+      <thead><tr><th>Library</th><th>System</th><th>County</th><th>Address</th><th>Legal help</th><th>Outreach</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p class="empty" id="empty" hidden>No libraries match.</p>
+  </section>
 </main>
-
-<script>
-(async function () {
-  const res = await fetch("../data/nj-libraries.json", { cache: "no-store" });
-  if (!res.ok) throw new Error("nj-libraries.json fetch failed: " + res.status);
-  const all = await res.json();
-
-  const title = s => (s || "").toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\bOf\b/g, "of");
-  const counties = [...new Set(all.map(r => r.county).filter(Boolean))].sort();
-  const countySel = document.getElementById("county");
-  for (const c of counties) { const o = document.createElement("option"); o.value = c; o.textContent = title(c); countySel.appendChild(o); }
-
-  const q = document.getElementById("q"), statusSel = document.getElementById("status"), legalSel = document.getElementById("legal");
-  const rows = document.getElementById("rows"), empty = document.getElementById("empty");
-
-  function statusOf(r) { return (r.outreach && r.outreach.status) || "todo"; }
-  function legalOf(r) { return r.has_legal_help_program === true ? "yes" : r.has_legal_help_program === false ? "no" : "unknown"; }
-
-  function renderProgress() {
-    const total = all.length;
-    const by = { contacted: 0, posted: 0, partner: 0 };
-    for (const r of all) { const s = statusOf(r); if (s in by) by[s]++; }
-    const done = by.contacted + by.posted + by.partner;
-    const legal = all.filter(r => r.has_legal_help_program === true).length;
-    const systems = new Set(all.map(r => r.system_name)).size;
-    document.getElementById("progress").innerHTML = [
-      ["Outlets", total], ["Systems", systems], ["Counties", counties.length],
-      ["Reached", done], ["Posted / partner", by.posted + by.partner], ["Legal-help programs", legal]
-    ].map(([k, v]) => `<div class="tile"><b>${v}</b><span>${k}</span></div>`).join("");
-    document.getElementById("bar").style.width = total ? (100 * done / total).toFixed(1) + "%" : "0%";
-  }
-
-  function render() {
-    const term = q.value.trim().toLowerCase(), county = countySel.value, st = statusSel.value, lg = legalSel.value;
-    const list = all.filter(r =>
-      (!county || r.county === county) &&
-      (!st || statusOf(r) === st) &&
-      (!lg || legalOf(r) === lg) &&
-      (!term || [r.outlet_name, r.system_name, r.city, r.zip].filter(Boolean).join(" ").toLowerCase().includes(term))
-    );
-    rows.innerHTML = list.map(r => {
-      const s = statusOf(r);
-      const name = r.website ? `<a href="${r.website}" rel="noopener">${title(r.outlet_name)}</a>` : title(r.outlet_name);
-      const legal = r.has_legal_help_program === true
-        ? `<span class="legal">${r.legal_help_evidence ? `<a href="${r.legal_help_evidence}" rel="noopener">yes</a>` : "yes"}</span>`
-        : r.has_legal_help_program === false ? "no" : "<span style='color:var(--muted)'>?</span>";
-      return `<tr data-fscs="${r.fscskey}-${r.fscs_seq}">
-        <td>${name}<br><small style="color:var(--muted)">${r.outlet_type || ""}${r.phone ? " · " + r.phone : ""}</small></td>
-        <td>${title(r.system_name)}</td><td>${title(r.county)}</td>
-        <td>${[title(r.address), title(r.city), r.zip].filter(Boolean).join(", ")}</td>
-        <td>${legal}</td>
-        <td><span class="st st-${s}">${s}</span>${r.outreach && r.outreach.notes ? `<br><small>${r.outreach.notes}</small>` : ""}</td>
-      </tr>`;
-    }).join("");
-    empty.hidden = list.length > 0;
-  }
-
-  for (const el of [q, countySel, statusSel, legalSel]) el.addEventListener("input", render);
-  renderProgress(); render();
-})();
-</script>
+<script type="module" src="app.js"></script>
 </body>
 </html>

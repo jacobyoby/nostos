@@ -1,0 +1,10 @@
+{
+  "name": "Nostos",
+  "short_name": "Nostos",
+  "description": "Find public libraries in New Jersey",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fbfaf7",
+  "theme_color": "#1f5c8b",
+  "icons": []
+}
