@@ -1,10 +1,11 @@
+import { getDevicePosition } from "./lib/geolocation.js";
 import {
   escapeHtml,
   filterDirectory,
-  legalOf,
   nearestLibraries,
   progressStats,
   resolveLocationQuery,
+  safeHttpUrl,
   statusOf,
   title,
 } from "./lib/nostos.js";
@@ -65,12 +66,14 @@ function renderDirectory() {
   rows.innerHTML = list
     .map((r) => {
       const s = statusOf(r);
-      const name = r.website
-        ? `<a href="${escapeHtml(r.website)}" rel="noopener">${escapeHtml(title(r.outlet_name))}</a>`
+      const website = safeHttpUrl(r.website);
+      const name = website
+        ? `<a href="${escapeHtml(website)}" rel="noopener noreferrer" target="_blank">${escapeHtml(title(r.outlet_name))}</a>`
         : escapeHtml(title(r.outlet_name));
+      const evidence = safeHttpUrl(r.legal_help_evidence);
       const legal =
         r.has_legal_help_program === true
-          ? `<span class="legal">${r.legal_help_evidence ? `<a href="${escapeHtml(r.legal_help_evidence)}" rel="noopener">yes</a>` : "yes"}</span>`
+          ? `<span class="legal">${evidence ? `<a href="${escapeHtml(evidence)}" rel="noopener noreferrer" target="_blank">yes</a>` : "yes"}</span>`
           : r.has_legal_help_program === false
             ? "no"
             : "<span style='color:var(--muted)'>?</span>";
@@ -165,28 +168,17 @@ async function init() {
     if (e.key === "Enter") runFinderFromInput();
   });
 
-  btnGeo.addEventListener("click", () => {
-    if (!navigator.geolocation) {
-      finderStatus.textContent = "Geolocation not available in this browser.";
-      return;
-    }
+  btnGeo.addEventListener("click", async () => {
     finderStatus.textContent = "Requesting location…";
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        finderOrigin = {
-          lat: pos.coords.latitude,
-          lon: pos.coords.longitude,
-          label: "your location",
-        };
-        renderFinder();
-      },
-      () => {
-        finderStatus.textContent = "Location denied — use ZIP or town instead.";
-        finderOrigin = null;
-        renderFinder();
-      },
-      { enableHighAccuracy: false, timeout: 15000, maximumAge: 60000 },
-    );
+    try {
+      const pos = await getDevicePosition();
+      finderOrigin = { lat: pos.lat, lon: pos.lon, label: "your location" };
+      renderFinder();
+    } catch (err) {
+      finderStatus.textContent = err instanceof Error ? err.message : "Location denied — use ZIP or town instead.";
+      finderOrigin = null;
+      renderFinder();
+    }
   });
 
   for (const tab of document.querySelectorAll("[data-tab]")) {

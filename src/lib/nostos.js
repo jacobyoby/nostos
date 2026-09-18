@@ -27,6 +27,25 @@ export function escapeHtml(s) {
 }
 
 /**
+ * Accept only http(s) URLs with no whitespace (rejects javascript:, data:,
+ * parenthetical evidence notes, and non-URLs).
+ * @param {unknown} s
+ * @returns {string | null}
+ */
+export function safeHttpUrl(s) {
+  if (typeof s !== "string") return null;
+  const raw = s.trim();
+  if (!/^https?:\/\/[^\s]+$/i.test(raw)) return null;
+  try {
+    const url = new URL(raw);
+    if (url.protocol !== "http:" && url.protocol !== "https:") return null;
+    return url.href;
+  } catch {
+    return null;
+  }
+}
+
+/**
  * @param {number} lat1
  * @param {number} lon1
  * @param {number} lat2
@@ -53,6 +72,41 @@ export function haversineMiles(lat1, lon1, lat2, lon2) {
  * @param {LibraryRecord[]} libraries
  * @returns {{ lat: number; lon: number; label: string } | null}
  */
+const NAME_FALLBACK_MIN_LEN = 4;
+const GENERIC_NAME_TERMS = new Set([
+  "main",
+  "street",
+  "avenue",
+  "north",
+  "south",
+  "east",
+  "west",
+  "new",
+  "park",
+  "city",
+  "library",
+]);
+
+/**
+ * @param {unknown} zip
+ * @returns {string | null} 5-digit ZIP, or null if the field is not a ZIP / ZIP+4
+ */
+function zip5Of(zip) {
+  const z = String(zip || "").trim();
+  if (/^\d{5}$/.test(z)) return z;
+  if (/^\d{5}-\d{4}$/.test(z)) return z.slice(0, 5);
+  return null;
+}
+
+/**
+ * @param {string} haystack
+ * @param {string} needle
+ */
+function hasWordBoundary(haystack, needle) {
+  const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`\\b${escaped}\\b`, "i").test(haystack);
+}
+
 export function resolveLocationQuery(query, libraries) {
   const q = query.trim();
   if (!q) return null;
@@ -60,19 +114,32 @@ export function resolveLocationQuery(query, libraries) {
   const zipMatch = q.match(/^\d{5}(?:-\d{4})?$/);
   if (zipMatch) {
     const zip5 = q.slice(0, 5);
-    const hits = libraries.filter((r) => String(r.zip || "").startsWith(zip5) && isValidCoord(r));
+    const hits = libraries.filter((r) => zip5Of(r.zip) === zip5 && isValidCoord(r));
     if (hits.length === 0) return null;
     return centroid(hits, `ZIP ${zip5}`);
   }
 
   const term = q.toLowerCase();
-  const cityHits = libraries.filter((r) => String(r.city || "").toLowerCase().includes(term) && isValidCoord(r));
-  if (cityHits.length > 0) return centroid(cityHits, title(cityHits[0].city));
+  const exactCity = libraries.filter(
+    (r) => isValidCoord(r) && String(r.city || "").trim().toLowerCase() === term,
+  );
+  if (exactCity.length > 0) {
+    const cities = [...new Set(exactCity.map((r) => String(r.city).trim().toLowerCase()))];
+    const label =
+      exactCity.length > 1 && cities.length === 1
+        ? `${title(exactCity[0].city)} (${exactCity.length} locations)`
+        : cities.length > 1
+          ? `${title(term)} (${exactCity.length} locations)`
+          : title(exactCity[0].city);
+    return centroid(exactCity, label);
+  }
+
+  if (term.length < NAME_FALLBACK_MIN_LEN || term.length > 80 || GENERIC_NAME_TERMS.has(term)) return null;
 
   const nameHits = libraries.filter(
     (r) =>
       isValidCoord(r) &&
-      [r.outlet_name, r.system_name, r.address].some((f) => String(f || "").toLowerCase().includes(term)),
+      [r.outlet_name, r.system_name].some((f) => hasWordBoundary(String(f || ""), term)),
   );
   if (nameHits.length > 0) return centroid(nameHits, q);
 
