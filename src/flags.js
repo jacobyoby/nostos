@@ -1,4 +1,7 @@
 // flags.js — tiny feature-flag helper for incremental delivery.
+// Sources: URLSearchParams https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
+//          localStorage https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+//          IIFE/globalThis https://developer.mozilla.org/en-US/docs/Glossary/IIFE
 // Rule 3 (feature flags) + Rule 4 (safe defaults: off unless explicitly enabled).
 // Usage in index.html:
 //   <script src="flags.js"></script>

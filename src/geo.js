@@ -1,4 +1,6 @@
 // geo.js — pure distance helpers for nearest-library feature.
+// Sources: Math https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+//          Geolocation (future) https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition
 // Small, testable, no I/O — unit tests (pyramid base). Pure functions.
 (function (global) {
   const R_KM = 6371;
