@@ -1,0 +1,11 @@
+{
+  "appId": "com.jacobyoby.nostos",
+  "appName": "Nostos",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "Geolocation": {}
+  }
+}
