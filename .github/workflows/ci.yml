@@ -1,0 +1,24 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.14" }
+      - name: JS static check
+        run: node --check src/*.js
+      - name: Python compile
+        run: python3 -m py_compile scripts/*.py
+      - name: JSON valid
+        run: python3 -c "import json; json.load(open('data/nj-libraries.json')); print('json ok')"
+      - name: JS tests
+        run: node --test src/*.test.js
+      - name: Python tests
+        run: python3 -m unittest discover -s tests -v
