@@ -60,10 +60,7 @@
   function allFlags(opts) {
     const search = opts && typeof opts.search === "string" ? opts.search : (global.location ? global.location.search : "");
     const storageOverrides = opts && opts.storage ? opts.storage : parseStorage();
-    const queryOverrides = parseQuery(search);
     const out = {};
-    for (const k of Object.keys(DEFAULTS)) out[k] = isEnabled(k, { search, storage: storageOverrides, _q: queryOverrides });
-    // isEnabled already handles priority; recompute simply:
     for (const k of Object.keys(DEFAULTS)) out[k] = isEnabled(k, { search, storage: storageOverrides });
     return out;
   }
