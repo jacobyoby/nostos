@@ -1,6 +1,6 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
-const V = require("./validate.js");
+const V = require("./validate.cjs");
 
 test("isValidOutlet accepts minimal valid", () => {
   assert.equal(V.isValidOutlet({ fscskey: "NJ0001", fscs_seq: "001", system_name: "X", outlet_name: "Y", outreach: { status: "todo", notes: null } }), null);

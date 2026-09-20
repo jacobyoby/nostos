@@ -4,7 +4,7 @@ const assert = require("node:assert/strict");
 // RED: geo.js does not exist yet — this test must fail until GREEN.
 let geo;
 try {
-  geo = require("./geo.js");
+  geo = require("./geo.cjs");
 } catch (e) {
   test("geo module exists (RED — should fail before implementation)", () => {
     assert.fail(`geo.js not implemented yet: ${e.message}`);

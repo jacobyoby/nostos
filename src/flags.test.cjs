@@ -1,6 +1,6 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
-const Flags = require("./flags.js");
+const Flags = require("./flags.cjs");
 
 test("safe defaults: all flags off", () => {
   assert.equal(Flags.isEnabled("nearest", { search: "", storage: {} }), false);

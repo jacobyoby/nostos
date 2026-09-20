@@ -29,5 +29,7 @@ jobs:
       - run: npm test
       - run: node scripts/check-data.mjs
       - run: npm run test:e2e
+      - name: Legacy skills tests (flags/geo/validate)
+        run: node --test src/*.test.cjs
       - name: Python tests (skills 8)
         run: python3 -m unittest discover -s tests -v
