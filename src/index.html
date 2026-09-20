@@ -100,7 +100,8 @@
     }
   }
 
-  const title = s => (s || "").toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\bOf\b/g, "of");
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;" }[c]));
+  const title = s => esc((s || "").toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\bOf\b/g, "of"));
   const counties = [...new Set(all.map(r => r.county).filter(Boolean))].sort();
   const countySel = document.getElementById("county");
   for (const c of counties) { const o = document.createElement("option"); o.value = c; o.textContent = title(c); countySel.appendChild(o); }
@@ -135,16 +136,17 @@
     );
     rows.innerHTML = list.map(r => {
       const s = statusOf(r);
-      const name = r.website ? `<a href="${r.website}" rel="noopener">${title(r.outlet_name)}</a>` : title(r.outlet_name);
+      const safeUrl = u => { try { const url=new URL(u); return url.protocol==="http:"||url.protocol==="https:"?esc(u):"#"; } catch { return "#"; } };
+      const name = r.website ? `<a href="${safeUrl(r.website)}" rel="noopener">${title(r.outlet_name)}</a>` : title(r.outlet_name);
       const legal = r.has_legal_help_program === true
-        ? `<span class="legal">${r.legal_help_evidence ? `<a href="${r.legal_help_evidence}" rel="noopener">yes</a>` : "yes"}</span>`
+        ? `<span class="legal">${r.legal_help_evidence ? `<a href="${safeUrl(r.legal_help_evidence)}" rel="noopener">yes</a>` : "yes"}</span>`
         : r.has_legal_help_program === false ? "no" : "<span style='color:var(--muted)'>?</span>";
-      return `<tr data-fscs="${r.fscskey}-${r.fscs_seq}">
-        <td>${name}<br><small style="color:var(--muted)">${r.outlet_type || ""}${r.phone ? " · " + r.phone : ""}</small></td>
+      return `<tr data-fscs="${esc(r.fscskey)}-${esc(r.fscs_seq)}">
+        <td>${name}<br><small style="color:var(--muted)">${esc(r.outlet_type || "")}${r.phone ? " · " + esc(r.phone) : ""}</small></td>
         <td>${title(r.system_name)}</td><td>${title(r.county)}</td>
         <td>${[title(r.address), title(r.city), r.zip].filter(Boolean).join(", ")}</td>
         <td>${legal}</td>
-        <td><span class="st st-${s}">${s}</span>${r.outreach && r.outreach.notes ? `<br><small>${r.outreach.notes}</small>` : ""}</td>
+        <td><span class="st st-${esc(s)}">${esc(s)}</span>${r.outreach && r.outreach.notes ? `<br><small>${esc(r.outreach.notes)}</small>` : ""}</td>
       </tr>`;
     }).join("");
     empty.hidden = list.length > 0;
