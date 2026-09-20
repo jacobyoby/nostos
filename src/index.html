@@ -81,11 +81,24 @@
 </main>
 
 <script src="flags.js"></script>
+<script src="validate.js"></script>
 <script>
 (async function () {
   const res = await fetch("../data/nj-libraries.json", { cache: "no-store" });
   if (!res.ok) throw new Error("nj-libraries.json fetch failed: " + res.status);
   const all = await res.json();
+  // Contract boundary validation (see docs/contract.md) — fail loud, never silently misrender
+  if (typeof Validate !== "undefined" && Validate.validateAll) {
+    const vErr = Validate.validateAll(all);
+    if (vErr) {
+      console.error("Contract validation failed:", vErr);
+      document.getElementById("rows").innerHTML = "";
+      const e = document.getElementById("empty");
+      e.textContent = "Data error: library list failed validation. See console.";
+      e.hidden = false;
+      throw new Error(vErr.message);
+    }
+  }
 
   const title = s => (s || "").toLowerCase().replace(/\b([a-z])/g, m => m.toUpperCase()).replace(/\bOf\b/g, "of");
   const counties = [...new Set(all.map(r => r.county).filter(Boolean))].sort();
