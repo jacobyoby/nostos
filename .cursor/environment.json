@@ -1,0 +1,14 @@
+{
+  "name": "Nostos — NJ Libraries",
+  "install": "python3 --version && python3 scripts/merge.py data/imls-nj-outlets.json data/njsl-systems.json /tmp/nj-libraries.check.json > /dev/null && diff -q data/nj-libraries.json /tmp/nj-libraries.check.json && echo 'data pipeline verified: committed nj-libraries.json matches merge output'",
+  "terminals": [
+    {
+      "name": "static-server",
+      "command": "python3 -m http.server 8000 --bind 0.0.0.0",
+      "description": "Static dev server for the Nostos finder. Open http://localhost:8000/src/ to view the page; it fetches data/nj-libraries.json over HTTP."
+    }
+  ],
+  "ports": [
+    { "name": "web", "port": 8000 }
+  ]
+}
