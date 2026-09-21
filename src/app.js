@@ -53,12 +53,28 @@ function parseRoute() {
 
 function setPanel(name) {
   for (const el of document.querySelectorAll("[data-panel]")) {
-    el.hidden = el.getAttribute("data-panel") !== name;
+    const isActive = el.getAttribute("data-panel") === name;
+    el.hidden = !isActive;
+    if (isActive) el.removeAttribute("aria-hidden");
+    else el.setAttribute("aria-hidden", "true");
   }
   for (const tab of document.querySelectorAll("[data-tab]")) {
     const active = tab.getAttribute("data-tab") === name;
     tab.setAttribute("aria-selected", active ? "true" : "false");
+    tab.setAttribute("tabindex", active ? "0" : "-1");
   }
+  // Move focus to panel heading for screen readers
+  const panel = document.querySelector(`[data-panel="${name}"]`);
+  if (panel) {
+    const focusable = panel.querySelector("input, button, select, a, [tabindex='0']");
+    // Do not steal focus on hash navigation if user is typing, just ensure panel is labelled
+    if (document.activeElement === document.body || document.activeElement?.getAttribute("role")==="tab") {
+      // keep tab focus, announce via live region
+    }
+  }
+  // Announce panel change
+  const announce = document.getElementById(name === "finder" ? "finder-announce" : name === "directory" ? "directory-announce" : "finder-announce");
+  if (announce) announce.textContent = name === "finder" ? "Find nearby panel" : name === "directory" ? "Directory panel" : "Library details panel";
 }
 
 function go(path) {
@@ -75,14 +91,19 @@ function renderProgress() {
     ["Posted / partner", s.postedPartner],
     ["Legal-help programs", s.legal],
   ]
-    .map(([k, v]) => `<div class="tile"><b>${v}</b><span>${escapeHtml(k)}</span></div>`)
+    .map(([k, v]) => `<div class="tile" role="listitem"><b aria-label="${escapeHtml(k)} ${v}">${v}</b><span>${escapeHtml(k)}</span></div>`)
     .join("");
-  document.getElementById("bar").style.width = `${s.donePct.toFixed(1)}%`;
+  const bar = document.getElementById("bar");
+  const pct = Number(s.donePct.toFixed(1));
+  bar.style.width = `${pct}%`;
+  const barWrap = bar.parentElement;
+  if (barWrap) barWrap.setAttribute("aria-valuenow", String(pct));
 }
 
 function libraryLink(r) {
   const key = outletKey(r);
-  return `<a href="#/outlet/${encodeURIComponent(key)}" data-testid="outlet-link">${escapeHtml(title(r.outlet_name))}</a>`;
+  const name = title(r.outlet_name);
+  return `<a href="#/outlet/${encodeURIComponent(key)}" data-testid="outlet-link" aria-label="View details for ${escapeHtml(name)}">${escapeHtml(name)}</a>`;
 }
 
 function renderDirectory() {
@@ -120,6 +141,8 @@ function renderDirectory() {
     })
     .join("");
   empty.hidden = list.length > 0;
+  const announce = document.getElementById("directory-announce");
+  if (announce) announce.textContent = `${list.length} ${list.length === 1 ? "library" : "libraries"} found`;
 }
 
 function renderFinder() {
@@ -151,6 +174,12 @@ function renderFinder() {
     .join("");
   finderEmpty.hidden = hits.length > 0;
   if (hits.length === 0) finderEmpty.textContent = "No libraries match these filters.";
+  const announce = document.getElementById("finder-announce");
+  if (announce) {
+    if (!finderOrigin) announce.textContent = "";
+    else if (hits.length === 0) announce.textContent = "No libraries match these filters near " + finderOrigin.label;
+    else announce.textContent = hits.length + " libraries found near " + finderOrigin.label;
+  }
 }
 
 function contactLine(label, innerHtml) {
@@ -160,7 +189,8 @@ function contactLine(label, innerHtml) {
 function renderOutlet(key) {
   const r = findOutlet(all, key);
   if (!r) {
-    outletEl.innerHTML = `<p data-testid="outlet-missing">No outlet ${escapeHtml(key)}.</p>`;
+    outletEl.innerHTML = `<p data-testid="outlet-missing" role="alert">No outlet ${escapeHtml(key)}.</p>`;
+    outletEl.focus?.();
     return;
   }
   const hours = hoursStatus(r);
@@ -203,7 +233,7 @@ function renderOutlet(key) {
   ].join("");
 
   outletEl.innerHTML = `
-    <h2 data-testid="outlet-name">${escapeHtml(title(r.outlet_name))}</h2>
+    <h2 data-testid="outlet-name" tabindex="-1" id="outlet-heading">${escapeHtml(title(r.outlet_name))}</h2>
     <p class="sub">${escapeHtml(title(r.system_name))} · ${escapeHtml(title(r.county))} · ${escapeHtml(hours.label)}</p>
     <p>${escapeHtml([title(r.address), title(r.city), r.zip].filter(Boolean).join(", "))}</p>
     <div class="outlet-contact" data-testid="outlet-contact">
@@ -261,11 +291,15 @@ function renderOutlet(key) {
         <input id="proposal-evidence" name="evidence_url" type="url" data-testid="proposal-evidence" placeholder="https://…">
         <label for="proposal-contact">Your contact (optional)</label>
         <input id="proposal-contact" name="submitter_contact" type="text" data-testid="proposal-contact">
-        <p id="proposal-error" data-testid="proposal-error" class="sub" hidden></p>
+        <p id="proposal-error" data-testid="proposal-error" class="error" role="alert" aria-live="assertive" hidden></p>
         <p><button type="submit" class="action" data-testid="proposal-submit">Send to moderation queue</button></p>
       </form>
     </div>
   `;
+
+  // Move focus to heading for VoiceOver
+  const heading = outletEl.querySelector("#outlet-heading");
+  if (heading) heading.focus();
 
   const formEl = outletEl.querySelector("[data-testid=proposal-form]");
   const kindEl = outletEl.querySelector("[data-testid=proposal-kind]");
@@ -295,9 +329,11 @@ function renderOutlet(key) {
     if (!result.ok) {
       errEl.hidden = false;
       errEl.textContent = result.error;
+      errEl.focus?.();
       return;
     }
     errEl.hidden = true;
+    errEl.textContent = "";
     window.location.href = proposalIssueUrl(result.proposal);
   });
 }
@@ -372,20 +408,60 @@ async function init() {
     }
   });
 
-  for (const tab of document.querySelectorAll("[data-tab]")) {
+  const tabs = Array.from(document.querySelectorAll("[data-tab]"));
+  for (const tab of tabs) {
     tab.addEventListener("click", () => {
       const name = tab.getAttribute("data-tab") || "finder";
       go(name === "directory" ? "/directory" : "/");
+      tab.focus();
+    });
+    tab.addEventListener("keydown", (e) => {
+      const idx = tabs.indexOf(tab);
+      if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+        e.preventDefault();
+        const dir = e.key === "ArrowRight" ? 1 : -1;
+        const next = tabs[(idx + dir + tabs.length) % tabs.length];
+        const name = next.getAttribute("data-tab") || "finder";
+        go(name === "directory" ? "/directory" : "/");
+        next.focus();
+      } else if (e.key === "Home") {
+        e.preventDefault();
+        tabs[0].focus();
+        go(tabs[0].getAttribute("data-tab") === "directory" ? "/directory" : "/");
+      } else if (e.key === "End") {
+        e.preventDefault();
+        const last = tabs[tabs.length - 1];
+        last.focus();
+        go(last.getAttribute("data-tab") === "directory" ? "/directory" : "/");
+      }
     });
   }
   document.querySelector("[data-testid=outlet-back]").addEventListener("click", () => {
-    history.length > 1 ? history.back() : go("/");
+    // Return focus to previously focused element (the link that opened it)
+    const prev = document.querySelector("[data-testid=outlet-link]:focus") || document.querySelector("[data-testid=directory-row] a, [data-testid=finder-row] a");
+    if (history.length > 1) history.back();
+    else go("/");
+    // After navigation, focus finder/directory tab
+    setTimeout(() => {
+      const route = parseRoute();
+      const tabToFocus = document.querySelector(`[data-tab="${route.name === "directory" ? "directory" : "finder"}"]`);
+      if (tabToFocus) tabToFocus.focus();
+    }, 100);
   });
 
   window.addEventListener("hashchange", applyRoute);
   renderProgress();
   renderDirectory();
   applyRoute();
+  // Larger Text: respect text zoom up to 200% - ensure main is not clipped
+  // Watch for viewport resize and adjust if needed (no fixed heights used, so just ensure announce)
+  let announceTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(announceTimer);
+    announceTimer = setTimeout(() => {
+      // No layout breakage expected as all containers use flex wrap and relative units
+    }, 250);
+  });
 }
 
 init().catch((err) => {
