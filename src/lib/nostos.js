@@ -391,6 +391,8 @@ const DAY_INDEX = {
 };
 
 const DAY_ORDER = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+const UNLISTED_DAY = "Hours not listed — check the library's site";
+const UNLISTED_TODAY = "Today's hours not listed — check the library's site";
 
 /**
  * @param {string} hhmm
@@ -460,6 +462,8 @@ export function hoursStatus(r, now = new Date()) {
       .map((s) => ({ s, idx: DAY_INDEX[String(s.day || "").toLowerCase()] }))
       .filter((x) => x.idx != null)
       .sort((a, b) => a.idx - b.idx);
+    // A day the data does not list is unknown: never report it open or closed.
+    if (!today.length) return { kind: "unknown", label: UNLISTED_TODAY };
     const todayIdx = DAY_INDEX[dayName];
     if (todayIdx != null) {
       const laterToday = today
@@ -469,28 +473,31 @@ export function hoursStatus(r, now = new Date()) {
       if (laterToday) {
         return { kind: "opens", label: `Opens at ${formatClock(laterToday.s.open)}` };
       }
-      const next = upcoming.find((x) => x.idx > todayIdx) || upcoming[0];
-      if (next) {
-        return { kind: "opens", label: `Opens ${title(next.s.day)} at ${formatClock(next.s.open)}` };
+      // Name the next opening only when it is tomorrow; skipping a day would imply that day is closed.
+      const tomorrow = upcoming.find((x) => x.idx === (todayIdx + 1) % 7);
+      if (tomorrow) {
+        return { kind: "opens", label: `Closed now · opens ${title(tomorrow.s.day)} at ${formatClock(tomorrow.s.open)}` };
       }
     }
-    return { kind: "closed", label: "Closed" };
+    return { kind: "closed", label: "Closed now" };
   }
   return { kind: "unpublished", label: "Hours not published" };
 }
 
 /**
+ * A day missing from the data is unknown, not closed: the parser cannot tell "closed" from "not listed".
  * @param {LibraryRecord} r
- * @returns {{ day: string, label: string }[]}
+ * @returns {{ day: string, label: string, unknown: boolean }[]}
  */
 export function hoursWeek(r) {
   const slots = hoursSlots(r);
   return DAY_ORDER.map((day) => {
     const today = slots.filter((s) => s.day === day);
-    if (!today.length) return { day, label: "Closed" };
+    if (!today.length) return { day, label: UNLISTED_DAY, unknown: true };
     return {
       day,
       label: today.map((s) => `${formatClock(s.open)}–${formatClock(s.close)}`).join(", "),
+      unknown: false,
     };
   });
 }

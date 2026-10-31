@@ -247,7 +247,13 @@ function renderOutlet(key) {
           ? `<p class="sub" data-testid="hours-status">Hours not published. IMLS weekly totals are not a schedule.</p>`
           : `<p class="sub" data-testid="hours-status">${escapeHtml(hours.label)}</p>
       <table data-testid="hours-week">${week
-        .map((row) => `<tr><th>${escapeHtml(title(row.day))}</th><td>${escapeHtml(row.label)}</td></tr>`)
+        .map((row) => {
+          const cell =
+            row.unknown && website
+              ? `<a href="${escapeHtml(website)}" rel="noopener noreferrer" target="_blank">${escapeHtml(row.label)}</a>`
+              : escapeHtml(row.label);
+          return `<tr${row.unknown ? ' data-testid="hours-day-unknown"' : ""}><th>${escapeHtml(title(row.day))}</th><td>${cell}</td></tr>`;
+        })
         .join("")}</table>
       ${hoursSource ? `<p class="sub">Source: <a href="${escapeHtml(hoursSource)}" rel="noopener noreferrer" target="_blank">${escapeHtml(hoursSource)}</a></p>` : ""}`
       }
