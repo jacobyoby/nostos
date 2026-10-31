@@ -125,7 +125,8 @@ export function parseOpeningHoursSpec(spec) {
     if (!node || typeof node !== "object") continue;
     const opens = toHhmm(node.opens);
     const closes = toHhmm(node.closes);
-    if (!opens || !closes) continue;
+    // schema.org sites mark a closed day as 00:00-00:00; equal times are never a schedule.
+    if (!opens || !closes || opens === closes) continue;
     const days = Array.isArray(node.dayOfWeek) ? node.dayOfWeek : [node.dayOfWeek];
     for (const d of days) {
       const day = dayName(typeof d === "string" ? d : "");

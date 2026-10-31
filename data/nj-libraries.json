@@ -15995,11 +15995,6 @@
      "day": "saturday",
      "open": "10:00",
      "close": "14:00"
-    },
-    {
-     "day": "sunday",
-     "open": "00:00",
-     "close": "00:00"
     }
    ],
    "source_url": "https://oceaniclib.org/",

@@ -64,6 +64,8 @@ for (const [i, r] of libraries.entries()) {
       for (const slot of days) {
         if (!slot || typeof slot.day !== "string" || typeof slot.open !== "string" || typeof slot.close !== "string") {
           errors.push(`${loc}: hours slot needs day, open, close`);
+        } else if (slot.open === slot.close) {
+          errors.push(`${loc}: hours slot ${slot.day} opens and closes at ${slot.open} (not a schedule)`);
         }
       }
       if (!Array.isArray(r.hours) && r.hours.source_url != null && !safeHttpUrl(r.hours.source_url)) {

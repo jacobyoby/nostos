@@ -84,3 +84,17 @@ test("parseHoursFromPage accepts a single visible week", () => {
   assert.equal(slots.length, 5);
   assert.deepEqual(slots[0], { day: "monday", open: "09:00", close: "17:00" });
 });
+
+test("parseHoursFromPage drops schema.org 00:00-00:00 slots instead of storing them", () => {
+  const spec = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"].map((d) => ({
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: [d],
+    opens: "10:00",
+    closes: "17:00",
+  }));
+  spec.push({ "@type": "OpeningHoursSpecification", dayOfWeek: ["Sunday"], opens: "00:00", closes: "00:00" });
+  const html = `<script type="application/ld+json">${JSON.stringify({ "@type": "Library", openingHoursSpecification: spec })}</script>`;
+  const slots = parseHoursFromPage(html);
+  assert.equal(slots.length, 5);
+  assert.equal(slots.some((s) => s.day === "sunday"), false);
+});
