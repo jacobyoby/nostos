@@ -741,7 +741,7 @@
     }
    ],
    "source_url": "https://www.margatelibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -860,7 +860,7 @@
     }
    ],
    "source_url": "https://www.bergenfieldlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -1212,7 +1212,7 @@
     }
    ],
    "source_url": "https://www.dumontlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -1298,7 +1298,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://edgewaterlibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1408,7 +1443,7 @@
     }
    ],
    "source_url": "https://www.emersonlibrary.com/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -1574,7 +1609,7 @@
     }
    ],
    "source_url": "https://fairviewlibrarynj.org/english-conversationeslon-march-12-2026-at-504-pm/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -1699,7 +1734,7 @@
     }
    ],
    "source_url": "https://franklinlakeslibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -1744,7 +1779,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "17:30"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:30"
+    },
+    {
+     "day": "saturday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://garfieldnjbccls.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -1821,7 +1891,7 @@
     }
    ],
    "source_url": "https://www.glenrocklibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -2058,7 +2128,7 @@
     }
    ],
    "source_url": "https://www.wallingtonpubliclibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -2140,7 +2210,7 @@
     }
    ],
    "source_url": "https://www.johnsonlib.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -2214,7 +2284,7 @@
     }
    ],
    "source_url": "https://www.leememoriallibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -2290,7 +2360,7 @@
     }
    ],
    "source_url": "https://www.leonialibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -2627,7 +2697,7 @@
     }
    ],
    "source_url": "https://www.midlandparklibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -2757,7 +2827,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://northarlingtonlibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -3035,7 +3140,7 @@
     }
    ],
    "source_url": "https://www.palparklibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -3121,7 +3226,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://paramuslibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -3159,7 +3304,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "19:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "19:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "11:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://parkridgelibrarynj.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -3236,7 +3416,7 @@
     }
    ],
    "source_url": "https://www.ramseylibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -3315,7 +3495,7 @@
     }
    ],
    "source_url": "https://www.ridgefieldpubliclibrary.com/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -3604,7 +3784,7 @@
     }
    ],
    "source_url": "https://www.rplibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -3649,7 +3829,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://rutherfordlibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -3687,7 +3902,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://saddlebrooklibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -3728,6 +3978,21 @@
   "hours": {
    "days": [
     {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
      "day": "thursday",
      "open": "09:00",
      "close": "21:00"
@@ -3749,7 +4014,7 @@
     }
    ],
    "source_url": "https://teanecklibrary.org/about/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -3827,7 +4092,7 @@
     }
    ],
    "source_url": "https://www.tenaflylibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -4202,7 +4467,7 @@
     }
    ],
    "source_url": "https://www.hohokuslibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -5064,7 +5329,7 @@
     }
    ],
    "source_url": "https://twp.mountholly.nj.us/libraries/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -6320,7 +6585,7 @@
     }
    ],
    "source_url": "https://www.stratfordlibrarynj.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -6431,7 +6696,7 @@
     }
    ],
    "source_url": "https://www.avalonfreelibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -7037,7 +7302,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://cclnj.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -7296,7 +7591,7 @@
     }
    ],
    "source_url": "https://www.bplnj.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -7418,8 +7713,8 @@
      "close": "12:00"
     }
    ],
-   "source_url": "https://cedargrovelibrary.net/about/",
-   "verified_on": "2026-09-18"
+   "source_url": "https://cedargrovelibrary.net/",
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -8652,7 +8947,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://roselandpubliclibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -8959,7 +9289,7 @@
     }
    ],
    "source_url": "https://www.wopl.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -9568,7 +9898,7 @@
     }
    ],
    "source_url": "http://monroetpl.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -9969,10 +10299,15 @@
      "day": "saturday",
      "open": "10:00",
      "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "10:00",
+     "close": "15:00"
     }
    ],
    "source_url": "https://hobokenlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -10473,7 +10808,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://kearnylibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -10665,8 +11035,8 @@
      "close": "17:00"
     }
    ],
-   "source_url": "https://nbpl.org/hours-and-locations/",
-   "verified_on": "2026-09-18"
+   "source_url": "https://nbpl.org/",
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -10825,7 +11195,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:30"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:30"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://uclibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -10973,7 +11378,7 @@
     }
    ],
    "source_url": "https://www.flemingtonlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -11403,7 +11808,7 @@
     }
    ],
    "source_url": "https://lambertvillelibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -12159,7 +12564,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://www.trentonlib.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -12679,7 +13119,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://jamesburglibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -13148,7 +13618,7 @@
     }
    ],
    "source_url": "https://northbrunswicklibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -13393,7 +13863,7 @@
     }
    ],
    "source_url": "https://www.piscatawaylibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -13572,7 +14042,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://sayrevillelibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -13610,7 +14120,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "12:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://sbpl.info/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -13764,7 +14314,7 @@
     }
    ],
    "source_url": "http://www.southriverlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -14128,7 +14678,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://bradleybeachlibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -14424,7 +15009,7 @@
     }
    ],
    "source_url": "https://www.littlesilverlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -14657,7 +15242,7 @@
     }
    ],
    "source_url": "https://mapl.org/library-links/about/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -15306,7 +15891,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://neptunepubliclibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -15349,7 +15969,7 @@
     {
      "day": "monday",
      "open": "10:00",
-     "close": "17:00"
+     "close": "20:00"
     },
     {
      "day": "tuesday",
@@ -15383,7 +16003,7 @@
     }
    ],
    "source_url": "https://oceaniclib.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -15459,7 +16079,7 @@
     }
    ],
    "source_url": "https://www.redbanklibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -15576,7 +16196,7 @@
     }
    ],
    "source_url": "https://www.seagirtlibrary.com/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -15744,7 +16364,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://boontonlibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -15984,7 +16644,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://easthanoverlibrary.com/hours/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -16106,7 +16806,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "13:00"
+    }
+   ],
+   "source_url": "https://hardinglibrary.org/about/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -16541,7 +17276,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "08:30",
+     "close": "16:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "08:30",
+     "close": "16:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "08:30",
+     "close": "16:30"
+    },
+    {
+     "day": "thursday",
+     "open": "08:30",
+     "close": "16:30"
+    },
+    {
+     "day": "friday",
+     "open": "08:30",
+     "close": "16:30"
+    }
+   ],
+   "source_url": "https://morrisplainsboro.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -16799,7 +17564,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://mopl.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -16951,7 +17751,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://parsippanylibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -17108,7 +17943,7 @@
     }
    ],
    "source_url": "https://www.riverdalelibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -17548,7 +18383,7 @@
     }
    ],
    "source_url": "https://www.beachhavenlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -18601,7 +19436,7 @@
     }
    ],
    "source_url": "https://www.abwplibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -18677,7 +19512,7 @@
     }
    ],
    "source_url": "https://www.bloomingdalelibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -19392,7 +20227,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "15:00"
+    }
+   ],
+   "source_url": "https://wanaquelibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -19463,8 +20333,8 @@
      "close": "17:00"
     }
    ],
-   "source_url": "https://www.waynepubliclibrary.org/about/library-hours-directions.html",
-   "verified_on": "2026-09-18"
+   "source_url": "https://www.waynepubliclibrary.org/",
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -19650,7 +20520,7 @@
     }
    ],
    "source_url": "https://mysalemlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -20195,7 +21065,7 @@
     }
    ],
    "source_url": "https://sclsnj.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -20926,7 +21796,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "08:30",
+     "close": "20:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "08:30",
+     "close": "20:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "08:30",
+     "close": "20:30"
+    },
+    {
+     "day": "thursday",
+     "open": "08:30",
+     "close": "20:30"
+    },
+    {
+     "day": "friday",
+     "open": "08:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://sussexcountylibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -21069,7 +21974,7 @@
     }
    ],
    "source_url": "https://clarklibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -21148,7 +22053,7 @@
     }
    ],
    "source_url": "https://www.cranfordlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -21380,7 +22285,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "16:00"
+    }
+   ],
+   "source_url": "https://fanwoodlibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -21456,7 +22396,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "16:30"
+    }
+   ],
+   "source_url": "https://hillsidepl.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -21494,7 +22469,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://kenilworthlibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -21566,7 +22576,7 @@
     }
    ],
    "source_url": "https://lindenlibrary-nj.gov/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -21690,7 +22700,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "10:00",
+     "close": "20:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "17:00"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://newprovlibrary.org/hours/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -21804,7 +22849,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://rosellelibrary.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -22125,7 +23205,42 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "thursday",
+     "open": "09:00",
+     "close": "20:00"
+    },
+    {
+     "day": "friday",
+     "open": "09:00",
+     "close": "17:00"
+    },
+    {
+     "day": "saturday",
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://uplnj.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -22201,7 +23316,47 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "tuesday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "wednesday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "thursday",
+     "open": "09:30",
+     "close": "20:30"
+    },
+    {
+     "day": "friday",
+     "open": "09:30",
+     "close": "16:30"
+    },
+    {
+     "day": "saturday",
+     "open": "09:30",
+     "close": "16:30"
+    },
+    {
+     "day": "sunday",
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "source_url": "https://wmlnj.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
@@ -22273,7 +23428,7 @@
     }
    ],
    "source_url": "https://hackettstownlibrary.org/",
-   "verified_on": "2026-09-18"
+   "verified_on": "2026-10-31"
   },
   "resources": null,
   "proposed_hours_note": null,
@@ -22753,7 +23908,37 @@
    "notes": null
   },
   "services": null,
-  "hours": null,
+  "hours": {
+   "days": [
+    {
+     "day": "monday",
+     "open": "12:00",
+     "close": "20:00"
+    },
+    {
+     "day": "tuesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "wednesday",
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": "thursday",
+     "open": "12:00",
+     "close": "20:00"
+    },
+    {
+     "day": "saturday",
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "source_url": "https://washboropl.org/",
+   "verified_on": "2026-10-31"
+  },
   "resources": null,
   "proposed_hours_note": null,
   "admin_phone": {
