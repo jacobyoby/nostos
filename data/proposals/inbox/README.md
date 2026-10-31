@@ -9,8 +9,7 @@ Each file is one object:
   "outlet_key": "NJ0003-002",
   "kind": "service",
   "value": "notary",
-  "evidence_url": "https://example.org/notary",
-  "submitter_contact": null
+  "evidence_url": "https://example.org/notary"
 }
 ```
 

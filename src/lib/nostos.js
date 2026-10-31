@@ -530,7 +530,7 @@ export function makeProposal(input) {
   if (input.evidence_url && !evidence_url) {
     return { ok: false, error: "Evidence must be an http(s) URL." };
   }
-  const submitter = typeof input.submitter_contact === "string" ? input.submitter_contact.trim() : "";
+  // No submitter contact: proposals are filed as public GitHub issues.
   return {
     ok: true,
     proposal: {
@@ -538,7 +538,6 @@ export function makeProposal(input) {
       kind,
       value,
       evidence_url,
-      submitter_contact: submitter || null,
     },
   };
 }

@@ -282,6 +282,7 @@ function renderOutlet(key) {
     <div class="proposal">
       <h3>Propose an update</h3>
       <p class="sub">Name a service, hours or a closure, or a book/resource at this location. No ratings, stars, or reviews.</p>
+      <p class="sub" data-testid="proposal-public-note">Sending opens a public GitHub issue (free GitHub account needed). Anyone can read it, so leave out personal details.</p>
       <form data-testid="proposal-form">
         <input type="hidden" name="outlet_key" value="${escapeHtml(outletKey(r))}">
         <label for="proposal-kind">Kind</label>
@@ -295,8 +296,6 @@ function renderOutlet(key) {
         <input id="proposal-value" name="value" type="text" maxlength="200" data-testid="proposal-value" hidden>
         <label for="proposal-evidence">Evidence URL (optional)</label>
         <input id="proposal-evidence" name="evidence_url" type="url" data-testid="proposal-evidence" placeholder="https://…">
-        <label for="proposal-contact">Your contact (optional)</label>
-        <input id="proposal-contact" name="submitter_contact" type="text" data-testid="proposal-contact">
         <p id="proposal-error" data-testid="proposal-error" class="error" role="alert" aria-live="assertive" hidden></p>
         <p><button type="submit" class="action" data-testid="proposal-submit">Send to moderation queue</button></p>
       </form>
@@ -330,7 +329,6 @@ function renderOutlet(key) {
       kind,
       value,
       evidence_url: outletEl.querySelector("[data-testid=proposal-evidence]").value,
-      submitter_contact: outletEl.querySelector("[data-testid=proposal-contact]").value,
     });
     if (!result.ok) {
       errEl.hidden = false;
