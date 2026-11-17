@@ -1,0 +1,3 @@
+# Not part of the site: test files and the moderation queue.
+*.test.cjs
+data/proposals

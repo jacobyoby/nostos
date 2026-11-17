@@ -1,0 +1,14 @@
+{
+  // nost-os.net: the Nostos web UI as Cloudflare Workers static assets.
+  // Build first: `npm run build:www` writes www/ from src/ + data/ (www/ is gitignored).
+  // Deploy: `npm run build:www && npx wrangler deploy`
+  "name": "nost-os-net",
+  "compatibility_date": "2026-11-16",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": { "directory": "www" },
+  "routes": [
+    { "pattern": "nost-os.net", "custom_domain": true },
+    { "pattern": "www.nost-os.net", "custom_domain": true }
+  ]
+}
